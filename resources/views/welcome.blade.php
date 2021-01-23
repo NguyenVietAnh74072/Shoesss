@@ -1,1183 +1,1389 @@
-<!--
-    Author: W3layouts
-    Author URL: http://w3layouts.com
-    -->
-    <!doctype html>
-    <html lang="zxx">
-    
-    <head>
-        <!-- Required meta tags -->
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
-        <!-- Template CSS -->
-        <link rel="stylesheet" href="{{asset('frontend/css/style-starter.css')}}">
-        <!-- Template CSS -->
-        <link href="//fonts.googleapis.com/css?family=Oswald:300,400,500,600&display=swap" rel="stylesheet">
-        <link href="//fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,900&display=swap" rel="stylesheet">
-        <!-- Template CSS -->
-    
-    </head>
-    
-    <body>
-        <!--w3l-banner-slider-main-->
-        <section class="w3l-banner-slider-main">
-            <div class="top-header-content">
-                <header class="tophny-header">
-                    <div class="container-fluid">
-                        <div class="top-right-strip row">
-                            <!--/left-->
-    
-                            <!--//left-->
-                            <!--/right-->
-                            <ul class="top-hnt-right-content col-lg-6">
-    
-                                <li class="button-log usernhy">
-                                    <a class="btn-open" href="#">
-                                        <span class="fa fa-user" aria-hidden="true"></span>
-                                    </a>
-                                </li>
-                                <li class="transmitvcart galssescart2 cart cart box_1">
-                                    <form action="#" method="post" class="last">
-                                        <input type="hidden" name="cmd" value="_cart">
-                                        <input type="hidden" name="display" value="1">
-                                        <button class="top_transmitv_cart" type="submit" name="submit" value="">
-                                            Giỏ hàng
-                                            <span class="fa fa-shopping-cart"></span>
-                                        </button>
-                                    </form>
-                                </li>
-                            </ul>
-                            <!--//right-->
-                            <div class="overlay-login text-left">
-                                <button type="button" class="overlay-close1">
-                                    <i class="fa fa-times" aria-hidden="true"></i>
-                                </button>
-                                <div class="wrap">
-                                    <h5 class="text-center mb-4">Đăng kí</h5>
-                                    <div class="login-bghny p-md-5 p-4 mx-auto mw-100">
-                                        <!--/login-form-->
-                                        <form action="#" method="post">
-                                            <div class="form-group">
-                                                <p class="login-texthny mb-2">Địa chỉ email</p>
-                                                <input type="email" class="form-control" id="exampleInputEmail1"
-                                                    aria-describedby="emailHelp" placeholder="" required="">
-                                                <small id="emailHelp" class="form-text text-muted">
-                                                    Chúng tôi sẽ không bao giờ chia sẻ email của bạn
-                                                    với bất kỳ ai khác.</small>
-                                            </div>
-                                            <div class="form-group">
-                                                <p class="login-texthny mb-2">Mật khẩu</p>
-                                                <input type="password" class="form-control" id="exampleInputPassword1"
-                                                    placeholder="" required="">
-                                            </div>
-                                            <div class="form-check mb-2">
-                                                <div class="userhny-check">
-                                                    <label class="check-remember container">
-                                                        <input type="checkbox" class="form-check"> <span
-                                                            class="checkmark"></span>
-                                                        <p class="privacy-policy">Nhớ mật khẩu</p>
-                                                    </label>
-                                                    <div class="clearfix"></div>
-                                                </div>
-                                            </div>
-                                            <button type="submit" class="submit-login btn mb-4">Đăng nhập</button>
-    
-                                        </form>
-                                        <!--//login-form-->
-                                    </div>
-                                    <!---->
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--/nav-->
-                    <nav class="navbar navbar-expand-lg navbar-light">
-                        <div class="container-fluid serarc-fluid">
-                            <a class="navbar-brand" href="index.html">
-                                MyBrother<span class="lohny"></span>Shoes</a>
-                            <!-- if logo is image enable this   
-                                <a class="navbar-brand" href="#index.html">
-                                    <img src="image-path" alt="Your logo" title="Your logo" style="height:35px;" />
-                                </a> -->
-                            <!--/search-right-->
-                            <div class="search-right">
-    
-                                <a href="#search" title="search"><span class="fa fa-search mr-2" aria-hidden="true"></span>
-                                    <span class="search-text">Tìm kiếm</span></a>
-                                <!-- search popup -->
-                                <div id="search" class="pop-overlay">
-                                    <div class="popup">
-    
-                                        <form action="#" method="post" class="search-box">
-                                            <input type="search" placeholder="Keyword" name="search" required="required"
-                                                autofocus="">
-                                            <button type="submit" class="btn">Tìm kiếm</button>
-                                        </form>
-    
-                                    </div>
-                                    <a class="close" href="#">×</a>
-                                </div>
-                                <!-- /search popup -->
-                            </div>
-                            <!--//search-right-->
-                            <button class="navbar-toggler" type="button" data-toggle="collapse"
-                                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                                aria-expanded="false" aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon fa fa-bars"> </span>
-                            </button>
-                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                                <ul class="navbar-nav ml-auto">
-                                    <li class="nav-item active">
-                                        <a class="nav-link" href="{{URL::to('/')}}">Trang chính</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="about.html">Sản phẩm</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="about.html">Thông tin</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="about.html">Gợi ý</a>
-                                    </li>
-    
-    
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="contact.html">Liên lạc</a>
-                                    </li>
-                                </ul>
-    
-                            </div>
-                        </div>
-                    </nav>
-                    <aside>
-                        <div id="sidebar" class="nav-collapse">
-                            <!-- sidebar menu start-->
-                            <div class="leftside-navigation">
-                                <ul class="sidebar-menu" id="nav-accordion">
-                                    <li>
-                                        <a class="active" href="index.html">
-                                            <i class="fa fa-dashboard"></i>
-                                            <span>Dashboard</span>
-                                        </a>
-                                    </li>
-                                    
-                                    <li class="sub-menu">
-                                        <a href="javascript:;">
-                                            <i class="fa fa-book"></i>
-                                            <span>UI Elements</span>
-                                        </a>
-                                        <ul class="sub">
-                                            <li><a href="typography.html">Typography</a></li>
-                                            <li><a href="glyphicon.html">glyphicon</a></li>
-                                            <li><a href="grids.html">Grids</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="sub-menu">
-                                        <a href="javascript:;">
-                                            <i class="fa fa-book"></i>
-                                            <span>Thêm thương hiệu sản phẩm</span>
-                                        </a>
-                                        <ul class="sub">
-                                            <li><a href="{{URL::to('/add-brand-product')}}">Thêm thương hiệu sản phẩm</a></li>
-                                            <li><a href="{{URL::to('/all-brand-product')}}">Liệt kê thương hiệu sản phẩm</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="sub-menu">
-                                        <a href="javascript:;">
-                                            <i class="fa fa-book"></i>
-                                            <span>Thêm  sản phẩm</span>
-                                        </a>
-                                        <ul class="sub">
-                                            <li><a href="{{URL::to('/add-product')}}">Thêm  sản phẩm</a></li>
-                                            <li><a href="{{URL::to('/all-product')}}">Liệt kê  sản phẩm</a></li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <a href="fontawesome.html">
-                                            <i class="fa fa-bullhorn"></i>
-                                            <span>Font awesome </span>
-                                        </a>
-                                    </li>
-                                    
-                                    <li class="sub-menu">
-                                        <a href="javascript:;">
-                                            <i class="fa fa-th"></i>
-                                            <span>Bảng dữ liệu</span>
-                                        </a>
-                                        <ul class="sub">
-                                            <li><a href="basic_table.html">Basic Table</a></li>
-                                            <li><a href="{{URL::to('/all-category-product')}}">Liệt kê danh sách danh mục</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="sub-menu">
-                                        <a href="javascript:;">
-                                            <i class="fa fa-tasks"></i>
-                                            <span>
-                                                Thành phần biểu mẫu</span>
-                                        </a>
-                                        <ul class="sub">
-                                            <li><a href="{{URL::to('add-category-product')}}">Thêm sản phẩm</a></li>
-                                            <li><a href="form_validation.html">Form Validation</a></li>
-                                            <li><a href="dropzone.html">Dropzone</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="sub-menu">
-                                        <a href="javascript:;">
-                                            <i class="fa fa-envelope"></i>
-                                            <span>Mail </span>
-                                        </a>
-                                        <ul class="sub">
-                                            <li><a href="mail.html">Inbox</a></li>
-                                            <li><a href="mail_compose.html">Compose Mail</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="sub-menu">
-                                        <a href="javascript:;">
-                                            <i class=" fa fa-bar-chart-o"></i>
-                                            <span>Charts</span>
-                                        </a>
-                                        <ul class="sub">
-                                            <li><a href="chartjs.html">Chart js</a></li>
-                                            <li><a href="flot_chart.html">Flot Charts</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="sub-menu">
-                                        <a href="javascript:;">
-                                            <i class=" fa fa-bar-chart-o"></i>
-                                            <span>Maps</span>
-                                        </a>
-                                        <ul class="sub">
-                                            <li><a href="google_map.html">Google Map</a></li>
-                                            <li><a href="vector_map.html">Vector Map</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="sub-menu">
-                                        <a href="javascript:;">
-                                            <i class="fa fa-glass"></i>
-                                            <span>Extra</span>
-                                        </a>
-                                        <ul class="sub">
-                                            <li><a href="gallery.html">Gallery</a></li>
-                                            <li><a href="404.html">404 Error</a></li>
-                                            <li><a href="registration.html">Registration</a></li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <a href="login.html">
-                                            <i class="fa fa-user"></i>
-                                            <span>Login Page</span>
-                                        </a>
-                                    </li>
-                                </ul>            </div>
-                            <!-- sidebar menu end-->
-                        </div>
-                    </aside>
-                    <div>
-                        <div>
-                            <ul class= "nav nav-pills nav-stacked">
-                                
-                                <li><a href=""><span  color="red    "class="pull-right">helo</span></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!--//nav-->
-                </header>
-                <div class="bannerhny-content">
-    
-                    <!--/banner-slider-->
-                    <div class="content-baner-inf">
-                        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                            <ol class="carousel-indicators">
-                                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-                            </ol>
-                            <div class="carousel-inner">
-                                <div class="carousel-item active">
-                                    <div class="container">
-                                        <div class="carousel-caption">
-                                            <h3>Sneaker
-                                                <br>50% Off
-                                            </h3>
-                                            <a href="#" class="shop-button btn">
-                                                Mua ngay
-                                            </a>
-    
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="carousel-item item2">
-                                    <div class="container">
-                                        <div class="carousel-caption">
-                                            <h3>Sneaker
-                                                <br>60% Off
-                                            </h3>
-                                            <a href="#" class="shop-button btn">
-                                                Mua ngay
-                                            </a>
-    
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="carousel-item item3">
-                                    <div class="container">
-                                        <div class="carousel-caption">
-                                            <h3>Sneaker
-                                                <br>50% Off
-                                            </h3>
-                                            <a href="#" class="shop-button btn">
-                                                Mua ngay
-                                            </a>
-    
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="carousel-item item4">
-                                    <div class="container">
-                                        <div class="carousel-caption">
-                                            <h3>Sneaker
-                                                <br>60% Off
-                                            </h3>
-                                            <a href="#" class="shop-button btn">
-                                                Mua ngay
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
-                                data-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span class="sr-only">Trước</span>
-                            </a>
-                            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button"
-                                data-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="sr-only">Tiếp</span>
-                            </a>
-                        </div>
-                    </div>
-                    <!--//banner-slider-->
-                    <!--//banner-slider-->
-                    <div class="right-banner">
-                        <div class="right-1">
-                            <h4>
-                                Sneaker
-                                <br>50% Off
-                            </h4>
-                        </div>
-                    </div>
-    
-                </div>
-    
-        </section>
-        <!-- //w3l-banner-slider-main -->
-        <section class="w3l-grids-hny-2">
-            <!-- /content-6-section -->
-            <div class="grids-hny-2-mian py-5">
-                <div class="container py-lg-5">
-    
-                    <h3 class="hny-title mb-0 text-center">Mua với <span>Chúng tôi</span></h3>
-                    <p class="mb-4 text-center">
-                        Mục yêu thích được lựa chọn cẩn thận chỉ dành cho bạn</p>
-                    <div class="welcome-grids row mt-5">
-    
-    
-                        <div class="col-lg-2 col-md-4 col-6 welcome-image">
-                            <div class="boxhny13">
-                                <a href="#URL">
-                                    <img src="/frontend/images/grid2.jpg" class="img-fluid" alt="" />
-                                    <div class="boxhny-content">
-                                        <h3 class="title">Sản phẩm</h3>
-                                    </div>
-                                </a>
-                            </div>
-                            <h4><a href="#URL">Sneakers</a></h4>
-    
-    
-    
-                        </div>
-    
-                    </div>
-    
-                </div>
-            </div>
-        </section>
-        <!-- //content-6-section -->
-    
-    
-        <!-- //specification-6-->
-    
-        <section class="w3l-video-6">
-            <!-- /video-6-->
-            <div class="video-66-info">
-                <div class="container-fluid">
-                    <div class="video-grids-info row">
-                        <div class="video-gd-right col-lg-8">
-                            <div class="video-inner text-center">
-                                <!--popup-->
-                                <a class="play-button btn popup-with-zoom-anim" href="#small-dialog">
-                                    <span class="fa fa-play" aria-hidden="true"></span>
-                                </a>
-                                <div id="small-dialog" class="mfp-hide">
-                                    <div class="search-top notify-popup">
-                                        <iframe src="/frontend/images/100.mp4" frameborder="0" allow="autoplay; fullscreen"
-                                            allowfullscreen></iframe>
-                                    </div>
-                                </div>
-                                <!--//popup-->
-                            </div>
-                        </div>
-                        <div class="video-gd-left col-lg-4 p-lg-5 p-4">
-                            <div class="p-xl-4 p-0 video-wrap">
-                                <h3 class="hny-title text-left">Tất cả mẫu giày giảm giá <span>30% Discount</span>
-                                </h3>
-                                <p>
-                                    Ghé thăm cửa hàng của chúng tôi để xem những sáng tạo tuyệt vời từ các nhà thiết kế của
-                                    chúng tôi.</p>
-                                <a href="#" class="read-more btn">
-                                    Mua ngay
-                                </a>
-                            </div>
-                        </div>
-    
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- //video-6-->
-        <section class="w3l-ecommerce-main">
-            <!-- /products-->
-            <div class="ecom-contenthny py-5">
-                <div class="container py-lg-5">
-                    <h3 class="hny-title mb-0 text-center">Mua sắm với <span>chúng tôi</span></h3>
-                    <p class="text-center">Mục yêu thích được lựa chọn cẩn thận chỉ dành cho bạn</p>
-                    <!-- /row-->
-                    <div class="ecom-products-grids row mt-lg-5 mt-3">
-                        <div class="col-lg-3 col-6 product-incfhny mt-4">
-                            <div class="product-grid2 transmitv">
-                                <div class="product-image2">
-                                    <a href="#">
-                                        <img class="pic-1 img-fluid" src="/frontend/images/tripple2.jpg">
-                                        <img class="pic-2 img-fluid" src="/frontend/images/tripple1.jpg">
-                                    </a>
-                                    <ul class="social">
-                                        <li><a href="#" data-tip="Quick View"><span class="fa fa-eye"></span></a></li>
-    
-                                        <li><a href="#" data-tip="Add to Cart"><span class="fa fa-shopping-bag"></span></a>
-                                        </li>
-                                    </ul>
-                                    <div class="transmitv single-item">
-                                        <form action="#" method="post">
-                                            <input type="hidden" name="cmd" value="_cart">
-                                            <input type="hidden" name="add" value="1">
-                                            <input type="hidden" name="transmitv_item" value="Women Maroon Top">
-                                            <input type="hidden" name="amount" value="899.99">
-                                            <button type="submit" class="transmitv-cart ptransmitv-cart add-to-cart">
-                                                Thêm vào giỏ
-                                            </button>
-                                        </form>
-                                    </div>
-                                </div>
-                                <div class="product-content">
-                                    <h3 class="title"><a href="#">BALENCIGA TRIPLE S Hồng</a></h3>
-                                    <span class="price"><del>1.000.000</del>899.99</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-6 product-incfhny mt-4">
-                            <div class="product-grid2">
-                                <div class="product-image2">
-                                    <a href="#">
-                                        <img class="pic-1 img-fluid" src="/frontend/images/tripple3.jpg">
-                                        <img class="pic-2 img-fluid" src="/frontend/images/tripple4.jpg">
-                                    </a>
-                                    <ul class="social">
-                                        <li><a href="#" data-tip="Quick View"><span class="fa fa-eye"></span></a></li>
-    
-                                        <li><a href="#" data-tip="Add to Cart"><span class="fa fa-shopping-bag"></span></a>
-                                        </li>
-                                    </ul>
-                                    <div class="transmitv single-item">
-                                        <form action="#" method="post">
-                                            <input type="hidden" name="cmd" value="_cart">
-                                            <input type="hidden" name="add" value="1">
-                                            <input type="hidden" name="transmitv_item" value="Men Pink Shirt">
-                                            <input type="hidden" name="amount" value="599.99">
-                                            <button type="submit" class="transmitv-cart ptransmitv-cart add-to-cart">
-                                                Thêm vào giỏ
-                                            </button>
-                                        </form>
-                                    </div>
-                                </div>
-                                <div class="product-content">
-                                    <h3 class="title"><a href="#">Triple S Clear Sole Orange Grey Black </a></h3>
-                                    <span class="price"><del>1.000.000</del>599.99</span>
-                                </div>
-                            </div>
-    
-                        </div>
-                        <div class="col-lg-3 col-6 product-incfhny mt-4">
-                            <div class="product-grid2">
-                                <div class="product-image2">
-                                    <a href="#">
-                                        <img class="pic-1 img-fluid" src="/frontend/images/converse1.jpg">
-                                        <img class="pic-2 img-fluid" src="/frontend/images/converse2.jpg">
-                                    </a>
-                                    <ul class="social">
-                                        <li><a href="#" data-tip="Quick View"><span class="fa fa-eye"></span></a></li>
-    
-                                        <li><a href="#" data-tip="Add to Cart"><span class="fa fa-shopping-bag"></span></a>
-                                        </li>
-                                    </ul>
-                                    <div class="transmitv single-item">
-                                        <form action="#" method="post">
-                                            <input type="hidden" name="cmd" value="_cart">
-                                            <input type="hidden" name="add" value="1">
-                                            <input type="hidden" name="transmitv_item" value="Dark Blue Top">
-                                            <input type="hidden" name="amount" value="799.99">
-                                            <button type="submit" class="transmitv-cart ptransmitv-cart add-to-cart">
-                                                Thêm vào giỏ
-                                            </button>
-                                        </form>
-                                    </div>
-                                </div>
-                                <div class="product-content">
-                                    <h3 class="title"><a href="#">Converse cổ cao màu đen </a></h3>
-                                    <span class="price"><del>875.00</del>500.99</span>
-                                </div>
-                            </div>
-    
-                        </div>
-                        <div class="col-lg-3 col-6 product-incfhny mt-4">
-                            <div class="product-grid2">
-                                <div class="product-image2">
-                                    <a href="#">
-                                        <img class="pic-1 img-fluid" src="/frontend/images/converse3.jpg">
-                                        <img class="pic-2 img-fluid" src="/frontend/images/converse4.jpg">
-                                    </a>
-                                    <ul class="social">
-                                        <li><a href="#" data-tip="Quick View"><span class="fa fa-eye"></span></a></li>
-    
-                                        <li><a href="#" data-tip="Add to Cart"><span class="fa fa-shopping-bag"></span></a>
-                                        </li>
-                                    </ul>
-                                    <div class="transmitv single-item">
-                                        <form action="#" method="post">
-                                            <input type="hidden" name="cmd" value="_cart">
-                                            <input type="hidden" name="add" value="1">
-                                            <input type="hidden" name="transmitv_item" value="Women Tunic">
-                                            <input type="hidden" name="amount" value="399.99">
-                                            <button type="submit" class="transmitv-cart ptransmitv-cart add-to-cart">
-                                                Thêm vào giỏ
-                                            </button>
-                                        </form>
-                                    </div>
-                                </div>
-                                <div class="product-content">
-                                    <h3 class="title"><a href="#">Converse PEACEMINUSONE </a></h3>
-                                    <span class="price"><del>475.00</del>399.99</span>
-                                </div>
-                            </div>
-    
-                        </div>
-                        <div class="col-lg-3 col-6 product-incfhny mt-4">
-                            <div class="product-grid2">
-                                <div class="product-image2">
-                                    <a href="#">
-                                        <img class="pic-1 img-fluid" src="/frontend/images/super1.png">
-                                        <img class="pic-2 img-fluid" src="/frontend/images/super2.jpg">
-                                    </a>
-                                    <ul class="social">
-                                        <li><a href="#" data-tip="Quick View"><span class="fa fa-eye"></span></a></li>
-    
-                                        <li><a href="#" data-tip="Add to Cart"><span class="fa fa-shopping-bag"></span></a>
-                                        </li>
-                                    </ul>
-                                    <div class="transmitv single-item">
-                                        <form action="#" method="post">
-                                            <input type="hidden" name="cmd" value="_cart">
-                                            <input type="hidden" name="add" value="1">
-                                            <input type="hidden" name="transmitv_item" value="Yellow T-Shirt">
-                                            <input type="hidden" name="amount" value="299.99">
-                                            <button type="submit" class="transmitv-cart ptransmitv-cart add-to-cart">
-                                                Thêm vào giỏ
-                                            </button>
-                                        </form>
-                                    </div>
-                                </div>
-                                <div class="product-content">
-                                    <h3 class="title"><a href="#">Adidas Superstar Xanh lá cây</a></h3>
-                                    <span class="price"><del>575.00</del>299.99</span>
-                                </div>
-                            </div>
-    
-                        </div>
-                        <div class="col-lg-3 col-6 product-incfhny mt-4">
-                            <div class="product-grid2">
-                                <div class="product-image2">
-                                    <a href="#">
-                                        <img class="pic-1 img-fluid" src="/frontend/images/super3.jpg">
-                                        <img class="pic-2 img-fluid" src="/frontend/images/super4.jpg">
-                                    </a>
-                                    <ul class="social">
-                                        <li><a href="#" data-tip="Quick View"><span class="fa fa-eye"></span></a></li>
-    
-                                        <li><a href="#" data-tip="Add to Cart"><span class="fa fa-shopping-bag"></span></a>
-                                        </li>
-                                    </ul>
-                                    <div class="transmitv single-item">
-                                        <form action="#" method="post">
-                                            <input type="hidden" name="cmd" value="_cart">
-                                            <input type="hidden" name="add" value="1">
-                                            <input type="hidden" name="transmitv_item" value="Straight Kurta">
-                                            <input type="hidden" name="amount" value="699.99">
-                                            <button type="submit" class="transmitv-cart ptransmitv-cart add-to-cart">
-                                                Thêm vào giỏ
-                                            </button>
-                                        </form>
-                                    </div>
-                                </div>
-                                <div class="product-content">
-                                    <h3 class="title"><a href="#">Adidas Superstar Trắng Full</a></h3>
-                                    <span class="price"><del>775.00</del>699.99</span>
-                                </div>
-                            </div>
-    
-                        </div>
-                        <div class="col-lg-3 col-6 product-incfhny mt-4">
-                            <div class="product-grid2">
-                                <div class="product-image2">
-                                    <a href="#">
-                                        <img class="pic-1 img-fluid" src="/frontend/images/vans1.jpg">
-                                        <img class="pic-2 img-fluid" src="/frontend/images/vans2.jpg">
-                                    </a>
-                                    <ul class="social">
-                                        <li><a href="#" data-tip="Quick View"><span class="fa fa-eye"></span></a></li>
-    
-                                        <li><a href="#" data-tip="Add to Cart"><span class="fa fa-shopping-bag"></span></a>
-                                        </li>
-                                    </ul>
-                                    <div class="transmitv single-item">
-                                        <form action="#" method="post">
-                                            <input type="hidden" name="cmd" value="_cart">
-                                            <input type="hidden" name="add" value="1">
-                                            <input type="hidden" name="transmitv_item" value="White T-Shirt">
-                                            <input type="hidden" name="amount" value="599.99">
-                                            <button type="submit" class="transmitv-cart ptransmitv-cart add-to-cart">
-                                                Add to Cart
-                                            </button>
-                                        </form>
-                                    </div>
-                                </div>
-                                <div class="product-content">
-                                    <h3 class="title"><a href="#">vans Old Skool Classic Black </a></h3>
-                                    <span class="price"><del>675.00</del>599.99</span>
-                                </div>
-                            </div>
-    
-                        </div>
-                        <div class="col-lg-3 col-6 product-incfhny mt-4">
-                            <div class="product-grid2">
-                                <div class="product-image2">
-                                    <a href="#">
-                                        <img class="pic-1 img-fluid" src="/frontend/images/vans3.jpg">
-                                        <img class="pic-2 img-fluid" src="/frontend/images/vans4.jpg">
-                                    </a>
-                                    <ul class="social">
-                                        <li><a href="#" data-tip="Quick View"><span class="fa fa-eye"></span></a></li>
-    
-                                        <li><a href="#" data-tip="Add to Cart"><span class="fa fa-shopping-bag"></span></a>
-                                        </li>
-                                    </ul>
-                                    <div class="transmitv single-item">
-                                        <form action="#" method="post">
-                                            <input type="hidden" name="cmd" value="_cart">
-                                            <input type="hidden" name="add" value="1">
-                                            <input type="hidden" name="transmitv_item" value="Blue Sweater">
-                                            <input type="hidden" name="amount" value="499.99">
-                                            <button type="submit" class="transmitv-cart ptransmitv-cart add-to-cart">
-                                                Thêm vào giỏ
-                                            </button>
-                                        </form>
-                                    </div>
-                                </div>
-                                <div class="product-content">
-                                    <h3 class="title"><a href="#">vans Style 36 Sunflower</a></h3>
-                                    <span class="price"><del>575.00</del>499.99</span>
-                                </div>
-                            </div>
-    
-                        </div>
-    
-    
-                    </div>
-                    <!-- //row-->
-                </div>
-            </div>
-        </section>
-        <!-- //products-->
-        <section class="w3l-content-5">
-            <!-- /content-6-section -->
-            <div class="content-5-main">
-                <div class="container">
-                    <div class="content-info-in row">
-                        <div class="content-gd col-md-6 offset-lg-3 text-center">
-                            <h3 class="hny-title two">
-    
-                                Tấn Sản phẩm & Tùy chọn
-                                <span>Thay đổi</span>
-                            </h3>
-                            <p>Để làm theo anh ta, tôi sẽ mở tùy chọn giảm giá nâng cao elitFuga tự nhiên đi cùng họ, nhận
-                                toàn bộ
-                                blanditiis.Lorem thường là kết quả của việc quản lý mạng và đồng hành cùng họ để làm như vậy
-                                mở tùy chọn để theo dõi các khoản giảm giá chính ..</p>
-                            <a href="#" class="read-more-btn2 btn">
-                                Mua ngay
-                            </a>
-    
-                        </div>
-    
-                    </div>
-    
-                </div>
-            </div>
-        </section>
-        <!-- //content-6-section -->
-        <section class="w3l-post-grids-6">
-            <!-- /post-grids-->
-            <div class="post-6-mian py-5">
-                <div class="container py-lg-5">
-                    <h3 class="hny-title text-center mb-0 ">Bài viết mới nhất <span>Hiện nay</span></h3>
-                    <p class="mb-5 text-center">Lựa chọn theo sở thích bạn</p>
-                    <div class="post-hny-grids row mt-5">
-                        <div class="col-lg-3 col-md-6 grids5-info column-img" id="zoomIn">
-                            <a href="#">
-                                <figure>
-                                    <img class="img-fluid" src="/frontend/images/vans2.jpg" alt="blog-image">
-                                </figure>
-                            </a>
-    
-                            <div class="blog-thumbhny-caption">
-                                <ul class="blog-info-list">
-                                    <li><a href="#admin">Viết bởi Va</a></li>
-                                    <li class="date-post">
-                                        Aug 10, 2020</li>
-                                </ul>
-                                <h4><a href="#">Đi giày đúng cách.</a></h4>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 grids5-info column-img" id="zoomIn">
-                            <a href="#">
-                                <figure>
-                                    <img class="img-fluid" src="/frontend/images/tripple3.jpg" alt="blog-image">
-                                </figure>
-                            </a>
-                            <div class="blog-thumbhny-caption">
-                                <ul class="blog-info-list">
-                                    <li><a href="#admin">Bởi VA</a></li>
-                                    <li class="date-post">
-                                        Aug 10, 2020</li>
-                                </ul>
-                                <h4><a href="#">Cách làm sạch giày.</a></h4>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 grids5-info column-img" id="zoomIn">
-                            <figure>
-                                <img class="img-fluid" src="/frontend/images/super4.jpg" alt="blog-image">
-                            </figure>
-                            <div class="blog-thumbhny-caption">
-                                <ul class="blog-info-list">
-                                    <li><a href="#admin">Bởi VA</a></li>
-                                    <li class="date-post">
-                                        Aug 10, 2020</li>
-                                </ul>
-                                <h4><a href="#">Phối đồ với giày sao cho đẹp</a></h4>
-                            </div>
-                        </div>
-    
-                        <div class="col-lg-3 col-md-6 grids5-info column-img" id="zoomIn">
-                            <figure>
-                                <img class="img-fluid" src="/frontend/images/vans4.jpg" alt="blog-image">
-                            </figure>
-                            <div class="blog-thumbhny-caption">
-                                <ul class="blog-info-list">
-                                    <li><a href="#admin">Bởi VA</a></li>
-                                    <li class="date-post">
-                                        Aug 10, 2020</li>
-                                </ul>
-                                <h4><a href="#">Cách giữ cho bền lâu nhất</a></h4>
-                            </div>
-                        </div>
-    
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- //post-grids-->
-        <section class="w3l-customers-sec-6">
-            <div class="customers-sec-6-cintent py-5">
-                <!-- /customers-->
-                <div class="container py-lg-5">
-                    <h3 class="hny-title text-center mb-0 ">Khách hàng <span>Đánh giá</span></h3>
-                    <p class="mb-5 text-center">Mọi người nhận xét về shop như nào</p>
-                    <div class="row customerhny my-lg-5 my-4">
-                        <div class="col-md-12">
-                            <div id="customerhnyCarousel" class="carousel slide" data-ride="carousel">
-    
-                                <ol class="carousel-indicators">
-                                    <li data-target="#customerhnyCarousel" data-slide-to="0" class="active"></li>
-                                    <li data-target="#customerhnyCarousel" data-slide-to="1"></li>
-                                </ol>
-                                <!-- Carousel items -->
-                                <div class="carousel-inner">
-    
-                                    <div class="carousel-item active">
-                                        <div class="row">
-                                            <div class="col-md-3">
-                                                <div class="customer-info text-center">
-                                                    <div class="feedback-hny">
-                                                        <span class="fa fa-quote-left"></span>
-                                                        <p class="feedback-para">Dịch vụ tuyệt vời</p>
-                                                    </div>
-                                                    <div class="feedback-review mt-4">
-                                                        <img src="/frontend/images/c1.jpg" class="img-fluid" alt="">
-                                                        <h5>Vũ Đình Chuyên</h5>
-    
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-3">
-                                                <div class="customer-info text-center">
-                                                    <div class="feedback-hny">
-                                                        <span class="fa fa-quote-left"></span>
-                                                        <p class="feedback-para">Giay siêu đẹp</p>
-                                                    </div>
-                                                    <div class="feedback-review mt-4">
-                                                        <img src="/frontend/images/c2.jpg" class="img-fluid" alt="">
-                                                        <h5>Vũ Đình Chuyên</h5>
-    
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-3">
-                                                <div class="customer-info text-center">
-                                                    <div class="feedback-hny">
-                                                        <span class="fa fa-quote-left"></span>
-                                                        <p class="feedback-para">Đi siêu đẹp giá phải chăng</p>
-                                                    </div>
-                                                    <div class="feedback-review mt-4">
-                                                        <img src="/frontend/images/c3.jpg" class="img-fluid" alt="">
-                                                        <h5>Vũ Đình Chuyên</h5>
-    
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-3">
-                                                <div class="customer-info text-center">
-                                                    <div class="feedback-hny">
-                                                        <span class="fa fa-quote-left"></span>
-                                                        <p class="feedback-para">Tuyệt vời</p>
-                                                    </div>
-                                                    <div class="feedback-review mt-4">
-                                                        <img src="/frontend/images/c4.jpg" class="img-fluid" alt="">
-                                                        <h5>Vũ Đình Chuyên</h5>
-    
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!--.row-->
-                                    </div>
-                                    <!--.item-->
-    
-                                    <div class="carousel-item">
-                                        <div class="row">
-                                            <div class="col-md-3">
-                                                <div class="customer-info text-center">
-                                                    <div class="feedback-hny">
-                                                        <span class="fa fa-quote-left"></span>
-                                                        <p class="feedback-para">Tuyệt vời.</p>
-                                                    </div>
-                                                    <div class="feedback-review mt-4">
-                                                        <img src="/frontend/images/c4.jpg" class="img-fluid" alt="">
-                                                        <h5>John Lee</h5>
-    
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-3">
-                                                <div class="customer-info text-center">
-                                                    <div class="feedback-hny">
-                                                        <span class="fa fa-quote-left"></span>
-                                                        <p class="feedback-para">Tuyệt vời.</p>
-                                                    </div>
-                                                    <div class="feedback-review mt-4">
-                                                        <img src="/frontend/images/c3.jpg" class="img-fluid" alt="">
-                                                        <h5>Laura Sten</h5>
-    
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-3">
-                                                <div class="customer-info text-center">
-                                                    <div class="feedback-hny">
-                                                        <span class="fa fa-quote-left"></span>
-                                                        <p class="feedback-para">Tuyệt vời.</p>
-                                                    </div>
-                                                    <div class="feedback-review mt-4">
-                                                        <img src="/frontend/images/c1.jpg" class="img-fluid" alt="">
-                                                        <h5>Smith Roy</h5>
-    
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-3">
-                                                <div class="customer-info text-center">
-                                                    <div class="feedback-hny">
-                                                        <span class="fa fa-quote-left"></span>
-                                                        <p class="feedback-para">Tuyệt vời.</p>
-                                                    </div>
-                                                    <div class="feedback-review mt-4">
-                                                        <img src="/frontend/images/c2.jpg" class="img-fluid" alt="">
-                                                        <h5>Lora Grill</h5>
-    
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!--.row-->
-                                    </div>
-                                    <!--.item-->
-    
-                                </div>
-                                <!--.carousel-inner-->
-                            </div>
-                            <!--.Carousel-->
-    
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- //customers-->
-        <section class="w3l-subscription-6">
-            <!--/customers -->
-            <div class="subscription-infhny">
-                <div class="container-fluid">
-    
-                    <div class="subscription-grids row">
-    
-                        <div class="subscription-right form-right-inf col-lg-6 p-md-5 p-4">
-                            <div class="p-lg-5 py-md-0 py-3">
-                                <h3 class="hny-title">Tham gia với chúng tôi <span>Địa chỉ email</span></h3>
-                                <p>Đăng kí thông báo để nhận được sản phẩm với bài viết hay</p>
-    
-                                <form action="#" method="post" class="signin-form mt-lg-5 mt-4">
-                                    <div class="forms-gds">
-                                        <div class="form-input">
-                                            <input type="email" name="" placeholder="Your email here" required="">
-                                        </div>
-                                        <div class="form-input"><button class="btn">Vào</button></div>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                        <div class="subscription-left forms-25-info col-lg-6 ">
-    
-                        </div>
-                    </div>
-    
-                    <!--//customers -->
-                </div>
-        </section>
-        <!-- //customers-6-->
-    
-    
-        <section class="w3l-footer-22">
-            <!-- footer-22 -->
-            <div class="footer-hny py-5">
-                <div class="container py-lg-5">
-                    <div class="text-txt row">
-                        <div class="left-side col-lg-4">
-                            <h3><a class="logo-footer" href="index.html">
-                                    MyBrother<span class="lohny"></span>Shoes</a></h3>
-                            <!-- if logo is image enable this   
-                                        <a class="navbar-brand" href="#index.html">
-                                            <img src="image-path" alt="Your logo" title="Your logo" style="height:35px;" />
-                                        </a> -->
-                            <p>CHĂM SÓC KHÁCH HÀNG LÀ NHIỆM VỤ HÀNG ĐẦU </p>
-                            <ul class="social-footerhny mt-lg-5 mt-4">
-    
-                                <li><a class="facebook" href="#"><span class="fa fa-facebook" aria-hidden="true"></span></a>
-                                </li>
-                                <li><a class="twitter" href="#"><span class="fa fa-twitter" aria-hidden="true"></span></a>
-                                </li>
-                                <li><a class="google" href="#"><span class="fa fa-google-plus"
-                                            aria-hidden="true"></span></a>
-                                </li>
-                                <li><a class="instagram" href="#"><span class="fa fa-instagram"
-                                            aria-hidden="true"></span></a>
-                                </li>
-                            </ul>
-                        </div>
-    
-                        <div class="right-side col-lg-8 pl-lg-5">
-                            <h4>GIẢM GIÁ TOÀN BỘ SẢN PHẨM 5%</h4>
-                            <div class="sub-columns">
-                                <div class="sub-one-left">
-                                    <h6>LINK NGẮN</h6>
-                                    <div class="footer-hny-ul">
-                                        <ul>
-                                            <li><a href="index.html">Trang chính</a></li>
-                                            <li><a href="about.html">Thông tin</a></li>
-                                            <li><a href="#">Blog</a></li>
-                                            <li><a href="contact.html">Liên lạc</a></li>
-                                        </ul>
-    
-                                    </div>
-    
-                                </div>
-                                <div class="sub-two-right">
-                                    <h6>Địa chỉ chúng tôi</h6>
-                                    <p class="mb-5">484 Lạch Tray, Đổng Quốc Bình, Lê Chân, Hải Phòng</p>
-    
-                                    <h6>ĐỒNG Ý:</h6>
-                                    <ul>
-                                        <li><a class="pay-method" href="#"><span class="fa fa-cc-visa"
-                                                    aria-hidden="true"></span></a>
-                                        </li>
-                                        <li><a class="pay-method" href="#"><span class="fa fa-cc-mastercard"
-                                                    aria-hidden="true"></span></a>
-                                        </li>
-                                        <li><a class="pay-method" href="#"><span class="fa fa-cc-paypal"
-                                                    aria-hidden="true"></span></a>
-                                        </li>
-                                        <li><a class="pay-method" href="#"><span class="fa fa-cc-amex"
-                                                    aria-hidden="true"></span></a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="below-section row">
-                        <div class="columns col-lg-6">
-                            <ul class="jst-link">
-                                <li><a href="#">THÔNG TIN BẢO MẬT </a> </li>
-                                <li><a href="#">QUY TRÌNH BẢO HÀNH</a></li>
-                                <li><a href="contact.html">CHĂM SÓC KHÁCH HÀNG</a> </li>
-                            </ul>
-                        </div>
-                        <div class="columns col-lg-6 text-lg-right">
-    
-                        </div>
-                        <button onclick="topFunction()" id="movetop" title="Go to top">
-                            <span class="fa fa-angle-double-up"></span>
-                        </button>
-                    </div>
-                </div>
-            </div>
-            <!-- //titels-5 -->
-            <!-- move top -->
-    
-            <script>
-                // When the user scrolls down 20px from the top of the document, show the button
-                window.onscroll = function () {
-                    scrollFunction()
-                };
-    
-                function scrollFunction() {
-                    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-                        document.getElementById("movetop").style.display = "block";
-                    } else {
-                        document.getElementById("movetop").style.display = "none";
-                    }
-                }
-    
-                // When the user clicks on the button, scroll to the top of the document
-                function topFunction() {
-                    document.body.scrollTop = 0;
-                    document.documentElement.scrollTop = 0;
-                }
-            </script>
-            <!-- /move top -->
-        </section>
-    
-    
-    </body>
-    
-    </html>
-    
-    <script src="/frontend/js/jquery-3.3.1.min.js"></script>
-    <script src="/frontend/js/jquery-2.1.4.min.js"></script>
-    <!--/login-->
-    <script>
-        $(document).ready(function () {
-            $(".button-log a").click(function () {
-                $(".overlay-login").fadeToggle(200);
-                $(this).toggleClass('btn-open').toggleClass('btn-close');
-            });
+<!--A Design by W3layouts
+Author: W3layout
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from p.w3layouts.com/demos/sep-2016/15-09-2016/fashion_club/web/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 23 Jan 2021 14:36:56 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+<title>Fashion Club an Ecommerce Online Shopping Category  Flat Bootstrap responsive Website Template | Home :: w3layouts</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Fashion Club Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- css -->
+<link href="{{asset('frontend/css/bootstrap.css')}}" rel="stylesheet" type="text/css" media="all" />
+<link rel="stylesheet" href="{{asset('frontend/css/style.css')}}" type="text/css" media="all" />
+<link rel="stylesheet" href="{{asset('frontend/css/font-awesome.min.css')}}" type="text/css" media="all" />
+<!--// css -->
+<!-- font -->
+<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+<!-- //font -->
+<script src="frontend/js/jquery-1.11.1.min.js"></script>
+<script src="frontend/js/bootstrap.js"></script>
+</head>
+<body>
+<script src='../../../../../../ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script><script src="../../../../../../m.servedby-buysellads.com/monetization.js" type="text/javascript"></script>
+<script>
+(function(){
+	if(typeof _bsa !== 'undefined' && _bsa) {
+  		// format, zoneKey, segment:value, options
+  		_bsa.init('flexbar', 'CKYI627U', 'placement:w3layoutscom');
+  	}
+})();
+</script>
+<script>
+(function(){
+if(typeof _bsa !== 'undefined' && _bsa) {
+	// format, zoneKey, segment:value, options
+	_bsa.init('fancybar', 'CKYDL2JN', 'placement:demo');
+}
+})();
+</script>
+<script>
+(function(){
+	if(typeof _bsa !== 'undefined' && _bsa) {
+  		// format, zoneKey, segment:value, options
+  		_bsa.init('stickybox', 'CKYI653J', 'placement:w3layoutscom');
+  	}
+})();
+</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src='https://www.googletagmanager.com/gtag/js?id=UA-149859901-1'></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-149859901-1');
+</script>
+
+<script>
+     window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+     ga('create', 'UA-149859901-1', 'demo.w3layouts.com');
+     ga('require', 'eventTracker');
+     ga('require', 'outboundLinkTracker');
+     ga('require', 'urlChangeTracker');
+     ga('send', 'pageview');
+   </script>
+<script async src='../../../../../js/autotrack.js'></script>
+
+<meta name="robots" content="noindex">
+<body><link rel="stylesheet" href="../../../../../assests/css/font-awesome.min.css">
+<!-- New toolbar-->
+<style>
+* {
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+
+#w3lDemoBar.w3l-demo-bar {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9999;
+  padding: 40px 5px;
+  padding-top:70px;
+  margin-bottom: 70px;
+  background: #0D1326;
+  border-top-left-radius: 9px;
+  border-bottom-left-radius: 9px;
+}
+
+#w3lDemoBar.w3l-demo-bar a {
+  display: block;
+  color: #e6ebff;
+  text-decoration: none;
+  line-height: 24px;
+  opacity: .6;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#w3lDemoBar.w3l-demo-bar span.w3l-icon {
+  display: block;
+}
+
+#w3lDemoBar.w3l-demo-bar a:hover {
+  opacity: 1;
+}
+
+#w3lDemoBar.w3l-demo-bar .w3l-icon svg {
+  color: #e6ebff;
+}
+#w3lDemoBar.w3l-demo-bar .responsive-icons {
+  margin-top: 30px;
+  border-top: 1px solid #41414d;
+  padding-top: 40px;
+}
+#w3lDemoBar.w3l-demo-bar .demo-btns {
+  border-top: 1px solid #41414d;
+  padding-top: 30px;
+}
+#w3lDemoBar.w3l-demo-bar .responsive-icons a span.fa {
+  font-size: 26px;
+}
+#w3lDemoBar.w3l-demo-bar .no-margin-bottom{
+  margin-bottom:0;
+}
+.toggle-right-sidebar span {
+  background: #0D1326;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  color: #e6ebff;
+  border-radius: 50px;
+  font-size: 26px;
+  cursor: pointer;
+  opacity: .5;
+}
+.pull-right {
+  float: right;
+  position: fixed;
+  right: 0px;
+  top: 70px;
+  width: 90px;
+  z-index: 99999;
+  text-align: center;
+}
+/* ============================================================
+RIGHT SIDEBAR SECTION
+============================================================ */
+
+#right-sidebar {
+  width: 90px;
+  position: fixed;
+  height: 100%;
+  z-index: 1000;
+  right: 0px;
+  top: 0;
+  margin-top: 60px;
+  -webkit-transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  -o-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  overflow-y: auto;
+}
+
+/* ============================================================
+RIGHT SIDEBAR TOGGLE SECTION
+============================================================ */
+
+.hide-right-bar-notifications {
+  margin-right: -300px !important;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+
+
+@media (max-width: 992px) {
+  #w3lDemoBar.w3l-demo-bar a.desktop-mode{
+      display: none;
+
+  }
+}
+@media (max-width: 767px) {
+  #w3lDemoBar.w3l-demo-bar a.tablet-mode{
+      display: none;
+
+  }
+}
+@media (max-width: 568px) {
+  #w3lDemoBar.w3l-demo-bar a.mobile-mode{
+      display: none;
+  }
+  #w3lDemoBar.w3l-demo-bar .responsive-icons {
+      margin-top: 0px;
+      border-top: none;
+      padding-top: 0px;
+  }
+  #right-sidebar,.pull-right {
+      width: 90px;
+  }
+  #w3lDemoBar.w3l-demo-bar .no-margin-bottom-mobile{
+      margin-bottom: 0;
+  }
+}
+</style>
+<div class="pull-right toggle-right-sidebar">
+<span class="fa title-open-right-sidebar tooltipstered fa-angle-double-right"></span>
+</div>
+
+<div id="right-sidebar" class="right-sidebar-notifcations nav-collapse">
+<div class="bs-example bs-example-tabs right-sidebar-tab-notification" data-example-id="togglable-tabs">
+
+    <div id="w3lDemoBar" class="w3l-demo-bar">
+        <div class="demo-btns">
+        <a href="https://w3layouts.com/?p=42942">
+            <span class="w3l-icon -back">
+                <span class="fa fa-arrow-left"></span>
+            </span>
+            <span class="w3l-text">Back</span>
+        </a>
+        <a href="https://w3layouts.com/?p=42942">
+            <span class="w3l-icon -download">
+                <span class="fa fa-download"></span>
+            </span>
+            <span class="w3l-text">Download</span>
+        </a>
+        <a href="https://w3layouts.com/checkout/?add-to-cart=42942" class="no-margin-bottom-mobile">
+            <span class="w3l-icon -buy">
+                <span class="fa fa-shopping-cart"></span>
+            </span>
+            <span class="w3l-text">Buy</span>
+        </a>
+    </div>
+        <!---<div class="responsive-icons">
+            <a href="#url" class="desktop-mode">
+                <span class="w3l-icon -desktop">
+                    <span class="fa fa-desktop"></span>
+                </span>
+            </a>
+            <a href="#url" class="tablet-mode">
+                <span class="w3l-icon -tablet">
+                    <span class="fa fa-tablet"></span>
+                </span>
+            </a>
+            <a href="#url" class="mobile-mode no-margin-bottom">
+                <span class="w3l-icon -mobile">
+                    <span class="fa fa-mobile"></span>
+                </span>
+            </a>
+        </div>-->
+    </div>
+    <div class="right-sidebar-panel-content animated fadeInRight" tabindex="5003"
+        style="overflow: hidden; outline: none;">
+    </div>
+</div>
+</div>
+</div>
+
+
+
+
+<!---728x90--->
+
+<div class="header-top-w3layouts">
+	<div class="container">
+		<div class="col-md-6 logo-w3">
+			<a href="index.html"><img src="images/logo2.png" alt=" " /><h1>FASHION<span>CLUB</span></h1></a>
+		</div>
+		<div class="col-md-6 phone-w3l">
+			<ul>
+				<li><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span></li>
+				<li>+18045403380</li>
+			</ul>
+		</div>
+		<div class="clearfix"></div>
+	</div>
+</div>
+<div class="header-bottom-w3ls">
+	<div class="container">
+		<div class="col-md-7 navigation-agileits">
+			<nav class="navbar navbar-default">
+				<div class="navbar-header nav_2">
+					<button type="button" class="navbar-toggle collapsed navbar-toggle1" data-toggle="collapse" data-target="#bs-megadropdown-tabs">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div> 
+				<div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
+					<ul class="nav navbar-nav ">
+						<li class=" active"><a href="index.html" class="hyper "><span>Home</span></a></li>	
+						<li class="dropdown ">
+							<a href="#" class="dropdown-toggle  hyper" data-toggle="dropdown" ><span>Clothing<b class="caret"></b></span></a>
+								<ul class="dropdown-menu multi">
+									<div class="row">
+										<div class="col-sm-4">
+											<ul class="multi-column-dropdown">
+			
+												<li><a href="{{URL::to('vans')}}"><i class="fa fa-angle-right" aria-hidden="true"></i>Vanss</a></li>
+												<li><a href="men.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Men's Clothing</a></li>
+												<li><a href="kids.html"> <i class="fa fa-angle-right" aria-hidden="true"></i>Kid's Wear</a></li>
+												<li><a href="party.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Party Wear</a></li>
+										
+											</ul>
+										
+										</div>
+										<div class="col-sm-4">
+											<ul class="multi-column-dropdown">
+												<li><a href="casuals.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Casuals</a></li>
+												<li><a href="night.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Night Wear</a></li>
+												<li><a href="formals.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Formals</a></li>
+												<li><a href="inner.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Inner Wear</a></li>
+										
+											</ul>						
+										</div>
+										<div class="col-sm-4 w3l">
+											<a href="women.html"><img src="images/menu1.jpg" class="img-responsive" alt=""></a>
+										</div>
+										<div class="clearfix"></div>
+									</div>	
+								</ul>
+						</li>
+						<li class="dropdown">
+								<a href="#" class="dropdown-toggle hyper" data-toggle="dropdown" ><span> Personal Care <b class="caret"></b></span></a>
+								<ul class="dropdown-menu multi multi1">
+									<div class="row">
+										<div class="col-sm-4">
+											<ul class="multi-column-dropdown">
+												<li><a href="jewellery.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Jewellery </a></li>
+												<li><a href="watches.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Watches</a></li>
+												<li><a href="cosmetics.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Cosmetics</a></li>
+												<li><a href="deos.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Deo & Perfumes</a></li>
+										
+											</ul>
+											
+										</div>
+										<div class="col-sm-4">
+											
+											<ul class="multi-column-dropdown">
+												<li><a href="haircare.html"> <i class="fa fa-angle-right" aria-hidden="true"></i>Hair Care </a></li>
+												<li><a href="shoes.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Shoes</a></li>
+												<li><a href="handbags.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Handbags</a></li>
+												<li><a href="skincare.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Skin care</a></li>
+										
+											</ul>
+											
+										</div>
+										<div class="col-sm-4 w3l">
+											<a href="jewellery.html"><img src="images/menu2.jpg" class="img-responsive" alt=""></a>
+										</div>
+										<div class="clearfix"></div>
+									</div>	
+								</ul>
+						</li>
+						<li><a href="about.html" class="hyper"><span>About</span></a></li>
+						<li><a href="contact.html" class="hyper"><span>Contact Us</span></a></li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+								<script>
+				$(document).ready(function(){
+					$(".dropdown").hover(            
+						function() {
+							$('.dropdown-menu', this).stop( true, true ).slideDown("fast");
+							$(this).toggleClass('open');        
+						},
+						function() {
+							$('.dropdown-menu', this).stop( true, true ).slideUp("fast");
+							$(this).toggleClass('open');       
+						}
+					);
+				});
+				</script>
+		<div class="col-md-4 search-agileinfo">
+			<form action="#" method="post">
+				<input type="search" name="Search" placeholder="Search for a Product..." required="">
+				<button type="submit" class="btn btn-default search" aria-label="Left Align">
+					<i class="fa fa-search" aria-hidden="true"> </i>
+				</button>
+			</form>
+		</div>
+		<div class="col-md-1 cart-wthree">
+			<div class="cart"> 
+				<form action="#" method="post" class="last"> 
+					<input type="hidden" name="cmd" value="_cart" />
+					<input type="hidden" name="display" value="1" />
+					<button class="w3view-cart" type="submit" name="submit" value=""><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></button>
+				</form>  
+			</div>
+		</div>
+		<div class="clearfix"></div>
+	</div>
+</div>
+<!---728x90--->
+
+<div class="banner-agile">
+	<div class="container">
+		<h2>WELCOME TO</h2>
+		<h3>FASHION <span>CLUB</span></h3>
+		<p>Suspendisse sed tellus id libero pretium interdum. Suspendisse potenti. Quisque consectetur elit sit amet vehicula tristique. </p>
+		<a href="about.html">Read More</a>
+	</div>
+</div>
+<!---728x90--->
+
+<div class="banner-bootom-w3-agileits">
+	<div class="container">
+		<div class="col-md-5 bb-grids bb-left-agileits-w3layouts">
+			<a href="women.html"><div class="bb-left-agileits-w3layouts-inner">
+					<h3>SALE</h3>
+					<h4>upto<span>75%</span></h4>
+			</div></a>
+		</div>
+		<div class="col-md-4 bb-grids bb-middle-agileits-w3layouts">
+			<a href="shoes.html"><div class="bb-middle-top">
+				<h3>SALE</h3>
+				<h4>upto<span>55%</span></h4>
+			</div></a>
+			<a href="jewellery.html"><div class="bb-middle-bottom">
+				<h3>SALE</h3>
+				<h4>upto<span>65%</span></h4>
+			</div></a>
+		</div>
+		<div class="col-md-3 bb-grids bb-right-agileits-w3layouts">
+			<a href="watches.html"><div class="bb-right-top">
+				<h3>SALE</h3>
+				<h4>upto<span>50%</span></h4>
+			</div></a>
+			<a href="handbags.html"><div class="bb-right-bottom">
+				<h3>SALE</h3>
+				<h4>upto<span>60%</span></h4>
+			</div></a>
+		</div>
+		<div class="clearfix"></div>
+	</div>
+</div>
+<div class="top-products">
+	<div class="container">
+		<h3>Top Products</h3>
+		<div class="sap_tabs">			
+			<div id="horizontalTab">
+				<ul class="resp-tabs-list">
+					<li class="resp-tab-item"><span>Men's</span></li>
+					<li class="resp-tab-item"><span>Women</span></li>
+					<li class="resp-tab-item"><span>Handbags</span></li>	
+					<li class="resp-tab-item"><span>Cosmetics</span></li>						
+				</ul>	
+				<div class="clearfix"> </div>	
+				<div class="resp-tabs-container">
+					<div class="tab-1 resp-tab-content">
+						<div class="col-md-3 top-product-grids tp1 animated wow slideInUp" data-wow-delay=".5s">
+							<a href="single.html"><div class="product-img">
+								<img src="images/tp1.jpg" alt="" />
+								<div class="p-mask">
+								<form action="#" method="post">
+									<input type="hidden" name="cmd" value="_cart" />
+									<input type="hidden" name="add" value="1" /> 
+									<input type="hidden" name="w3ls1_item" value="Formal shoes" /> 
+									<input type="hidden" name="amount" value="220.00" /> 
+									<button type="submit" class="w3ls-cart pw3ls-cart"><i class="fa fa-cart-plus" aria-hidden="true"></i> Add to cart</button>
+								</form>
+								</div>
+							</div></a>
+							<i class="fa fa-star yellow-star" aria-hidden="true"></i>
+							<i class="fa fa-star yellow-star" aria-hidden="true"></i>
+							<i class="fa fa-star yellow-star" aria-hidden="true"></i>
+							<i class="fa fa-star gray-star" aria-hidden="true"></i>
+							<i class="fa fa-star gray-star" aria-hidden="true"></i>
+							<h4>Formal shoes</h4>
+							<h5>$220.00</h5>
+						</div>
+						<div class="col-md-3 top-product-grids tp2">
+							<a href="single.html"><div class="product-img">
+								<img src="images/tp2.jpg" alt="" />
+								<div class="p-mask">
+								<form action="#" method="post">
+									<input type="hidden" name="cmd" value="_cart" />
+									<input type="hidden" name="add" value="1" /> 
+									<input type="hidden" name="w3ls1_item" value="Formal shirt" /> 
+									<input type="hidden" name="amount" value="190.00" /> 
+									<button type="submit" class="w3ls-cart pw3ls-cart"><i class="fa fa-cart-plus" aria-hidden="true"></i> Add to cart</button>
+								</form>
+								</div>
+							</div></a>
+							<i class="fa fa-star yellow-star" aria-hidden="true"></i>
+							<i class="fa fa-star yellow-star" aria-hidden="true"></i>
+							<i class="fa fa-star yellow-star" aria-hidden="true"></i>
+							<i class="fa fa-star gray-star" aria-hidden="true"></i>
+							<i class="fa fa-star gray-star" aria-hidden="true"></i>
+							<h4>Formal shirt</h4>
+							<h5>$190.00</h5>
+						</div>
+						<div class="col-md-3 top-product-grids tp3">
+							<a href="single.html"><div class="product-img">
+								<img src="images/tp3.jpg" alt="" />
+								<div class="p-mask">
+								<form action="#" method="post">
+									<input type="hidden" name="cmd" value="_cart" />
+									<input type="hidden" name="add" value="1" /> 
+									<input type="hidden" name="w3ls1_item" value="Blazer" /> 
+									<input type="hidden" name="amount" value="160.00" /> 
+									<button type="submit" class="w3ls-cart pw3ls-cart"><i class="fa fa-cart-plus" aria-hidden="true"></i> Add to cart</button>
+								</form>
+								</div>
+							</div></a>
+							<i class="fa fa-star yellow-star" aria-hidden="true"></i>
+							<i class="fa fa-star yellow-star" aria-hidden="true"></i>
+							<i class="fa fa-star yellow-star" aria-hidden="true"></i>
+							<i class="fa fa-star gray-star" aria-hidden="true"></i>
+							<i class="fa fa-star gray-star" aria-hidden="true"></i>
+							<h4>Blazer</h4>
+							<h5>$160.00</h5>						
+						</div>
+						<div class="col-md-3 top-product-grids tp4">
+							<a href="single.html"><div class="product-img">
+								<img src="images/tp4.jpg" alt="" />
+								<div class="p-mask">
+								<form action="#" method="post">
+									<input type="hidden" name="cmd" value="_cart" />
+									<input type="hidden" name="add" value="1" /> 
+									<input type="hidden" name="w3ls1_item" value="Casual shoes" /> 
+									<input type="hidden" name="amount" value="250.00" /> 
+									<button type="submit" class="w3ls-cart pw3ls-cart"><i class="fa fa-cart-plus" aria-hidden="true"></i> Add to cart</button>
+								</form>
+								</div>
+							</div></a>
+							<i class="fa fa-star yellow-star" aria-hidden="true"></i>
+							<i class="fa fa-star yellow-star" aria-hidden="true"></i>
+							<i class="fa fa-star yellow-star" aria-hidden="true"></i>
+							<i class="fa fa-star gray-star" aria-hidden="true"></i>
+							<i class="fa fa-star gray-star" aria-hidden="true"></i>
+							<h4>Casual shoes</h4>
+							<h5>$250.00</h5>						
+						</div>
+						<div class="clearfix"></div>
+						<div class="top-products-set2">
+						<div class="col-md-3 top-product-grids tp5">
+							<a href="single.html"><div class="product-img">
+								<img src="images/ip2.jpg" alt="" />
+								<div class="p-mask">
+								<form action="#" method="post">
+									<input type="hidden" name="cmd" value="_cart" />
+									<input type="hidden" name="add" value="1" /> 
+									<input type="hidden" name="w3ls1_item" value="Inner wear" /> 
+									<input type="hidden" name="amount" value="50.00" /> 
+									<button type="submit" class="w3ls-cart pw3ls-cart"><i class="fa fa-cart-plus" aria-hidden="true"></i> Add to cart</button>
+								</form>
+								</div>
+							</div></a>
+							<i class="fa fa-star yellow-star" aria-hidden="true"></i>
+							<i class="fa fa-star yellow-star" aria-hidden="true"></i>
+							<i class="fa fa-star yellow-star" aria-hidden="true"></i>
+							<i class="fa fa-star gray-star" aria-hidden="true"></i>
+							<i class="fa fa-star gray-star" aria-hidden="true"></i>
+							<h4>Inner wear</h4>
+							<h5>$50.00</h5>						
+						</div>
+						<div class="col-md-3 top-product-grids tp6">
+							<a href="single.html"><div class="product-img">
+								<img src="images/shp8.jpg" alt="" />
+								<div class="p-mask">
+								<form action="#" method="post">
+									<input type="hidden" name="cmd" value="_cart" />
+									<input type="hidden" name="add" value="1" /> 
+									<input type="hidden" name="w3ls1_item" value="Shoes" /> 
+									<input type="hidden" name="amount" value="150.00" /> 
+									<button type="submit" class="w3ls-cart pw3ls-cart"><i class="fa fa-cart-plus" aria-hidden="true"></i> Add to cart</button>
+								</form>
+								</div>
+							</div></a>
+							<i class="fa fa-star yellow-star" aria-hidden="true"></i>
+							<i class="fa fa-star yellow-star" aria-hidden="true"></i>
+							<i class="fa fa-star yellow-star" aria-hidden="true"></i>
+							<i class="fa fa-star gray-star" aria-hidden="true"></i>
+							<i class="fa fa-star gray-star" aria-hidden="true"></i>
+							<h4>Shoes</h4>
+							<h5>$150.00</h5>						
+						</div>
+						<div class="col-md-3 top-product-grids tp7">
+							<a href="single.html"><div class="product-img">
+								<img src="images/cap1.jpg" alt="" />
+								<div class="p-mask">
+								<form action="#" method="post">
+									<input type="hidden" name="cmd" value="_cart" />
+									<input type="hidden" name="add" value="1" /> 
+									<input type="hidden" name="w3ls1_item" value="Formal shirt" /> 
+									<input type="hidden" name="amount" value="100.00" /> 
+									<button type="submit" class="w3ls-cart pw3ls-cart"><i class="fa fa-cart-plus" aria-hidden="true"></i> Add to cart</button>
+								</form>
+								</div>
+							</div></a>
+							<i class="fa fa-star yellow-star" aria-hidden="true"></i>
+							<i class="fa fa-star yellow-star" aria-hidden="true"></i>
+							<i class="fa fa-star yellow-star" aria-hidden="true"></i>
+							<i class="fa fa-star gray-star" aria-hidden="true"></i>
+							<i class="fa fa-star gray-star" aria-hidden="true"></i>
+							<h4>Formal shirt</h4>
+							<h5>$100.00</h5>						
+						</div>
+						<div class="col-md-3 top-product-grids tp4">
+							<a href="single.html"><div class="product-img">
+								<img src="images/wap3.jpg" alt="" />
+								<div class="p-mask">
+								<form action="#" method="post">
+									<input type="hidden" name="cmd" value="_cart" />
+									<input type="hidden" name="add" value="1" /> 
+									<input type="hidden" name="w3ls1_item" value="Watch" /> 
+									<input type="hidden" name="amount" value="200.00" /> 
+									<button type="submit" class="w3ls-cart pw3ls-cart"><i class="fa fa-cart-plus" aria-hidden="true"></i> Add to cart</button>
+								</form>
+								</div>
+							</div></a>
+							<i class="fa fa-star yellow-star" aria-hidden="true"></i>
+							<i class="fa fa-star yellow-star" aria-hidden="true"></i>
+							<i class="fa fa-star yellow-star" aria-hidden="true"></i>
+							<i class="fa fa-star gray-star" aria-hidden="true"></i>
+							<i class="fa fa-star gray-star" aria-hidden="true"></i>
+							<h4>Watch</h4>
+							<h5>$200.00</h5>						
+						</div>
+						<div class="clearfix"></div>
+						</div>
+					</div>
+					<div class="tab-1 resp-tab-content">
+						<div class="col-md-3 top-product-grids tp1 animated wow slideInUp" data-wow-delay=".5s">
+							<a href="single.html"><div class="product-img">
+								<img src="images/tp5.jpg" alt="" />
+								<div class="p-mask">
+								<form action="#" method="post">
+									<input type="hidden" name="cmd" value="_cart" />
+									<input type="hidden" name="add" value="1" /> 
+									<input type="hidden" name="w3ls1_item" value="Casual wear" /> 
+									<input type="hidden" name="amount" value="220.00" /> 
+									<button type="submit" class="w3ls-cart pw3ls-cart"><i class="fa fa-cart-plus" aria-hidden="true"></i> Add to cart</button>
+								</form>
+								</div>
+							</div></a>
+							<i class="fa fa-star yellow-star" aria-hidden="true"></i>
+							<i class="fa fa-star yellow-star" aria-hidden="true"></i>
+							<i class="fa fa-star yellow-star" aria-hidden="true"></i>
+							<i class="fa fa-star gray-star" aria-hidden="true"></i>
+							<i class="fa fa-star gray-star" aria-hidden="true"></i>
+							<h4>Casual wear</h4>
+							<h5>$220.00</h5>
+						</div>
+						<div class="col-md-3 top-product-grids tp2">
+							<a href="single.html"><div class="product-img">
+								<img src="images/tp6.jpg" alt="" />
+								<div class="p-mask">
+								<form action="#" method="post">
+									<input type="hidden" name="cmd" value="_cart" />
+									<input type="hidden" name="add" value="1" /> 
+									<input type="hidden" name="w3ls1_item" value="Casual wear" /> 
+									<input type="hidden" name="amount" value="190.00" /> 
+									<button type="submit" class="w3ls-cart pw3ls-cart"><i class="fa fa-cart-plus" aria-hidden="true"></i> Add to cart</button>
+								</form>
+								</div>
+							</div></a>
+							<i class="fa fa-star yellow-star" aria-hidden="true"></i>
+							<i class="fa fa-star yellow-star" aria-hidden="true"></i>
+							<i class="fa fa-star yellow-star" aria-hidden="true"></i>
+							<i class="fa fa-star gray-star" aria-hidden="true"></i>
+							<i class="fa fa-star gray-star" aria-hidden="true"></i>
+							<h4>Casual wear</h4>
+							<h5>$190.00</h5>
+						</div>
+						<div class="col-md-3 top-product-grids tp3">
+							<a href="single.html"><div class="product-img">
+								<img src="images/tp7.jpg" alt="" />
+								<div class="p-mask">
+								<form action="#" method="post">
+									<input type="hidden" name="cmd" value="_cart" />
+									<input type="hidden" name="add" value="1" /> 
+									<input type="hidden" name="w3ls1_item" value="Casual wear" /> 
+									<input type="hidden" name="amount" value="160.00" /> 
+									<button type="submit" class="w3ls-cart pw3ls-cart"><i class="fa fa-cart-plus" aria-hidden="true"></i> Add to cart</button>
+								</form>
+								</div>
+							</div></a>
+							<i class="fa fa-star yellow-star" aria-hidden="true"></i>
+							<i class="fa fa-star yellow-star" aria-hidden="true"></i>
+							<i class="fa fa-star yellow-star" aria-hidden="true"></i>
+							<i class="fa fa-star gray-star" aria-hidden="true"></i>
+							<i class="fa fa-star gray-star" aria-hidden="true"></i>
+							<h4>Casual wear</h4>
+							<h5>$160.00</h5>						
+						</div>
+						<div class="col-md-3 top-product-grids tp4">
+							<a href="single.html"><div class="product-img">
+								<img src="images/tp8.jpg" alt="" />
+								<div class="p-mask">
+								<form action="#" method="post">
+									<input type="hidden" name="cmd" value="_cart" />
+									<input type="hidden" name="add" value="1" /> 
+									<input type="hidden" name="w3ls1_item" value="Casual wear" /> 
+									<input type="hidden" name="amount" value="250.00" /> 
+									<button type="submit" class="w3ls-cart pw3ls-cart"><i class="fa fa-cart-plus" aria-hidden="true"></i> Add to cart</button>
+								</form>
+								</div>
+							</div></a>
+							<i class="fa fa-star yellow-star" aria-hidden="true"></i>
+							<i class="fa fa-star yellow-star" aria-hidden="true"></i>
+							<i class="fa fa-star yellow-star" aria-hidden="true"></i>
+							<i class="fa fa-star gray-star" aria-hidden="true"></i>
+							<i class="fa fa-star gray-star" aria-hidden="true"></i>
+							<h4>Casual wear</h4>
+							<h5>$250.00</h5>						
+						</div>
+						<div class="clearfix"></div>
+						<div class="top-products-set2">
+						<div class="col-md-3 top-product-grids tp4">
+							<a href="single.html"><div class="product-img">
+								<img src="images/wp8.jpg" alt="" />
+								<div class="p-mask">
+								<form action="#" method="post">
+									<input type="hidden" name="cmd" value="_cart" />
+									<input type="hidden" name="add" value="1" /> 
+									<input type="hidden" name="w3ls1_item" value="Casual wear" /> 
+									<input type="hidden" name="amount" value="250.00" /> 
+									<button type="submit" class="w3ls-cart pw3ls-cart"><i class="fa fa-cart-plus" aria-hidden="true"></i> Add to cart</button>
+								</form>
+								</div>
+							</div></a>
+							<i class="fa fa-star yellow-star" aria-hidden="true"></i>
+							<i class="fa fa-star yellow-star" aria-hidden="true"></i>
+							<i class="fa fa-star yellow-star" aria-hidden="true"></i>
+							<i class="fa fa-star gray-star" aria-hidden="true"></i>
+							<i class="fa fa-star gray-star" aria-hidden="true"></i>
+							<h4>Casual wear</h4>
+							<h5>$250.00</h5>						
+						</div>
+						<div class="col-md-3 top-product-grids tp4">
+							<a href="single.html"><div class="product-img">
+								<img src="images/wp5.jpg" alt="" />
+								<div class="p-mask">
+								<form action="#" method="post">
+									<input type="hidden" name="cmd" value="_cart" />
+									<input type="hidden" name="add" value="1" /> 
+									<input type="hidden" name="w3ls1_item" value="Casual wear" /> 
+									<input type="hidden" name="amount" value="250.00" /> 
+									<button type="submit" class="w3ls-cart pw3ls-cart"><i class="fa fa-cart-plus" aria-hidden="true"></i> Add to cart</button>
+								</form>
+								</div>
+							</div></a>
+							<i class="fa fa-star yellow-star" aria-hidden="true"></i>
+							<i class="fa fa-star yellow-star" aria-hidden="true"></i>
+							<i class="fa fa-star yellow-star" aria-hidden="true"></i>
+							<i class="fa fa-star gray-star" aria-hidden="true"></i>
+							<i class="fa fa-star gray-star" aria-hidden="true"></i>
+							<h4>Casual wear</h4>
+							<h5>$250.00</h5>						
+						</div>
+						<div class="col-md-3 top-product-grids tp4">
+							<a href="single.html"><div class="product-img">
+								<img src="images/wp4.jpg" alt="" />
+								<div class="p-mask">
+								<form action="#" method="post">
+									<input type="hidden" name="cmd" value="_cart" />
+									<input type="hidden" name="add" value="1" /> 
+									<input type="hidden" name="w3ls1_item" value="Casual wear" /> 
+									<input type="hidden" name="amount" value="350.00" /> 
+									<button type="submit" class="w3ls-cart pw3ls-cart"><i class="fa fa-cart-plus" aria-hidden="true"></i> Add to cart</button>
+								</form>
+								</div>
+							</div></a>
+							<i class="fa fa-star yellow-star" aria-hidden="true"></i>
+							<i class="fa fa-star yellow-star" aria-hidden="true"></i>
+							<i class="fa fa-star yellow-star" aria-hidden="true"></i>
+							<i class="fa fa-star gray-star" aria-hidden="true"></i>
+							<i class="fa fa-star gray-star" aria-hidden="true"></i>
+							<h4>Casual wear</h4>
+							<h5>$350.00</h5>						
+						</div>
+						<div class="col-md-3 top-product-grids tp4">
+							<a href="single.html"><div class="product-img">
+								<img src="images/wp3.jpg" alt="" />
+								<div class="p-mask">
+								<form action="#" method="post">
+									<input type="hidden" name="cmd" value="_cart" />
+									<input type="hidden" name="add" value="1" /> 
+									<input type="hidden" name="w3ls1_item" value="Casual wear" /> 
+									<input type="hidden" name="amount" value="200.00" /> 
+									<button type="submit" class="w3ls-cart pw3ls-cart"><i class="fa fa-cart-plus" aria-hidden="true"></i> Add to cart</button>
+								</form>
+								</div>
+							</div></a>
+							<i class="fa fa-star yellow-star" aria-hidden="true"></i>
+							<i class="fa fa-star yellow-star" aria-hidden="true"></i>
+							<i class="fa fa-star yellow-star" aria-hidden="true"></i>
+							<i class="fa fa-star gray-star" aria-hidden="true"></i>
+							<i class="fa fa-star gray-star" aria-hidden="true"></i>
+							<h4>Casual wear</h4>
+							<h5>$200.00</h5>						
+						</div>
+						<div class="clearfix"></div>
+						</div>
+					</div>
+					<div class="tab-1 resp-tab-content">
+						<div class="col-md-3 top-product-grids tp1 animated wow slideInUp" data-wow-delay=".5s">
+							<a href="single.html"><div class="product-img">
+								<img src="images/tp9.jpg" alt="" />
+								<div class="p-mask">
+								<form action="#" method="post">
+									<input type="hidden" name="cmd" value="_cart" />
+									<input type="hidden" name="add" value="1" /> 
+									<input type="hidden" name="w3ls1_item" value="Handbag" /> 
+									<input type="hidden" name="amount" value="90.00" /> 
+									<button type="submit" class="w3ls-cart pw3ls-cart"><i class="fa fa-cart-plus" aria-hidden="true"></i> Add to cart</button>
+								</form>
+								</div>
+							</div></a>
+							<i class="fa fa-star yellow-star" aria-hidden="true"></i>
+							<i class="fa fa-star yellow-star" aria-hidden="true"></i>
+							<i class="fa fa-star yellow-star" aria-hidden="true"></i>
+							<i class="fa fa-star gray-star" aria-hidden="true"></i>
+							<i class="fa fa-star gray-star" aria-hidden="true"></i>
+							<h4>Handbag</h4>
+							<h5>$90.00</h5>
+						</div>
+						<div class="col-md-3 top-product-grids tp2">
+							<a href="single.html"><div class="product-img">
+								<img src="images/tp10.jpg" alt="" />
+								<div class="p-mask">
+								<form action="#" method="post">
+									<input type="hidden" name="cmd" value="_cart" />
+									<input type="hidden" name="add" value="1" /> 
+									<input type="hidden" name="w3ls1_item" value="Handbag" /> 
+									<input type="hidden" name="amount" value="60.00" /> 
+									<button type="submit" class="w3ls-cart pw3ls-cart"><i class="fa fa-cart-plus" aria-hidden="true"></i> Add to cart</button>
+								</form>
+								</div>
+							</div></a>
+							<i class="fa fa-star yellow-star" aria-hidden="true"></i>
+							<i class="fa fa-star yellow-star" aria-hidden="true"></i>
+							<i class="fa fa-star yellow-star" aria-hidden="true"></i>
+							<i class="fa fa-star gray-star" aria-hidden="true"></i>
+							<i class="fa fa-star gray-star" aria-hidden="true"></i>
+							<h4>Handbag</h4>
+							<h5>$60.00</h5>
+						</div>
+						<div class="col-md-3 top-product-grids tp3">
+							<a href="single.html"><div class="product-img">
+								<img src="images/tp11.jpg" alt="" />
+								<div class="p-mask">
+								<form action="#" method="post">
+									<input type="hidden" name="cmd" value="_cart" />
+									<input type="hidden" name="add" value="1" /> 
+									<input type="hidden" name="w3ls1_item" value="Handbag" /> 
+									<input type="hidden" name="amount" value="120.00" /> 
+									<button type="submit" class="w3ls-cart pw3ls-cart"><i class="fa fa-cart-plus" aria-hidden="true"></i> Add to cart</button>
+								</form>
+								</div>
+							</div></a>
+							<i class="fa fa-star yellow-star" aria-hidden="true"></i>
+							<i class="fa fa-star yellow-star" aria-hidden="true"></i>
+							<i class="fa fa-star yellow-star" aria-hidden="true"></i>
+							<i class="fa fa-star gray-star" aria-hidden="true"></i>
+							<i class="fa fa-star gray-star" aria-hidden="true"></i>
+							<h4>Handbag</h4>
+							<h5>$120.00</h5>						
+						</div>
+						<div class="col-md-3 top-product-grids tp4">
+							<a href="single.html"><div class="product-img">
+								<img src="images/tp12.jpg" alt="" />
+								<div class="p-mask">
+								<form action="#" method="post">
+									<input type="hidden" name="cmd" value="_cart" />
+									<input type="hidden" name="add" value="1" /> 
+									<input type="hidden" name="w3ls1_item" value="Handbag" /> 
+									<input type="hidden" name="amount" value="70.00" /> 
+									<button type="submit" class="w3ls-cart pw3ls-cart"><i class="fa fa-cart-plus" aria-hidden="true"></i> Add to cart</button>
+								</form>
+								</div>
+							</div></a>
+							<i class="fa fa-star yellow-star" aria-hidden="true"></i>
+							<i class="fa fa-star yellow-star" aria-hidden="true"></i>
+							<i class="fa fa-star yellow-star" aria-hidden="true"></i>
+							<i class="fa fa-star gray-star" aria-hidden="true"></i>
+							<i class="fa fa-star gray-star" aria-hidden="true"></i>
+							<h4>Handbag</h4>
+							<h5>$70.00</h5>						
+						</div>
+						<div class="clearfix"></div>	
+						<div class="top-products-set2">
+						<div class="col-md-3 top-product-grids tp1 animated wow slideInUp" data-wow-delay=".5s">
+							<a href="single.html"><div class="product-img">
+								<img src="images/hp9.jpg" alt="" />
+								<div class="p-mask">
+								<form action="#" method="post">
+									<input type="hidden" name="cmd" value="_cart" />
+									<input type="hidden" name="add" value="1" /> 
+									<input type="hidden" name="w3ls1_item" value="Handbag" /> 
+									<input type="hidden" name="amount" value="290.00" /> 
+									<button type="submit" class="w3ls-cart pw3ls-cart"><i class="fa fa-cart-plus" aria-hidden="true"></i> Add to cart</button>
+								</form>
+								</div>
+							</div></a>
+							<i class="fa fa-star yellow-star" aria-hidden="true"></i>
+							<i class="fa fa-star yellow-star" aria-hidden="true"></i>
+							<i class="fa fa-star yellow-star" aria-hidden="true"></i>
+							<i class="fa fa-star gray-star" aria-hidden="true"></i>
+							<i class="fa fa-star gray-star" aria-hidden="true"></i>
+							<h4>Handbag</h4>
+							<h5>$290.00</h5>
+						</div>	
+						<div class="col-md-3 top-product-grids tp1 animated wow slideInUp" data-wow-delay=".5s">
+							<a href="single.html"><div class="product-img">
+								<img src="images/hp8.jpg" alt="" />
+								<div class="p-mask">
+								<form action="#" method="post">
+									<input type="hidden" name="cmd" value="_cart" />
+									<input type="hidden" name="add" value="1" /> 
+									<input type="hidden" name="w3ls1_item" value="Handbag" /> 
+									<input type="hidden" name="amount" value="50.00" /> 
+									<button type="submit" class="w3ls-cart pw3ls-cart"><i class="fa fa-cart-plus" aria-hidden="true"></i> Add to cart</button>
+								</form>
+								</div>
+							</div></a>
+							<i class="fa fa-star yellow-star" aria-hidden="true"></i>
+							<i class="fa fa-star yellow-star" aria-hidden="true"></i>
+							<i class="fa fa-star yellow-star" aria-hidden="true"></i>
+							<i class="fa fa-star gray-star" aria-hidden="true"></i>
+							<i class="fa fa-star gray-star" aria-hidden="true"></i>
+							<h4>Handbag</h4>
+							<h5>$50.00</h5>
+						</div>	
+						<div class="col-md-3 top-product-grids tp1 animated wow slideInUp" data-wow-delay=".5s">
+							<a href="single.html"><div class="product-img">
+								<img src="images/hp7.jpg" alt="" />
+								<div class="p-mask">
+								<form action="#" method="post">
+									<input type="hidden" name="cmd" value="_cart" />
+									<input type="hidden" name="add" value="1" /> 
+									<input type="hidden" name="w3ls1_item" value="Handbag" /> 
+									<input type="hidden" name="amount" value="70.00" /> 
+									<button type="submit" class="w3ls-cart pw3ls-cart"><i class="fa fa-cart-plus" aria-hidden="true"></i> Add to cart</button>
+								</form>
+								</div>
+							</div></a>
+							<i class="fa fa-star yellow-star" aria-hidden="true"></i>
+							<i class="fa fa-star yellow-star" aria-hidden="true"></i>
+							<i class="fa fa-star yellow-star" aria-hidden="true"></i>
+							<i class="fa fa-star gray-star" aria-hidden="true"></i>
+							<i class="fa fa-star gray-star" aria-hidden="true"></i>
+							<h4>Handbag</h4>
+							<h5>$70.00</h5>
+						</div>	
+						<div class="col-md-3 top-product-grids tp1 animated wow slideInUp" data-wow-delay=".5s">
+							<a href="single.html"><div class="product-img">
+								<img src="images/hp3.jpg" alt="" />
+								<div class="p-mask">
+								<form action="#" method="post">
+									<input type="hidden" name="cmd" value="_cart" />
+									<input type="hidden" name="add" value="1" /> 
+									<input type="hidden" name="w3ls1_item" value="Handbag" /> 
+									<input type="hidden" name="amount" value="190.00" /> 
+									<button type="submit" class="w3ls-cart pw3ls-cart"><i class="fa fa-cart-plus" aria-hidden="true"></i> Add to cart</button>
+								</form>
+								</div>
+							</div></a>
+							<i class="fa fa-star yellow-star" aria-hidden="true"></i>
+							<i class="fa fa-star yellow-star" aria-hidden="true"></i>
+							<i class="fa fa-star yellow-star" aria-hidden="true"></i>
+							<i class="fa fa-star gray-star" aria-hidden="true"></i>
+							<i class="fa fa-star gray-star" aria-hidden="true"></i>
+							<h4>Handbag</h4>
+							<h5>$190.00</h5>
+						</div>						
+						<div class="clearfix"></div>
+						</div>						
+					</div>		
+					<div class="tab-1 resp-tab-content">
+						<div class="col-md-3 top-product-grids tp1 animated wow slideInUp" data-wow-delay=".5s">
+							<a href="single.html"><div class="product-img">
+								<img src="images/tp13.jpg" alt="" />
+								<div class="p-mask">
+								<form action="#" method="post">
+									<input type="hidden" name="cmd" value="_cart" />
+									<input type="hidden" name="add" value="1" /> 
+									<input type="hidden" name="w3ls1_item" value="Eye makeup" /> 
+									<input type="hidden" name="amount" value="90.00" /> 
+									<button type="submit" class="w3ls-cart pw3ls-cart"><i class="fa fa-cart-plus" aria-hidden="true"></i> Add to cart</button>
+								</form>
+								</div>
+							</div></a>
+							<i class="fa fa-star yellow-star" aria-hidden="true"></i>
+							<i class="fa fa-star yellow-star" aria-hidden="true"></i>
+							<i class="fa fa-star yellow-star" aria-hidden="true"></i>
+							<i class="fa fa-star gray-star" aria-hidden="true"></i>
+							<i class="fa fa-star gray-star" aria-hidden="true"></i>
+							<h4>Eye makeup</h4>
+							<h5>$90.00</h5>
+						</div>
+						<div class="col-md-3 top-product-grids tp2">
+							<a href="single.html"><div class="product-img">
+								<img src="images/tp14.jpg" alt="" />
+								<div class="p-mask">
+								<form action="#" method="post">
+									<input type="hidden" name="cmd" value="_cart" />
+									<input type="hidden" name="add" value="1" /> 
+									<input type="hidden" name="w3ls1_item" value="Gold makeup" /> 
+									<input type="hidden" name="amount" value="60.00" /> 
+									<button type="submit" class="w3ls-cart pw3ls-cart"><i class="fa fa-cart-plus" aria-hidden="true"></i> Add to cart</button>
+								</form>
+								</div>
+							</div></a>
+							<i class="fa fa-star yellow-star" aria-hidden="true"></i>
+							<i class="fa fa-star yellow-star" aria-hidden="true"></i>
+							<i class="fa fa-star yellow-star" aria-hidden="true"></i>
+							<i class="fa fa-star gray-star" aria-hidden="true"></i>
+							<i class="fa fa-star gray-star" aria-hidden="true"></i>
+							<h4>Gold makeup</h4>
+							<h5>$60.00</h5>
+						</div>
+						<div class="col-md-3 top-product-grids tp3">
+							<a href="single.html"><div class="product-img">
+								<img src="images/tp15.jpg" alt="" />
+								<div class="p-mask">
+								<form action="#" method="post">
+									<input type="hidden" name="cmd" value="_cart" />
+									<input type="hidden" name="add" value="1" /> 
+									<input type="hidden" name="w3ls1_item" value="Tya Makeup kit" /> 
+									<input type="hidden" name="amount" value="120.00" /> 
+									<button type="submit" class="w3ls-cart pw3ls-cart"><i class="fa fa-cart-plus" aria-hidden="true"></i> Add to cart</button>
+								</form>
+								</div>
+							</div></a>
+							<i class="fa fa-star yellow-star" aria-hidden="true"></i>
+							<i class="fa fa-star yellow-star" aria-hidden="true"></i>
+							<i class="fa fa-star yellow-star" aria-hidden="true"></i>
+							<i class="fa fa-star gray-star" aria-hidden="true"></i>
+							<i class="fa fa-star gray-star" aria-hidden="true"></i>
+							<h4>Tya Makeup kit</h4>
+							<h5>$120.00</h5>						
+						</div>
+						<div class="col-md-3 top-product-grids tp4">
+							<a href="single.html"><div class="product-img">
+								<img src="images/tp16.jpg" alt="" />
+								<div class="p-mask">
+								<form action="#" method="post">
+									<input type="hidden" name="cmd" value="_cart" />
+									<input type="hidden" name="add" value="1" /> 
+									<input type="hidden" name="w3ls1_item" value="Vega Brushes" /> 
+									<input type="hidden" name="amount" value="60.00" /> 
+									<button type="submit" class="w3ls-cart pw3ls-cart"><i class="fa fa-cart-plus" aria-hidden="true"></i> Add to cart</button>
+								</form>
+								</div>
+							</div></a>
+							<i class="fa fa-star yellow-star" aria-hidden="true"></i>
+							<i class="fa fa-star yellow-star" aria-hidden="true"></i>
+							<i class="fa fa-star yellow-star" aria-hidden="true"></i>
+							<i class="fa fa-star gray-star" aria-hidden="true"></i>
+							<i class="fa fa-star gray-star" aria-hidden="true"></i>
+							<h4>Vega Brushes</h4>
+							<h5>$60.00</h5>						
+						</div>
+						<div class="clearfix"></div>	
+						<div class="top-products-set2">
+						<div class="col-md-3 top-product-grids tp4">
+							<a href="single.html"><div class="product-img">
+								<img src="images/cp5.jpg" alt="" />
+								<div class="p-mask">
+								<form action="#" method="post">
+									<input type="hidden" name="cmd" value="_cart" />
+									<input type="hidden" name="add" value="1" /> 
+									<input type="hidden" name="w3ls1_item" value="Vega Brushes" /> 
+									<input type="hidden" name="amount" value="60.00" /> 
+									<button type="submit" class="w3ls-cart pw3ls-cart"><i class="fa fa-cart-plus" aria-hidden="true"></i> Add to cart</button>
+								</form>
+								</div>
+							</div></a>
+							<i class="fa fa-star yellow-star" aria-hidden="true"></i>
+							<i class="fa fa-star yellow-star" aria-hidden="true"></i>
+							<i class="fa fa-star yellow-star" aria-hidden="true"></i>
+							<i class="fa fa-star gray-star" aria-hidden="true"></i>
+							<i class="fa fa-star gray-star" aria-hidden="true"></i>
+							<h4>Lipstick</h4>
+							<h5>$60.00</h5>						
+						</div>	
+						<div class="col-md-3 top-product-grids tp4">
+							<a href="single.html"><div class="product-img">
+								<img src="images/cp4.jpg" alt="" />
+								<div class="p-mask">
+								<form action="#" method="post">
+									<input type="hidden" name="cmd" value="_cart" />
+									<input type="hidden" name="add" value="1" /> 
+									<input type="hidden" name="w3ls1_item" value="Vega Brushes" /> 
+									<input type="hidden" name="amount" value="60.00" /> 
+									<button type="submit" class="w3ls-cart pw3ls-cart"><i class="fa fa-cart-plus" aria-hidden="true"></i> Add to cart</button>
+								</form>
+								</div>
+							</div></a>
+							<i class="fa fa-star yellow-star" aria-hidden="true"></i>
+							<i class="fa fa-star yellow-star" aria-hidden="true"></i>
+							<i class="fa fa-star yellow-star" aria-hidden="true"></i>
+							<i class="fa fa-star gray-star" aria-hidden="true"></i>
+							<i class="fa fa-star gray-star" aria-hidden="true"></i>
+							<h4>Eye liner</h4>
+							<h5>$60.00</h5>						
+						</div>	
+						<div class="col-md-3 top-product-grids tp4">
+							<a href="single.html"><div class="product-img">
+								<img src="images/cp7.jpg" alt="" />
+								<div class="p-mask">
+								<form action="#" method="post">
+									<input type="hidden" name="cmd" value="_cart" />
+									<input type="hidden" name="add" value="1" /> 
+									<input type="hidden" name="w3ls1_item" value="Eye shades" /> 
+									<input type="hidden" name="amount" value="60.00" /> 
+									<button type="submit" class="w3ls-cart pw3ls-cart"><i class="fa fa-cart-plus" aria-hidden="true"></i> Add to cart</button>
+								</form>
+								</div>
+							</div></a>
+							<i class="fa fa-star yellow-star" aria-hidden="true"></i>
+							<i class="fa fa-star yellow-star" aria-hidden="true"></i>
+							<i class="fa fa-star yellow-star" aria-hidden="true"></i>
+							<i class="fa fa-star gray-star" aria-hidden="true"></i>
+							<i class="fa fa-star gray-star" aria-hidden="true"></i>
+							<h4>Eye shades</h4>
+							<h5>$60.00</h5>						
+						</div>	
+						<div class="col-md-3 top-product-grids tp4">
+							<a href="single.html"><div class="product-img">
+								<img src="images/cp8.jpg" alt="" />
+								<div class="p-mask">
+								<form action="#" method="post">
+									<input type="hidden" name="cmd" value="_cart" />
+									<input type="hidden" name="add" value="1" /> 
+									<input type="hidden" name="w3ls1_item" value="Eye shades" /> 
+									<input type="hidden" name="amount" value="160.00" /> 
+									<button type="submit" class="w3ls-cart pw3ls-cart"><i class="fa fa-cart-plus" aria-hidden="true"></i> Add to cart</button>
+								</form>
+								</div>
+							</div></a>
+							<i class="fa fa-star yellow-star" aria-hidden="true"></i>
+							<i class="fa fa-star yellow-star" aria-hidden="true"></i>
+							<i class="fa fa-star yellow-star" aria-hidden="true"></i>
+							<i class="fa fa-star gray-star" aria-hidden="true"></i>
+							<i class="fa fa-star gray-star" aria-hidden="true"></i>
+							<h4>Eye shades</h4>
+							<h5>$160.00</h5>						
+						</div>						
+						<div class="clearfix"></div>
+						</div>
+					</div>						
+				</div>
+			</div>
+		</div>	
+	</div>
+</div>
+	<script src="js/easyResponsiveTabs.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		$(document).ready(function () {
+			$('#horizontalTab').easyResponsiveTabs({
+				type: 'default', //Types: default, vertical, accordion           
+				width: 'auto', //auto or any width like 600px
+				fit: true   // 100% fit in a container
+			});
+		});		
+	</script>
+<div class="fandt">
+	<div class="container">
+		<div class="col-md-6 features">
+			<h3>Our Services</h3>
+			<div class="support">
+				<div class="col-md-2 ficon hvr-rectangle-out">
+					<i class="fa fa-user " aria-hidden="true"></i>
+				</div>
+				<div class="col-md-10 ftext">
+					<h4>24/7 online free support</h4>
+					<p>Praesent rutrum vitae ligula sit amet vehicula. Donec eget libero nec dolor tincidunt vulputate.</p>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+			<div class="shipping">
+				<div class="col-md-2 ficon hvr-rectangle-out">
+					<i class="fa fa-bus" aria-hidden="true"></i>
+				</div>
+				<div class="col-md-10 ftext">
+					<h4>Free shipping</h4>
+					<p>Praesent rutrum vitae ligula sit amet vehicula. Donec eget libero nec dolor tincidunt vulputate.</p>
+				</div>	
+				<div class="clearfix"></div>
+			</div>
+			<div class="money-back">
+				<div class="col-md-2 ficon hvr-rectangle-out">
+					<i class="fa fa-money" aria-hidden="true"></i>
+				</div>
+				<div class="col-md-10 ftext">
+					<h4>100% money back</h4>
+					<p>Praesent rutrum vitae ligula sit amet vehicula. Donec eget libero nec dolor tincidunt vulputate.</p>
+				</div>	
+				<div class="clearfix"></div>				
+			</div>
+		</div>
+		<div class="col-md-6 testimonials">
+			<div class="test-inner">
+				<div class="wmuSlider example1 animated wow slideInUp" data-wow-delay=".5s">
+					<div class="wmuSliderWrapper">
+						<article style="position: absolute; width: 100%; opacity: 0;"> 
+							<div class="banner-wrap">
+								<img src="images/c1.png" alt=" " class="img-responsive" />
+								<p>Nam elementum magna id nibh pretium suscipit varius tortor. Phasellus in lorem sed massa consectetur fermentum. Praesent pellentesque sapien euismod.</p>
+								<h4># Andrew</h4>
+							</div>
+						</article>
+						<article style="position: absolute; width: 100%; opacity: 0;"> 
+							<div class="banner-wrap">
+								<img src="images/c2.png" alt=" " class="img-responsive" />
+								<p>Morbi semper, risus dignissim sagittis iaculis, diam est ornare neque, accumsan risus tortor at est. Vivamus auctor quis lacus sed interdum celerisque.</p>
+								<h4># Lucy</h4>
+							</div>
+						</article>
+						<article style="position: absolute; width: 100%; opacity: 0;">
+							<div class="banner-wrap">
+								<img src="images/c3.png" alt=" " class="img-responsive" />
+								<p>Fusce non cursus quam, in hendrerit sem. Nam nunc dui, venenatis vitae porta sed, sagittis id nisl. Pellentesque celerisque  eget ullamcorper vehicula. </p>
+								<h4># Martina</h4>
+							</div>
+						</article>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="clearfix"></div>
+	</div>
+				<script src="js/jquery.wmuSlider.js"></script> 
+								<script>
+									$('.example1').wmuSlider();         
+								</script> 
+</div>
+<!-- top-brands -->
+	<div class="top-brands">
+		<div class="container">
+			<h3>Top Brands</h3>
+			<div class="sliderfig">
+				<ul id="flexiselDemo1">			
+					<li>
+						<img src="images/4.png" alt=" " class="img-responsive" />
+					</li>
+					<li>
+						<img src="images/5.png" alt=" " class="img-responsive" />
+					</li>
+					<li>
+						<img src="images/6.png" alt=" " class="img-responsive" />
+					</li>
+					<li>
+						<img src="images/7.png" alt=" " class="img-responsive" />
+					</li>
+					<li>
+						<img src="images/46.jpg" alt=" " class="img-responsive" />
+					</li>
+				</ul>
+			</div>
+					<script type="text/javascript">
+							$(window).load(function() {
+								$("#flexiselDemo1").flexisel({
+									visibleItems: 4,
+									animationSpeed: 1000,
+									autoPlay: false,
+									autoPlaySpeed: 3000,    		
+									pauseOnHover: true,
+									enableResponsiveBreakpoints: true,
+									responsiveBreakpoints: { 
+										portrait: { 
+											changePoint:480,
+											visibleItems: 1
+										}, 
+										landscape: { 
+											changePoint:640,
+											visibleItems:2
+										},
+										tablet: { 
+											changePoint:768,
+											visibleItems: 3
+										}
+									}
+								});
+								
+							});
+					</script>
+					<script type="text/javascript" src="js/jquery.flexisel.js"></script>
+		</div>
+	</div>
+<!-- //top-brands -->
+<!-- newsletter -->
+	<div class="newsletter">
+		<div class="container">
+			<div class="col-md-6 w3agile_newsletter_left">
+				<h3>Newsletter</h3>
+				<p>Excepteur sint occaecat cupidatat non proident, sunt.</p>
+			</div>
+			<div class="col-md-6 w3agile_newsletter_right">
+				<form action="#" method="post">
+					<input type="email" name="Email" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}" required="">
+					<input type="submit" value="Subscribe" />
+				</form>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+<!-- //newsletter -->
+<div class="footer">
+	<div class="container">
+		<div class="col-md-3 footer-grids fgd1">
+		<a href="index.html"><img src="images/logo2.png" alt=" " /><h3>FASHION<span>CLUB</span></h3></a>
+		<ul>
+			<li>1234k Avenue, 4th block,</li>
+			<li>New York City.</li>
+			<li><a href="mailto:info@example.com">info@example.com</a></li>
+			<a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+			<a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
+			<a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+			<a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+		</ul>
+		</div>
+		<div class="col-md-3 footer-grids fgd2">
+			<h4>Information</h4> 
+			<ul>
+				<li><a href="contact.html">Contact Us</a></li>
+				<li><a href="icons.html">Web Icons</a></li>
+				<li><a href="typography.html">Typography</a></li>
+				<li><a href="faq.html">FAQ's</a></li>
+			</ul>
+		</div>
+		<div class="col-md-3 footer-grids fgd3">
+			<h4>Shop</h4> 
+			<ul>
+				<li><a href="jewellery.html">Jewellery</a></li>
+				<li><a href="cosmetics.html">Cosmetics</a></li>
+				<li><a href="Shoes-2.html">Shoes</a></li>
+				<li><a href="deos.html">Deos</a></li>
+			</ul>
+		</div>
+		<div class="col-md-3 footer-grids fgd4">
+			<h4>My Account</h4> 
+			<ul>
+				
+				<li><a href="login.html">Login</a></li>
+				<li><a href="register.html">Register</a></li>
+				<li><a href="recommended.html">Recommended </a></li>
+				<li><a href="payment.html">Payments</a></li>
+			</ul>
+		</div>
+		<div class="clearfix"></div>
+		<p class="copy-right">© 2016 Fashion Club . All rights reserved | Design by <a href="http://w3layouts.com/"> W3layouts.</a></p>
+	</div>
+</div>
+	<!-- cart-js -->
+	<script src="js/minicart.js"></script>
+	<script>
+        w3ls1.render();
+
+        w3ls1.cart.on('w3sb1_checkout', function (evt) {
+        	var items, len, i;
+
+        	if (this.subtotal() > 0) {
+        		items = this.items();
+
+        		for (i = 0, len = items.length; i < len; i++) {
+        			items[i].set('shipping', 0);
+        			items[i].set('shipping2', 0);
+        		}
+        	}
         });
-        $('.overlay-close1').on('click', function () {
-            $(".overlay-login").fadeToggle(200);
-            $(".button-log a").toggleClass('btn-open').toggleClass('btn-close');
-            open = false;
-        });
-    </script>
-    <!--//login-->
-    <script>
-        // optional
-        $('#customerhnyCarousel').carousel({
-            interval: 5000
-        });
-    </script>
-    <!-- cart-js -->
-    <script src="/frontend/js/minicart.js"></script>
-    <script>
-        transmitv.render();
-    
-        transmitv.cart.on('transmitv_checkout', function (evt) {
-            var items, len, i;
-    
-            if (this.subtotal() > 0) {
-                items = this.items();
-    
-                for (i = 0, len = items.length; i < len; i++) { }
-            }
-        });
-    </script>
-    <!-- //cart-js -->
-    <!--pop-up-box-->
-    <script src="/frontend/js/jquery.magnific-popup.js"></script>
-    <!--//pop-up-box-->
-    <script>
-        $(document).ready(function () {
-            $('.popup-with-zoom-anim').magnificPopup({
-                type: 'inline',
-                fixedContentPos: false,
-                fixedBgPos: true,
-                overflowY: 'auto',
-                closeBtnInside: true,
-                preloader: false,
-                midClick: true,
-                removalDelay: 300,
-                mainClass: 'my-mfp-zoom-in'
-            });
-    
-        });
-    </script>
-    <!--//search-bar-->
-    <!-- disable body scroll which navbar is in active -->
-    
-    <script>
-        $(function () {
-            $('.navbar-toggler').click(function () {
-                $('body').toggleClass('noscroll');
-            })
-        });
-    </script>
-    <!-- disable body scroll which navbar is in active -->
-    <script src="/frontend/js/bootstrap.min.js"></script>
+    </script>  
+	<!-- //cart-js -->  
+</body>
+<script src="../../../../../assests/js/jquery-2.2.4.min.js"></script>
+<script src="../../../../../assests/js/script.js"></script>
+
+<!-- Mirrored from p.w3layouts.com/demos/sep-2016/15-09-2016/fashion_club/web/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 23 Jan 2021 14:37:53 GMT -->
+</html>

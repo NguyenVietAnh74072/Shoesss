@@ -14,6 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 //Fronted
 Route::get('/', 'HomeController@indexx');
+Route::get('vans', 'HomeController@vans');
 
 
 
