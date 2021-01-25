@@ -1,5 +1,6 @@
 @extends('admin_layout');
 @section('admin_content');
+<h3>helo</h3>
 <div class="panel panel-default">
     <div class="panel-heading">
      Liệt kê danh mục sản phẩm
@@ -23,6 +24,7 @@
             <button class="btn btn-sm btn-default" type="button">Go!</button>
           </span>
         </div>
+      
       </div>
     </div>
     <div class="table-responsive">
