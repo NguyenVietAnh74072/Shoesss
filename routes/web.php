@@ -50,7 +50,7 @@ Route::get('delete-brand-product/{brand_product_id}', 'BrandProduct@delete_brand
 Route::get('editt-brand-product', 'CrandProduct@editt_brand_product');
 
 Route::get('unactive-brand-product/{brand_product_id}', 'BrandProduct@unactive_brand_product');
-Route::get('active-brandy-product/{brand_product_id}', 'BrandProduct@active_brand_product');
+Route::get('active-brand-product/{brand_product_id}', 'BrandProduct@active_brand_product');
 
 Route::post('save-brand-product', 'BrandProduct@save_brand_product');
 Route::post('update-brand-product/{brand_product_id}', 'BrandProduct@update_brand_product');
