@@ -26,16 +26,12 @@ class HomeController extends Controller
 
         $brand_product = DB::table('tbl_brand')->where('brand_status', '0')->orderBy('brand_id', 'desc')->get();
 
-        /*$all_brand_product = DB::table('tbl_product')
-        ->join('tbl_category_product', 'tbl_category_product.category_id', '=', 'tbl_product.category_id')
-        ->join('tbl_brand', 'tbl_brand.brand_id', '=', 'tbl_product.brand_id')
-        ->orderBy('tbl_product.product_id', 'desc')
-        ->get();*/
+
         $all_product = DB::table('tbl_product')->where('product_status', '0')->orderBy('product_id', 'desc')->limit(10)->get();
 
 
 
 
-        return view('vans')->with('category', $cate_product)->with('brand', $brand_product)->with('all_product', $all_product);
+        return view('pag.home')->with('category', $cate_product)->with('brand', $brand_product)->with('all_product', $all_product);
     }
 }

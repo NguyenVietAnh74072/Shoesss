@@ -89,4 +89,12 @@ class CategoryProduct extends Controller
         Session::put('message', ' Xóa  danh mục thành công');
         return Redirect::to('all-category-product');
     }
+
+    //End Fuction Admin Page
+
+    public function show_category_product($category_product_id)
+    {
+
+        return view('pages.category.show_category_product');
+    }
 }

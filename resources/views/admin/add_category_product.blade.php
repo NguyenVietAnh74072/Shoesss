@@ -1,5 +1,6 @@
 @extends('admin_layout');
 @section('admin_content');
+
 <div class="form-w3layouts">
     <!-- page start-->
     <!-- page start-->
@@ -9,7 +10,7 @@
 
                 <section class="panel">
                     <header class="panel-heading">
-                        Thêm danh mục sản phẩm
+                        <h1>helothe gioi</h1>
                     </header>
                     <div> <?php
                         $message = Session::get('message');

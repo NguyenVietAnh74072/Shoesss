@@ -423,12 +423,13 @@ RIGHT SIDEBAR TOGGLE SECTION
 						<div class="ecommerce_dres-type">
 
 							<ul>
-								<li><a href="{{URL::to('/danh-muc-san-pham'.$cate->category_id)}}">{{($cate->category_name)}}</a></li>
+								<li><a href="{{URL::to('/danh-muc-san-pham/'.$cate->category_id)}}">{{($cate->category_name)}}</a></li>
 							
 							</ul>
 						</div>
 					</div>
 					@endforeach
+					
 			</div>
 			
 			
@@ -463,40 +464,14 @@ RIGHT SIDEBAR TOGGLE SECTION
 			</div>
 			<div class="w3ls_dresses_grid_left_grid">
 				<div class="dresses_img_hover">
-					<img src="images/offer2.jpg" alt=" " class="img-responsive" />
+					<img src="images/offer2.jpg" alt=" " class="img-responsive" 
 					<div class="dresses_img_hover_pos">
 						<h4>Upto<span>50%</span><i>Off</i></h4>
 					</div>
 				</div>
 			</div>
-		    </div>
-		    <div class="col-md-8 col-sm-8 women-dresses">
-			<div class="women-set1">
+			@yield('content_product');
 			
-				@foreach($all_product as $key=>$product)
-				<div class="col-md-4 women-grids wp3 animated wow slideInUp" data-wow-delay=".5s">
-					<a href="single.html"><div class="product-img">
-						<img src="/product/{{($product->product_image)}}" alt="" />
-						<div class="p-mask">
-							<form action="#" method="post">
-								<input type="hidden" name="cmd" value="_cart" />
-								<input type="hidden" name="add" value="1" /> 
-								<input type="hidden" name="w3ls1_item" value="Casual shirt" /> 
-								<input type="hidden" name="amount" value="90.00" /> 
-								<button type="submit" class="w3ls-cart pw3ls-cart"><i class="fa fa-cart-plus" aria-hidden="true"></i> Add to cart</button>
-							</form>
-						</div>
-					</div></a>
-					<i class="fa fa-star yellow-star" aria-hidden="true"></i>
-					<i class="fa fa-star yellow-star" aria-hidden="true"></i>
-					<i class="fa fa-star yellow-star" aria-hidden="true"></i>
-					<i class="fa fa-star yellow-star" aria-hidden="true"></i>
-					<i class="fa fa-star yellow-star" aria-hidden="true"></i>
-					<h4>Casual shirt</h4>
-					<h5>{{($product->product_price)}}</h5>
-				</div>
-				@endforeach
-				<div class="clearfix"></div>
 			
 			
 			
