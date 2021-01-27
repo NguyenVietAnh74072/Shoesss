@@ -88,4 +88,17 @@ class BrandProduct extends Controller
         Session::put('message', ' Xóa  danh mục thành công');
         return Redirect::to('all-brand-product');
     }
+    //End Fuction Admin Page
+
+    public function show_brand_product($brand_id)
+    {
+
+        $cate_product = DB::table('tbl_category_product')->where('category_status', '0')->orderBy('category_id', 'desc')->get();
+
+        $brand_product = DB::table('tbl_brand')->where('brand_status', '0')->orderBy('brand_id', 'desc')->get();
+
+        $brand_by_id = DB::table('tbl_product')->join('tbl_brand', 'tbl_product.brand_id', '=', 'tbl_brand.brand_id')->where('tbl_product.brand_id', $brand_id)->get();
+
+        return view('pag.brand.show_brand_product')->with('category', $cate_product)->with('brand', $brand_product)->with('brand_by_id', $brand_by_id);
+    }
 }

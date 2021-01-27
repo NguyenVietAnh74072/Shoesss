@@ -3,11 +3,15 @@
 
 <div class="col-md-8 col-sm-8 women-dresses">
     <div class="women-set1">
-        <h2 class="title text-center">Danh muc san pham</h2>
-     @foreach($category_by_id as $key=>$cate_by_id)
+       
+       <h2 class="title text-center">2</h2>
+      
+        
+     @foreach($brand_by_id as $key=>$br_by_id)
+     <h2 class="title text-center">{{($br_by_id->brand_name)}}</h2>
          <div class="col-md-4 women-grids wp3 animated wow slideInUp" data-wow-delay=".5s">
         <a href="single.html"><div class="product-img">
-        <img src="/product/{{($cate_by_id->product_image)}}" alt="" />
+        <img src="/product/{{($br_by_id->product_image)}}" alt="" />
         <div class="p-mask">
             <form action="#" method="post">
                 <input type="hidden" name="cmd" value="_cart" />
@@ -26,7 +30,7 @@
     <i class="fa fa-star yellow-star" aria-hidden="true"></i>
     <i class="fa fa-star yellow-star" aria-hidden="true"></i>
     <h4>Casual shirt</h4>
-    <h5>{{($cate_by_id->product_price)}}</h5>
+    <h5>{{($br_by_id->product_price)}}</h5>
 </div>
 @endforeach
 <div class="clearfix"></div>

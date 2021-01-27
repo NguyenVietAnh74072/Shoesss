@@ -470,7 +470,7 @@ RIGHT SIDEBAR TOGGLE SECTION
 					</div>
 				</div>
 			</div>
-			@yield('content_product');
+			@yield('content_product')
 			
 			
 			
