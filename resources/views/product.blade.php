@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!-- Mirrored from preview.colorlib.com/theme/amado/shop.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 30 Jan 2021 17:28:06 GMT -->
+
 <head>
 <meta charset="UTF-8">
 <meta name="description" content="">
@@ -11,10 +11,10 @@
 
 <title>Amado - Furniture Ecommerce Template | Shop</title>
 
-<link rel="icon" href="img/core-img/favicon.ico">
-
-<link rel="stylesheet" href="css/core-style.css">
-<link rel="stylesheet" href="style.css">
+<link rel="icon" href="{{asset('/frontend/frontend_sanpham/img/core-img/favicon.ico')}}">
+<link rel="stylesheet" href="{{asset('/frontend/frontend_sanpham/fonts/flaticon/font/flaticon.css/font-awesome.min.css')}}" type="text/css" media="all" />
+<link rel="stylesheet" href="{{asset('/frontend/frontend_sanpham/css/core-style.css')}}">
+<link rel="stylesheet" href="{{asset('/frontend/frontend_sanpham/css/style.css')}}">
 </head>
 <body>
 
@@ -28,7 +28,7 @@
  <div class="search-content">
 <form action="#" method="get">
 <input type="search" name="search" id="search" placeholder="Type your keyword...">
-<button type="submit"><img src="img/core-img/search.png" alt=""></button>
+<button type="submit"><img src="/frontend/frontend_sanpham/img/core-img/search.png" alt=""></button>
 </form>
 </div>
 </div>
@@ -107,33 +107,16 @@
 
 <div class="widget brands mb-50">
 
-<h6 class="widget-title mb-30">Brands</h6>
+<h6 class="widget-title mb-30">Thương hiệu sản phẩm</h6>
 <div class="widget-desc">
+       @foreach ($brand as $key => $br)
+       <ul>
+              <li class="active"><a href="{{URL::to('/thuong-hieu-san-pham/'.$br->brand_id)}}">{{($br->brand_name)}}</a></li>
+            
+              </ul>
+@endforeach
 
-<div class="form-check">
-<input class="form-check-input" type="checkbox" value="" id="amado">
-<label class="form-check-label" for="amado">Amado</label>
-</div>
 
-<div class="form-check">
-<input class="form-check-input" type="checkbox" value="" id="ikea">
-<label class="form-check-label" for="ikea">Ikea</label>
-</div>
-
-<div class="form-check">
-<input class="form-check-input" type="checkbox" value="" id="furniture">
-<label class="form-check-label" for="furniture">Furniture Inc</label>
-</div>
-
-<div class="form-check">
-<input class="form-check-input" type="checkbox" value="" id="factory">
-<label class="form-check-label" for="factory">The factory</label>
-</div>
-
-<div class="form-check">
-<input class="form-check-input" type="checkbox" value="" id="artdeco">
-<label class="form-check-label" for="artdeco">Artdeco</label>
-</div>
 </div>
 </div>
 
@@ -262,9 +245,8 @@
 <div class="footer-logo mr-50">
 <a href="index.html"><img src="img/core-img/logo2.png" alt=""></a>
 </div>
-
 <p class="copywrite">
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com/" target="_blank">Colorlib</a>
+       Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com/" target="_blank">Colorlib</a>
 
 </div>
 </div>
@@ -303,15 +285,15 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 </footer>
 
 
-<script src="js/jquery/jquery-2.2.4.min.js"></script>
+<script src="/frontend/frontend_sanpham/js/jquery/jquery-2.2.4.min.js"></script>
 
-<script src="js/popper.min.js"></script>
+<script src="/frontend/frontend_sanpham/js/popper.min.js"></script>
 
-<script src="js/bootstrap.min.js"></script>
+<script src="/frontend/frontend_sanpham/js/bootstrap.min.js"></script>
 
-<script src="js/plugins.js"></script>
+<script src="/frontend/frontend_sanpham/js/plugins.js"></script>
 
-<script src="js/active.js"></script>
+<script src="/frontend/frontend_sanpham/js/active.js"></script>
 
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
 <script>

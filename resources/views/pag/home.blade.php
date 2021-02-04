@@ -8,18 +8,18 @@
     <div class="single-product-wrapper">
     
     <div class="product-img">
-    <img src="img/product-img/product6.jpg" alt="">
+        <img src="/product/{{($product->product_image)}}" alt="" />
     
-    <img class="hover-img" src="img/product-img/product1.jpg" alt="">
+    <img class="hover-img" src="/frontend/frontend_sanpham/img/product-img/product1.jpg" alt="">
     </div>
     
     <div class="product-description d-flex align-items-center justify-content-between">
     
     <div class="product-meta-data">
     <div class="line"></div>
-    <p class="product-price">$180</p>
+    <p class="product-price">{{($product->product_price)}}</p>
     <a href="product-details.html">
-    <h6>Modern Chair</h6>
+    <h6>{{($product->product_name)}}</h6>
     </a>
     </div>
     
