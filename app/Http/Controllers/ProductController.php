@@ -114,4 +114,11 @@ class ProductController extends Controller
         Session::put('message', ' Xóa  danh mục thành công');
         return Redirect::to('all-product');
     }
+
+
+    //End Fuction Admin Page
+    public function details_product($product_id)
+    {
+        return view('pag.sanpham.show_details_product');
+    }
 }

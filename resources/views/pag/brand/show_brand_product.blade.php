@@ -4,6 +4,7 @@
 
 
     @foreach($brand_by_id as $key=>$br_by_id)
+    <a href="{{URL::to('/chi-tiet-san-pham/'.$br_by_id->brand_id)}}">
     <div class="col-12 col-sm-6 col-md-12 col-xl-6">
     <div class="single-product-wrapper">
     
@@ -38,6 +39,7 @@
     </div>
     </div>
     </div>
+    </a>
     @endforeach
     </div>
 

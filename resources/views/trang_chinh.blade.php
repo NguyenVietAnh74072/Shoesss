@@ -41,7 +41,7 @@
 <ul class="site-menu js-clone-nav mx-auto d-none d-lg-block">
 <li class="active"><a href="index-2.html">Trang chủ</a></li>
 <li class="has-children">
-<a href="single.html">Sản phẩm</a>
+<a href="{{URL::to('sanpham')}}">Sản phẩm</a>
 <ul class="dropdown">
 <li><a href="#">Vans</a></li>
 <li><a href="#">Nike</a></li>

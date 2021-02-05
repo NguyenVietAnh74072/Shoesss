@@ -13,7 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 //Fronted
-Route::get('/', 'HomeController@indexx');
+Route::get('/', 'HomeController@trangchinh');
 Route::get('home', 'HomeController@vans');
 Route::get('trangchinh', 'HomeController@trangchinh');
 Route::get('sanpham', 'HomeController@product');
@@ -23,6 +23,7 @@ Route::get('sanpham', 'HomeController@product');
 //Danh muc san pham trang chu
 Route::get('danh-muc-san-pham/{category_id}', 'CategoryProduct@show_category_product');
 Route::get('thuong-hieu-san-pham/{brand_id}', 'BrandProduct@show_brand_product');
+Route::get('chi-tiet-san-pham/{product_id}', 'ProductController@details_product');
 
 
 
