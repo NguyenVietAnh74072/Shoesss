@@ -1,9 +1,10 @@
 @extends('product');
 @section('content_product');
 <div class="row">
-
+< a
 
     @foreach($all_product as $key=>$product)
+    <a href="{{URL::to('/chi-tiet-san-pham/'.$product->product_id)}}">
     <div class="col-12 col-sm-6 col-md-12 col-xl-6">
     <div class="single-product-wrapper">
     
@@ -38,6 +39,8 @@
     </div>
     </div>
     </div>
+
+    </a>
     @endforeach
     </div>
 
