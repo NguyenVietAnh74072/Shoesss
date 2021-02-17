@@ -14,6 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 //Fronted
 Route::get('/', 'HomeController@trangchinh');
+Route::get('1', 'HomeController@trangchinhh');
 Route::get('home', 'HomeController@vans');
 Route::get('trangchinh', 'HomeController@trangchinh');
 Route::get('sanpham', 'HomeController@product');

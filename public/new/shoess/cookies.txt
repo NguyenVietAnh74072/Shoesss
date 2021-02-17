@@ -1,0 +1,6 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+demo.sunrisetheme.com	TRUE	/moodshop/	FALSE	1999999999	wordpress_test_cookie	WP+Cookie+check
+demo.sunrisetheme.com	TRUE	/moodshop/	FALSE	1999999999	yith_wcwl_products	%5B%7B%22prod_id%22%3A%224792%22%2C%22quantity%22%3A1%2C%22wishlist_id%22%3Afalse%7D%2C%7B%22prod_id%22%3A%224362%22%2C%22quantity%22%3A1%2C%22wishlist_id%22%3Afalse%7D%2C%7B%22prod_id%22%3A%224678%22%2C%22quantity%22%3A1%2C%22wishlist_id%22%3Afalse%7D%2C%7B%22prod_id%22%3A%224701%22%2C%22quantity%22%3A1%2C%22wishlist_id%22%3Afalse%7D%2C%7B%22prod_id%22%3A%224501%22%2C%22quantity%22%3A1%2C%22wishlist_id%22%3Afalse%7D%2C%7B%22prod_id%22%3A%224671%22%2C%22quantity%22%3A1%2C%22wishlist_id%22%3Afalse%7D%2C%7B%22prod_id%22%3A%224707%22%2C%22quantity%22%3A1%2C%22wishlist_id%22%3Afalse%7D%5D
+demo.sunrisetheme.com	TRUE	/	FALSE	1999999999	PHPSESSID	v12q4d7sa8f8k8tpci8l4jsbg7
+
