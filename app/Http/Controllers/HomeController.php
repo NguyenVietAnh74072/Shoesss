@@ -40,7 +40,7 @@ class HomeController extends Controller
     }
     public function trangchinhh()
     {
-        return view('homenew');
+        return view('homew');
     }
     public function product()
     {
