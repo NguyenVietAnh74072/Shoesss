@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en-US" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://campe-theme.myshopify.com/collections/all.atom</id>
+  <link rel="alternate" type="text/html" href="https://campe-theme.myshopify.com/collections/all"/>
+  <link rel="self" type="application/atom+xml" href="https://campe-theme.myshopify.com/collections/trekking.atom"/>
+  <title>campe theme</title>
+  <updated>2020-09-01T03:22:47-04:00</updated>
+  <author>
+    <name>campe theme</name>
+  </author>
+  <entry>
+    <id>https://campe-theme.myshopify.com/products/5573502730400</id>
+    <published>2020-09-01T03:22:47-04:00</published>
+    <updated>2020-09-01T03:22:47-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://campe-theme.myshopify.com/products/climbing-stick"/>
+    <title>Climbing Stick</title>
+    <s:type>Trekking</s:type>
+    <s:vendor>Nike</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0437/7038/0448/products/Product23.jpg?v=1598945651"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Nike<br>
+        <strong>Type: </strong>Trekking<br>
+        <strong>Price: </strong>
+            739.00 - 789.00
+            <a href="https://campe-theme.myshopify.com/products/climbing-stick">(2 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>Nam tempus turpis at metus scelerisque placerat nulla deumantos solicitud felis. Pellentesque diam dolor, elementum etos lobortis des mollis ut risus. Sedcus faucibus an sullamcorper mattis drostique des commodo pharetras loremos.Donec pretium egestas sapien et mollis.</p>
+<h4>Sample Unordered List</h4>
+<ul>
+<li>Comodous in tempor ullamcorper miaculis</li>
+<li>Pellentesque vitae neque mollis urna mattis laoreet.</li>
+<li>Divamus sit amet purus justo.</li>
+<li>Proin molestie egestas orci ac suscipit risus posuere loremous</li>
+</ul>
+<h4>Sample Ordered Lista</h4>
+<ol>
+<li>Comodous in tempor ullamcorper miaculis.</li>
+<li>Pellentesque vitae neque mollis urna mattis laoreet.</li>
+<li>Divamus sit amet purus justo.</li>
+<li>Proin molestie egestas orci ac suscipit risus posuere loremous.</li>
+</ol>
+<h4>Sample Paragraph Text</h4>
+<blockquote>Praesent vestibulum congue tellus at fringilla. Curabitur vitae semper sem, eu convallis est. Cras felis nunc commodo eu convallis vitae interdum non nisl. Maecenas ac est sit amet augue pharetra convallis nec danos dui. Cras suscipit quam et turpis eleifend vitae malesuada magna congue. Damus id ullamcorper neque. Sed vitae mi a mi pretium aliquet ac sed elit. Pellentesque nulla eros accumsan quis justo at tincidunt lobortis denimes loremous. Suspendisse vestibulum lectus in lectus volutpat, ut dapibus purus pulvinar. Vestibulum sit amet auctor ipsum.</blockquote></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>$700 - $1000</s:tag>
+    <s:tag>Black</s:tag>
+    <s:tag>Cotton</s:tag>
+    <s:tag>M</s:tag>
+    <s:tag>Nike</s:tag>
+    <s:tag>Trekking</s:tag>
+    <s:variant>
+      <id>https://campe-theme.myshopify.com/products/5573502730400</id>
+      <title>M / Black / Cotton</title>
+      <s:price currency="USD">789.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://campe-theme.myshopify.com/products/5573502730400</id>
+      <title>L / Blue / Cotton</title>
+      <s:price currency="USD">739.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://campe-theme.myshopify.com/products/5573502566560</id>
+    <published>2020-09-01T03:22:44-04:00</published>
+    <updated>2020-09-01T03:22:44-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://campe-theme.myshopify.com/products/climbing-belt"/>
+    <title>Climbing Belt</title>
+    <s:type>Hiking</s:type>
+    <s:vendor>Menty</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0437/7038/0448/products/Product15.jpg?v=1598945560"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Menty<br>
+        <strong>Type: </strong>Hiking<br>
+        <strong>Price: </strong>
+            160.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>Nam tempus turpis at metus scelerisque placerat nulla deumantos solicitud felis. Pellentesque diam dolor, elementum etos lobortis des mollis ut risus. Sedcus faucibus an sullamcorper mattis drostique des commodo pharetras loremos.Donec pretium egestas sapien et mollis.</p>
+<h4>Sample Unordered List</h4>
+<ul>
+<li>Comodous in tempor ullamcorper miaculis</li>
+<li>Pellentesque vitae neque mollis urna mattis laoreet.</li>
+<li>Divamus sit amet purus justo.</li>
+<li>Proin molestie egestas orci ac suscipit risus posuere loremous</li>
+</ul>
+<h4>Sample Ordered Lista</h4>
+<ol>
+<li>Comodous in tempor ullamcorper miaculis.</li>
+<li>Pellentesque vitae neque mollis urna mattis laoreet.</li>
+<li>Divamus sit amet purus justo.</li>
+<li>Proin molestie egestas orci ac suscipit risus posuere loremous.</li>
+</ol>
+<h4>Sample Paragraph Text</h4>
+<blockquote>Praesent vestibulum congue tellus at fringilla. Curabitur vitae semper sem, eu convallis est. Cras felis nunc commodo eu convallis vitae interdum non nisl. Maecenas ac est sit amet augue pharetra convallis nec danos dui. Cras suscipit quam et turpis eleifend vitae malesuada magna congue. Damus id ullamcorper neque. Sed vitae mi a mi pretium aliquet ac sed elit. Pellentesque nulla eros accumsan quis justo at tincidunt lobortis denimes loremous. Suspendisse vestibulum lectus in lectus volutpat, ut dapibus purus pulvinar. Vestibulum sit amet auctor ipsum.</blockquote></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>$100 - $200</s:tag>
+    <s:tag>Hiking</s:tag>
+    <s:tag>Menty</s:tag>
+    <s:tag>Red</s:tag>
+    <s:tag>Steel</s:tag>
+    <s:tag>XXL</s:tag>
+    <s:variant>
+      <id>https://campe-theme.myshopify.com/products/5573502566560</id>
+      <title>Red / XXL / Steel</title>
+      <s:price currency="USD">160.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://campe-theme.myshopify.com/products/5573502566560</id>
+      <title>Blue / L / Steel</title>
+      <s:price currency="USD">160.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://campe-theme.myshopify.com/products/5573502402720</id>
+    <published>2020-09-01T03:22:41-04:00</published>
+    <updated>2020-09-01T03:22:41-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://campe-theme.myshopify.com/products/belay-device-1"/>
+    <title>Belay Device</title>
+    <s:type>Cooking</s:type>
+    <s:vendor>Hikez</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0437/7038/0448/products/Product25.jpg?v=1598945517"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Hikez<br>
+        <strong>Type: </strong>Cooking<br>
+        <strong>Price: </strong>
+            550.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>Nam tempus turpis at metus scelerisque placerat nulla deumantos solicitud felis. Pellentesque diam dolor, elementum etos lobortis des mollis ut risus. Sedcus faucibus an sullamcorper mattis drostique des commodo pharetras loremos.Donec pretium egestas sapien et mollis.</p>
+<h4>Sample Unordered List</h4>
+<ul>
+<li>Comodous in tempor ullamcorper miaculis</li>
+<li>Pellentesque vitae neque mollis urna mattis laoreet.</li>
+<li>Divamus sit amet purus justo.</li>
+<li>Proin molestie egestas orci ac suscipit risus posuere loremous</li>
+</ul>
+<h4>Sample Ordered Lista</h4>
+<ol>
+<li>Comodous in tempor ullamcorper miaculis.</li>
+<li>Pellentesque vitae neque mollis urna mattis laoreet.</li>
+<li>Divamus sit amet purus justo.</li>
+<li>Proin molestie egestas orci ac suscipit risus posuere loremous.</li>
+</ol>
+<h4>Sample Paragraph Text</h4>
+<blockquote>Praesent vestibulum congue tellus at fringilla. Curabitur vitae semper sem, eu convallis est. Cras felis nunc commodo eu convallis vitae interdum non nisl. Maecenas ac est sit amet augue pharetra convallis nec danos dui. Cras suscipit quam et turpis eleifend vitae malesuada magna congue. Damus id ullamcorper neque. Sed vitae mi a mi pretium aliquet ac sed elit. Pellentesque nulla eros accumsan quis justo at tincidunt lobortis denimes loremous. Suspendisse vestibulum lectus in lectus volutpat, ut dapibus purus pulvinar. Vestibulum sit amet auctor ipsum.</blockquote></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>$500 - $700</s:tag>
+    <s:tag>Aluminum</s:tag>
+    <s:tag>Black</s:tag>
+    <s:tag>Cooking</s:tag>
+    <s:tag>Hikez</s:tag>
+    <s:tag>S</s:tag>
+    <s:variant>
+      <id>https://campe-theme.myshopify.com/products/5573502402720</id>
+      <title>S / Black / Aluminum</title>
+      <s:price currency="USD">550.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://campe-theme.myshopify.com/products/5573502402720</id>
+      <title>L / Black / Plastic</title>
+      <s:price currency="USD">550.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://campe-theme.myshopify.com/products/5573502009504</id>
+    <published>2020-09-01T03:22:35-04:00</published>
+    <updated>2020-09-01T03:22:35-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://campe-theme.myshopify.com/products/army-knife"/>
+    <title>Army Knife</title>
+    <s:type>Camping</s:type>
+    <s:vendor>Menty</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0437/7038/0448/products/Product8.jpg?v=1598945444"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Menty<br>
+        <strong>Type: </strong>Camping<br>
+        <strong>Price: </strong>
+            170.00 - 190.00
+            <a href="https://campe-theme.myshopify.com/products/army-knife">(2 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>Nam tempus turpis at metus scelerisque placerat nulla deumantos solicitud felis. Pellentesque diam dolor, elementum etos lobortis des mollis ut risus. Sedcus faucibus an sullamcorper mattis drostique des commodo pharetras loremos.Donec pretium egestas sapien et mollis.</p>
+<h4>Sample Unordered List</h4>
+<ul>
+<li>Comodous in tempor ullamcorper miaculis</li>
+<li>Pellentesque vitae neque mollis urna mattis laoreet.</li>
+<li>Divamus sit amet purus justo.</li>
+<li>Proin molestie egestas orci ac suscipit risus posuere loremous</li>
+</ul>
+<h4>Sample Ordered Lista</h4>
+<ol>
+<li>Comodous in tempor ullamcorper miaculis.</li>
+<li>Pellentesque vitae neque mollis urna mattis laoreet.</li>
+<li>Divamus sit amet purus justo.</li>
+<li>Proin molestie egestas orci ac suscipit risus posuere loremous.</li>
+</ol>
+<h4>Sample Paragraph Text</h4>
+<blockquote>Praesent vestibulum congue tellus at fringilla. Curabitur vitae semper sem, eu convallis est. Cras felis nunc commodo eu convallis vitae interdum non nisl. Maecenas ac est sit amet augue pharetra convallis nec danos dui. Cras suscipit quam et turpis eleifend vitae malesuada magna congue. Damus id ullamcorper neque. Sed vitae mi a mi pretium aliquet ac sed elit. Pellentesque nulla eros accumsan quis justo at tincidunt lobortis denimes loremous. Suspendisse vestibulum lectus in lectus volutpat, ut dapibus purus pulvinar. Vestibulum sit amet auctor ipsum.</blockquote></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>$100 - $200</s:tag>
+    <s:tag>Blue</s:tag>
+    <s:tag>Camping</s:tag>
+    <s:tag>Menty</s:tag>
+    <s:tag>Steel</s:tag>
+    <s:tag>XL</s:tag>
+    <s:variant>
+      <id>https://campe-theme.myshopify.com/products/5573502009504</id>
+      <title>Blue / XL / Steel</title>
+      <s:price currency="USD">190.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://campe-theme.myshopify.com/products/5573502009504</id>
+      <title>Green / S / Steel</title>
+      <s:price currency="USD">170.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://campe-theme.myshopify.com/products/5573501747360</id>
+    <published>2020-09-01T03:22:32-04:00</published>
+    <updated>2020-09-01T03:22:32-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://campe-theme.myshopify.com/products/adventure-binocular"/>
+    <title>Adventure Binocular</title>
+    <s:type>Camping</s:type>
+    <s:vendor>Werty</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0437/7038/0448/products/Product5.jpg?v=1598945408"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Werty<br>
+        <strong>Type: </strong>Camping<br>
+        <strong>Price: </strong>
+            345.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>Nam tempus turpis at metus scelerisque placerat nulla deumantos solicitud felis. Pellentesque diam dolor, elementum etos lobortis des mollis ut risus. Sedcus faucibus an sullamcorper mattis drostique des commodo pharetras loremos.Donec pretium egestas sapien et mollis.</p>
+<h4>Sample Unordered List</h4>
+<ul>
+<li>Comodous in tempor ullamcorper miaculis</li>
+<li>Pellentesque vitae neque mollis urna mattis laoreet.</li>
+<li>Divamus sit amet purus justo.</li>
+<li>Proin molestie egestas orci ac suscipit risus posuere loremous</li>
+</ul>
+<h4>Sample Ordered Lista</h4>
+<ol>
+<li>Comodous in tempor ullamcorper miaculis.</li>
+<li>Pellentesque vitae neque mollis urna mattis laoreet.</li>
+<li>Divamus sit amet purus justo.</li>
+<li>Proin molestie egestas orci ac suscipit risus posuere loremous.</li>
+</ol>
+<h4>Sample Paragraph Text</h4>
+<blockquote>Praesent vestibulum congue tellus at fringilla. Curabitur vitae semper sem, eu convallis est. Cras felis nunc commodo eu convallis vitae interdum non nisl. Maecenas ac est sit amet augue pharetra convallis nec danos dui. Cras suscipit quam et turpis eleifend vitae malesuada magna congue. Damus id ullamcorper neque. Sed vitae mi a mi pretium aliquet ac sed elit. Pellentesque nulla eros accumsan quis justo at tincidunt lobortis denimes loremous. Suspendisse vestibulum lectus in lectus volutpat, ut dapibus purus pulvinar. Vestibulum sit amet auctor ipsum.</blockquote></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>$300 - $400</s:tag>
+    <s:tag>Brown</s:tag>
+    <s:tag>Camping</s:tag>
+    <s:tag>Cotton</s:tag>
+    <s:tag>Werty</s:tag>
+    <s:tag>XL</s:tag>
+    <s:variant>
+      <id>https://campe-theme.myshopify.com/products/5573501747360</id>
+      <title>Brown / XL / Cotton</title>
+      <s:price currency="USD">345.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://campe-theme.myshopify.com/products/5573501747360</id>
+      <title>Brown / S / Plastic</title>
+      <s:price currency="USD">345.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+</feed>
