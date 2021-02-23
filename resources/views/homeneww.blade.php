@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     
-<!-- Mirrored from smarthr.dreamguystech.com/smarthr-laravel/html-template/maroon/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 22 Feb 2021 11:27:14 GMT -->
+<!-- Mirrored from smarthr.dreamguystech.com/smarthr-laravel/html-template/maroon/index.html by HTTrack Website Copier/3.x [XR&COw], Mon, 22 Feb 2021 11:27:14 GMT -->
 <head>
 
         <meta charset="utf-8">
@@ -16,19 +16,19 @@
         <link rel="shortcut icon" type="image/x-icon" href="https://smarthr.dreamguystech.com/smarthr-laravel/html-template/maroon/assets/img/favicon.png">
 		
 		<!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="https://smarthr.dreamguystech.com/smarthr-laravel/html-template/maroon/assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="{{asset('./frontend/css/bootstrap.min.css')}}">
 		
 		<!-- Fontawesome CSS -->
-        <link rel="stylesheet" href="https://smarthr.dreamguystech.com/smarthr-laravel/html-template/maroon/assets/css/font-awesome.min.css">
+        <link rel="stylesheet" href="{{asset('./frontend/css/font-awesome.min.css')}}">
 		
 		<!-- Lineawesome CSS -->
-        <link rel="stylesheet" href="https://smarthr.dreamguystech.com/smarthr-laravel/html-template/maroon/assets/css/line-awesome.min.css">
+        <link rel="stylesheet" href="{{asset('./frontend/css/line-awesome.min.css')}}">
 		
 		<!-- Chart CSS -->
 		<link rel="stylesheet" href="https://smarthr.dreamguystech.com/smarthr-laravel/html-template/maroon/assets/plugins/morris/morris.css">
 		
 		<!-- Main CSS -->
-        <link rel="stylesheet" href="https://smarthr.dreamguystech.com/smarthr-laravel/html-template/maroon/assets/css/style.css">
+        <link rel="stylesheet" href="{{asset('./frontend/css/style.css')}}">
 		
 		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
 		<!--[if lt IE 9]>
@@ -62,7 +62,7 @@
 				
 				<!-- Header Title -->
                 <div class="page-title-box">
-					<h3>Dreamguy's Technologies</h3>
+					<h3>Dreamguys Technologies</h3>
                 </div>
 				<!-- /Header Title -->
 				
@@ -600,7 +600,8 @@
 					<div class="page-header">
 						<div class="row">
 							<div class="col-sm-12">
-								<h3 class="page-title">Welcome Admin!</h3>
+								<h3 class="page-title">Welcome !</h3>
+								<i class="fad fa-turntable"></i>
 								<ul class="breadcrumb">
 									<li class="breadcrumb-item active">Dashboard</li>
 								</ul>
