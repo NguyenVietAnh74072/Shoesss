@@ -21,6 +21,7 @@ Route::get('1', ['middleware' => 'cors', function () {
 Route::get('home', 'HomeController@vans');
 Route::get('trangchinh', 'HomeController@trangchinh');
 Route::get('sanpham', 'HomeController@product');
+Route::get('all', 'HomeController@sanpham');
 
 
 

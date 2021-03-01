@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en-US" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://lezada-demo.myshopify.com/collections/all.atom</id>
+  <link rel="alternate" type="text/html" href="https://lezada-demo.myshopify.com/collections/all"/>
+  <link rel="self" type="application/atom+xml" href="https://lezada-demo.myshopify.com/collections/hot-prouducts.atom"/>
+  <title>Lezada - Multipurpose eCommerce Shopify Theme</title>
+  <updated>2018-12-21T21:49:24-12:00</updated>
+  <author>
+    <name>Lezada - Multipurpose eCommerce Shopify Theme</name>
+  </author>
+  <entry>
+    <id>https://lezada-demo.myshopify.com/products/1951651364928</id>
+    <published>2018-12-21T21:49:24-12:00</published>
+    <updated>2018-12-21T21:49:24-12:00</updated>
+    <link rel="alternate" type="text/html" href="https://lezada-demo.myshopify.com/products/product-dummy-title"/>
+    <title>Dark Gray Watch</title>
+    <s:type>Type 1</s:type>
+    <s:vendor>Vendor 1</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0132/3116/1408/products/w14.jpg?v=1551248069"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Vendor 1<br>
+        <strong>Type: </strong>Type 1<br>
+        <strong>Price: </strong>
+            110.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+<p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+[new_products]300[/new_products] [short_description]
+<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia,</p>
+[/short_description] [product_description]
+<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+<p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+[/product_description]</td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>blue</s:tag>
+    <s:tag>green</s:tag>
+    <s:tag>l</s:tag>
+    <s:tag>m</s:tag>
+    <s:tag>red</s:tag>
+    <s:tag>s</s:tag>
+    <s:tag>white</s:tag>
+    <s:tag>xl</s:tag>
+    <s:tag>yellow</s:tag>
+    <s:variant>
+      <id>https://lezada-demo.myshopify.com/products/1951651364928</id>
+      <title>s / red</title>
+      <s:price currency="USD">110.00</s:price>
+      <s:sku>1510</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-demo.myshopify.com/products/1951651364928</id>
+      <title>s / green</title>
+      <s:price currency="USD">110.00</s:price>
+      <s:sku>1511</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-demo.myshopify.com/products/1951651364928</id>
+      <title>s / blue</title>
+      <s:price currency="USD">110.00</s:price>
+      <s:sku>1512</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-demo.myshopify.com/products/1951651364928</id>
+      <title>s / yellow</title>
+      <s:price currency="USD">110.00</s:price>
+      <s:sku>1513</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-demo.myshopify.com/products/1951651364928</id>
+      <title>s / white</title>
+      <s:price currency="USD">110.00</s:price>
+      <s:sku>1514</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-demo.myshopify.com/products/1951651364928</id>
+      <title>m / red</title>
+      <s:price currency="USD">110.00</s:price>
+      <s:sku>1515</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-demo.myshopify.com/products/1951651364928</id>
+      <title>m / green</title>
+      <s:price currency="USD">110.00</s:price>
+      <s:sku>1516</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-demo.myshopify.com/products/1951651364928</id>
+      <title>m / blue</title>
+      <s:price currency="USD">110.00</s:price>
+      <s:sku>1517</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-demo.myshopify.com/products/1951651364928</id>
+      <title>m / yellow</title>
+      <s:price currency="USD">110.00</s:price>
+      <s:sku>1518</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-demo.myshopify.com/products/1951651364928</id>
+      <title>m / white</title>
+      <s:price currency="USD">110.00</s:price>
+      <s:sku>1519</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-demo.myshopify.com/products/1951651364928</id>
+      <title>l / red</title>
+      <s:price currency="USD">110.00</s:price>
+      <s:sku>1520</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-demo.myshopify.com/products/1951651364928</id>
+      <title>l / green</title>
+      <s:price currency="USD">110.00</s:price>
+      <s:sku>1521</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-demo.myshopify.com/products/1951651364928</id>
+      <title>l / blue</title>
+      <s:price currency="USD">110.00</s:price>
+      <s:sku>1522</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-demo.myshopify.com/products/1951651364928</id>
+      <title>l / yellow</title>
+      <s:price currency="USD">110.00</s:price>
+      <s:sku>1523</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-demo.myshopify.com/products/1951651364928</id>
+      <title>l / white</title>
+      <s:price currency="USD">110.00</s:price>
+      <s:sku>1524</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-demo.myshopify.com/products/1951651364928</id>
+      <title>xl / red</title>
+      <s:price currency="USD">110.00</s:price>
+      <s:sku>1525</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-demo.myshopify.com/products/1951651364928</id>
+      <title>xl / green</title>
+      <s:price currency="USD">110.00</s:price>
+      <s:sku>1526</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-demo.myshopify.com/products/1951651364928</id>
+      <title>xl / blue</title>
+      <s:price currency="USD">110.00</s:price>
+      <s:sku>1527</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-demo.myshopify.com/products/1951651364928</id>
+      <title>xl / yellow</title>
+      <s:price currency="USD">110.00</s:price>
+      <s:sku>1528</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-demo.myshopify.com/products/1951651364928</id>
+      <title>xl / white</title>
+      <s:price currency="USD">110.00</s:price>
+      <s:sku>1529</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lezada-demo.myshopify.com/products/3079964950592</id>
+    <published>2018-12-21T21:48:29-12:00</published>
+    <updated>2018-12-21T21:48:29-12:00</updated>
+    <link rel="alternate" type="text/html" href="https://lezada-demo.myshopify.com/products/dark-brown-watch"/>
+    <title>Dark Brown Watch</title>
+    <s:type>Type 3</s:type>
+    <s:vendor>Vendor 3</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0132/3116/1408/products/w27.jpg?v=1551248466"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Vendor 3<br>
+        <strong>Type: </strong>Type 3<br>
+        <strong>Price: </strong>
+            61.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
+<p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided.</p>
+[short_description]
+<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
+[/short_description] [product_description]
+<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
+<p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided.</p>
+[/product_description]</td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>black</s:tag>
+    <s:tag>fiber</s:tag>
+    <s:tag>l</s:tag>
+    <s:tag>leather</s:tag>
+    <s:tag>m</s:tag>
+    <s:tag>metal</s:tag>
+    <s:tag>orange</s:tag>
+    <s:tag>pink</s:tag>
+    <s:tag>purple</s:tag>
+    <s:tag>resin</s:tag>
+    <s:tag>s</s:tag>
+    <s:tag>silver</s:tag>
+    <s:tag>slag</s:tag>
+    <s:tag>violet</s:tag>
+    <s:tag>xl</s:tag>
+    <s:variant>
+      <id>https://lezada-demo.myshopify.com/products/3079964950592</id>
+      <title>Default Title</title>
+      <s:price currency="USD">61.00</s:price>
+      <s:sku>1209</s:sku>
+      <s:grams>1000</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lezada-demo.myshopify.com/products/1951626068032</id>
+    <published>2018-12-21T21:47:59-12:00</published>
+    <updated>2018-12-21T21:47:59-12:00</updated>
+    <link rel="alternate" type="text/html" href="https://lezada-demo.myshopify.com/products/product-title-here-2"/>
+    <title>Black Leather Watch</title>
+    <s:type>Type 5</s:type>
+    <s:vendor>Vendor 5</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0132/3116/1408/products/w1.jpg?v=1551247487"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Vendor 5<br>
+        <strong>Type: </strong>Type 5<br>
+        <strong>Price: </strong>
+            50.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided. But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures have to be repudiated and annoyances accepted. The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, or else he endures pains to avoid worse pains.</p>
+<p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</p>
+[short_description]
+<p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will</p>
+[/short_description] [product_description]
+<p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided. But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures have to be repudiated and annoyances accepted. The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, or else he endures pains to avoid worse pains.</p>
+<p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</p>
+[/product_description]</td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://lezada-demo.myshopify.com/products/1951626068032</id>
+      <title>Default Title</title>
+      <s:price currency="USD">50.00</s:price>
+      <s:sku>101</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lezada-demo.myshopify.com/products/3080049721408</id>
+    <published>2018-12-21T21:47:35-12:00</published>
+    <updated>2018-12-21T21:47:35-12:00</updated>
+    <link rel="alternate" type="text/html" href="https://lezada-demo.myshopify.com/products/light-coffee-leather-watch"/>
+    <title>Light Coffee Leather Watch</title>
+    <s:type>Type 8</s:type>
+    <s:vendor>Vendor 8</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0132/3116/1408/products/w44.jpg?v=1551248865"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Vendor 8<br>
+        <strong>Type: </strong>Type 8<br>
+        <strong>Price: </strong>
+            39.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.</p>
+<p>consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+[short_description]
+<p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.</p>
+[/short_description] [product_description]
+<p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.</p>
+<p>consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+[/product_description]</td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>blue</s:tag>
+    <s:tag>gold</s:tag>
+    <s:tag>gray</s:tag>
+    <s:tag>green</s:tag>
+    <s:tag>red</s:tag>
+    <s:tag>white</s:tag>
+    <s:tag>yellow</s:tag>
+    <s:variant>
+      <id>https://lezada-demo.myshopify.com/products/3080049721408</id>
+      <title>red</title>
+      <s:price currency="USD">39.00</s:price>
+      <s:sku>3010</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-demo.myshopify.com/products/3080049721408</id>
+      <title>green</title>
+      <s:price currency="USD">39.00</s:price>
+      <s:sku>3011</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-demo.myshopify.com/products/3080049721408</id>
+      <title>blue</title>
+      <s:price currency="USD">39.00</s:price>
+      <s:sku>3012</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-demo.myshopify.com/products/3080049721408</id>
+      <title>yellow</title>
+      <s:price currency="USD">39.00</s:price>
+      <s:sku>3013</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-demo.myshopify.com/products/3080049721408</id>
+      <title>white</title>
+      <s:price currency="USD">39.00</s:price>
+      <s:sku>3014</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-demo.myshopify.com/products/3080049721408</id>
+      <title>gold</title>
+      <s:price currency="USD">39.00</s:price>
+      <s:sku>3015</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-demo.myshopify.com/products/3080049721408</id>
+      <title>gray</title>
+      <s:price currency="USD">39.00</s:price>
+      <s:sku>3016</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lezada-demo.myshopify.com/products/3079924088896</id>
+    <published>2018-12-21T21:47:35-12:00</published>
+    <updated>2018-12-21T21:47:35-12:00</updated>
+    <link rel="alternate" type="text/html" href="https://lezada-demo.myshopify.com/products/light-brown-watch"/>
+    <title>Light Brown Watch</title>
+    <s:type>Type 8</s:type>
+    <s:vendor>Vendor 8</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0132/3116/1408/products/w22.jpg?v=1551248197"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Vendor 8<br>
+        <strong>Type: </strong>Type 8<br>
+        <strong>Price: </strong>
+            39.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.</p>
+<p>consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+[short_description]
+<p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.</p>
+[/short_description] [product_description]
+<p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.</p>
+<p>consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+[/product_description]</td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>blue</s:tag>
+    <s:tag>gold</s:tag>
+    <s:tag>gray</s:tag>
+    <s:tag>green</s:tag>
+    <s:tag>red</s:tag>
+    <s:tag>white</s:tag>
+    <s:tag>yellow</s:tag>
+    <s:variant>
+      <id>https://lezada-demo.myshopify.com/products/3079924088896</id>
+      <title>Default Title</title>
+      <s:price currency="USD">39.00</s:price>
+      <s:sku>3016</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lezada-demo.myshopify.com/products/1951622266944</id>
+    <published>2018-12-21T21:47:35-12:00</published>
+    <updated>2018-12-21T21:47:35-12:00</updated>
+    <link rel="alternate" type="text/html" href="https://lezada-demo.myshopify.com/products/product-title-here-3"/>
+    <title>Black Fabric Watch</title>
+    <s:type>Type 8</s:type>
+    <s:vendor>Vendor 8</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0132/3116/1408/products/w9.jpg?v=1551247678"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Vendor 8<br>
+        <strong>Type: </strong>Type 8<br>
+        <strong>Price: </strong>
+            39.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.</p>
+<p>consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+[short_description]
+<p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.</p>
+[/short_description] [product_description]
+<p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.</p>
+<p>consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+[/product_description] [countdown]2022/05/24[/countdown]</td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>blue</s:tag>
+    <s:tag>gold</s:tag>
+    <s:tag>gray</s:tag>
+    <s:tag>green</s:tag>
+    <s:tag>red</s:tag>
+    <s:tag>white</s:tag>
+    <s:tag>yellow</s:tag>
+    <s:variant>
+      <id>https://lezada-demo.myshopify.com/products/1951622266944</id>
+      <title>red</title>
+      <s:price currency="USD">39.00</s:price>
+      <s:sku>3010</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-demo.myshopify.com/products/1951622266944</id>
+      <title>green</title>
+      <s:price currency="USD">39.00</s:price>
+      <s:sku>3011</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-demo.myshopify.com/products/1951622266944</id>
+      <title>blue</title>
+      <s:price currency="USD">39.00</s:price>
+      <s:sku>3012</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-demo.myshopify.com/products/1951622266944</id>
+      <title>yellow</title>
+      <s:price currency="USD">39.00</s:price>
+      <s:sku>3013</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-demo.myshopify.com/products/1951622266944</id>
+      <title>white</title>
+      <s:price currency="USD">39.00</s:price>
+      <s:sku>3014</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-demo.myshopify.com/products/1951622266944</id>
+      <title>gold</title>
+      <s:price currency="USD">39.00</s:price>
+      <s:sku>3015</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-demo.myshopify.com/products/1951622266944</id>
+      <title>gray</title>
+      <s:price currency="USD">39.00</s:price>
+      <s:sku>3016</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+</feed>

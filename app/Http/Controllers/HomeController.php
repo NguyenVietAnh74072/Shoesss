@@ -58,4 +58,8 @@ class HomeController extends Controller
 
         return view('pag.home')->with('category', $cate_product)->with('brand', $brand_product)->with('all_product', $all_product);
     }
+    public function sanpham()
+    {
+        return view('all');
+    }
 }
