@@ -1944,18 +1944,12 @@ for (var attr in meta) {
         <div class="col-lg-2 col-md-4 col-sm-6 mb-50">
           <!--=======  single advance filte  =======-->
 
-          <div class="single-filter-widget"><h2 class="single-filter-widget--title">Categories</h2><ul class="single-filter-widget--list">
+          <div class="single-filter-widget"><h2 class="single-filter-widget--title">Danh mục sản phẩm</h2><ul class="single-filter-widget--list">
               
+            @foreach ($category as $key => $cate)
+            <li class="active"><a href="{{URL::to('/danh-muc-san-pham/'.$cate->category_id)}}">{{($cate->category_name)}}<span>(2)</span></a></li>
               
-              <li class=""><a href="bags.html">Bags <span>(2)</span></a></li>
-              
-              <li class=""><a href="bestselling.html">Bestselling <span>(2)</span></a></li>
-              
-              <li class=""><a href="fashion.html">Fashion <span>(17)</span></a></li>
-              
-              <li class=""><a href="featured.html">Featured <span>(4)</span></a></li>
-              
-              <li class=""><a href="frontpage.html">Home page <span>(4)</span></a></li>
+            @endforeach
               
             </ul>
           </div>
@@ -2448,7 +2442,7 @@ for (var attr in meta) {
 </style><img id="Image-9806251065408-0"
     class="responsive-image__image lazyload popup_cart_image"
     src="http://cdn.shopify.com/s/files/1/0132/3116/1408/t/40/assets/ajax_loader.svg10940409207306785910"
-    data-src="//cdn.shopify.com/s/files/1/0132/3116/1408/products/w14_{width}x.jpg1551248069"
+    data-src="//cdn.shopify.com/s/files/1/0132/3116/1408/products/w14_{width}x.jpg"
     data-widths="[180,360,540,720,810]"
     data-aspectratio="0.75"
     data-sizes="auto"
@@ -2468,7 +2462,7 @@ for (var attr in meta) {
 </style><img id="Image-9806353465408-0"
     class="responsive-image__image lazyload popup_cart_image secondary__img"
     src="http://cdn.shopify.com/s/files/1/0132/3116/1408/t/40/assets/ajax_loader.svg10940409207306785910"
-    data-src="//cdn.shopify.com/s/files/1/0132/3116/1408/products/w18_{width}x.jpg1551248069"
+    data-src="//cdn.shopify.com/s/files/1/0132/3116/1408/products/w18_{width}x.jpg"
     data-widths="[180,360,540,540]"
     data-aspectratio="0.75"
     data-sizes="auto"
@@ -2698,7 +2692,7 @@ for (var attr in meta) {
       <div class="variant_img">
         <a data-tippy-content="
     green
-    " data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme = "sharpborder" href="../frontend/frontend_trangchinh/images/w13_c80167f1-d8d4-49cf-bac0-d909c60d8f74_600x800_crop_bottom4a55.jpg1551248069"><img class="lazyload" data-src="//cdn.shopify.com/s/files/1/0132/3116/1408/products/w13_c80167f1-d8d4-49cf-bac0-d909c60d8f74_icon_crop_center.jpg1551248069" alt=""></a>
+    " data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme = "sharpborder" href="../frontend/frontend_trangchinh/images/w13_c80167f1-d8d4-49cf-bac0-d909c60d8f74_600x800_crop_bottom4a55.jpg"><img class="lazyload" data-src="//cdn.shopify.com/s/files/1/0132/3116/1408/products/w13_c80167f1-d8d4-49cf-bac0-d909c60d8f74_icon_crop_center.jpg" alt=""></a>
       </div>
       
     </li>
@@ -2720,7 +2714,7 @@ for (var attr in meta) {
       <div class="variant_img">
         <a data-tippy-content="
     blue
-    " data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme = "sharpborder" href="../frontend/frontend_trangchinh/images/w15_600x800_crop_bottom4a55.jpg1551248069"><img class="lazyload" data-src="//cdn.shopify.com/s/files/1/0132/3116/1408/products/w15_icon_crop_center.jpg1551248069" alt=""></a>
+    " data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme = "sharpborder" href="../frontend/frontend_trangchinh/images/w15_600x800_crop_bottom4a55.jpg"><img class="lazyload" data-src="//cdn.shopify.com/s/files/1/0132/3116/1408/products/w15_icon_crop_center.jpg" alt=""></a>
       </div>
       
     </li>
@@ -2742,7 +2736,7 @@ for (var attr in meta) {
       <div class="variant_img">
         <a data-tippy-content="
     yellow
-    " data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme = "sharpborder" href="../frontend/frontend_trangchinh/images/w16_600x800_crop_bottom4a55.jpg1551248069"><img class="lazyload" data-src="//cdn.shopify.com/s/files/1/0132/3116/1408/products/w16_icon_crop_center.jpg1551248069" alt=""></a>
+    " data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme = "sharpborder" href="../frontend/frontend_trangchinh/images/w16_600x800_crop_bottom4a55.jpg"><img class="lazyload" data-src="//cdn.shopify.com/s/files/1/0132/3116/1408/products/w16_icon_crop_center.jpg" alt=""></a>
       </div>
       
     </li>
@@ -2764,7 +2758,7 @@ for (var attr in meta) {
       <div class="variant_img">
         <a data-tippy-content="
     white
-    " data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme = "sharpborder" href="../frontend/frontend_trangchinh/images/w17_600x800_crop_bottom4a55.jpg1551248069"><img class="lazyload" data-src="//cdn.shopify.com/s/files/1/0132/3116/1408/products/w17_icon_crop_center.jpg1551248069" alt=""></a>
+    " data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme = "sharpborder" href="../frontend/frontend_trangchinh/images/w17_600x800_crop_bottom4a55.jpg"><img class="lazyload" data-src="//cdn.shopify.com/s/files/1/0132/3116/1408/products/w17_icon_crop_center.jpg" alt=""></a>
       </div>
       
     </li>
@@ -3027,7 +3021,7 @@ for (var attr in meta) {
       <div class="variant_img">
         <a data-tippy-content="
     red
-    " data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme = "sharpborder" href="../frontend/frontend_trangchinh/images/w18_600x800_crop_bottom4a55.jpg1551248069"><img class="lazyload" data-src="//cdn.shopify.com/s/files/1/0132/3116/1408/products/w18_icon_crop_center.jpg1551248069" alt=""></a>
+    " data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme = "sharpborder" href="../frontend/frontend_trangchinh/images/w18_600x800_crop_bottom4a55.jpg"><img class="lazyload" data-src="//cdn.shopify.com/s/files/1/0132/3116/1408/products/w18_icon_crop_center.jpg" alt=""></a>
       </div>
       
     </li>
@@ -3049,7 +3043,7 @@ for (var attr in meta) {
       <div class="variant_img">
         <a data-tippy-content="
     green
-    " data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme = "sharpborder" href="../frontend/frontend_trangchinh/images/w13_c80167f1-d8d4-49cf-bac0-d909c60d8f74_600x800_crop_bottom4a55.jpg1551248069"><img class="lazyload" data-src="//cdn.shopify.com/s/files/1/0132/3116/1408/products/w13_c80167f1-d8d4-49cf-bac0-d909c60d8f74_icon_crop_center.jpg1551248069" alt=""></a>
+    " data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme = "sharpborder" href="../frontend/frontend_trangchinh/images/w13_c80167f1-d8d4-49cf-bac0-d909c60d8f74_600x800_crop_bottom4a55.jpg"><img class="lazyload" data-src="//cdn.shopify.com/s/files/1/0132/3116/1408/products/w13_c80167f1-d8d4-49cf-bac0-d909c60d8f74_icon_crop_center.jpg" alt=""></a>
       </div>
       
     </li>
@@ -3071,7 +3065,7 @@ for (var attr in meta) {
       <div class="variant_img">
         <a data-tippy-content="
     blue
-    " data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme = "sharpborder" href="../frontend/frontend_trangchinh/images/w15_600x800_crop_bottom4a55.jpg1551248069"><img class="lazyload" data-src="//cdn.shopify.com/s/files/1/0132/3116/1408/products/w15_icon_crop_center.jpg1551248069" alt=""></a>
+    " data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme = "sharpborder" href="../frontend/frontend_trangchinh/images/w15_600x800_crop_bottom4a55.jpg"><img class="lazyload" data-src="//cdn.shopify.com/s/files/1/0132/3116/1408/products/w15_icon_crop_center.jpg" alt=""></a>
       </div>
       
     </li>
@@ -3093,7 +3087,7 @@ for (var attr in meta) {
       <div class="variant_img">
         <a data-tippy-content="
     yellow
-    " data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme = "sharpborder" href="../frontend/frontend_trangchinh/images/w16_600x800_crop_bottom4a55.jpg1551248069"><img class="lazyload" data-src="//cdn.shopify.com/s/files/1/0132/3116/1408/products/w16_icon_crop_center.jpg1551248069" alt=""></a>
+    " data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme = "sharpborder" href="../frontend/frontend_trangchinh/images/w16_600x800_crop_bottom4a55.jpg"><img class="lazyload" data-src="//cdn.shopify.com/s/files/1/0132/3116/1408/products/w16_icon_crop_center.jpg" alt=""></a>
       </div>
       
     </li>
@@ -3115,7 +3109,7 @@ for (var attr in meta) {
       <div class="variant_img">
         <a data-tippy-content="
     white
-    " data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme = "sharpborder" href="../frontend/frontend_trangchinh/images/w17_600x800_crop_bottom4a55.jpg1551248069"><img class="lazyload" data-src="//cdn.shopify.com/s/files/1/0132/3116/1408/products/w17_icon_crop_center.jpg1551248069" alt=""></a>
+    " data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme = "sharpborder" href="../frontend/frontend_trangchinh/images/w17_600x800_crop_bottom4a55.jpg"><img class="lazyload" data-src="//cdn.shopify.com/s/files/1/0132/3116/1408/products/w17_icon_crop_center.jpg" alt=""></a>
       </div>
       
     </li>
@@ -3218,7 +3212,7 @@ for (var attr in meta) {
 </style><img id="Image-9802874781760-0"
     class="responsive-image__image lazyload popup_cart_image"
     src="http://cdn.shopify.com/s/files/1/0132/3116/1408/t/40/assets/ajax_loader.svg10940409207306785910"
-    data-src="//cdn.shopify.com/s/files/1/0132/3116/1408/products/f19_{width}x.jpg1551239710"
+    data-src="//cdn.shopify.com/s/files/1/0132/3116/1408/products/f19_{width}x..jpg"
     data-widths="[180,360,540,720,810]"
     data-aspectratio="0.75"
     data-sizes="auto"
@@ -3227,7 +3221,7 @@ for (var attr in meta) {
     
   >
 <noscript>
-  <img class="popup_cart_image" src="../frontend/frontend_trangchinh/images/f19_2048x2048bdbe.jpg1551239710" alt="Denim Jacket">
+  <img class="popup_cart_image" src="../frontend/frontend_trangchinh/images/f19_2048x2048bdbe..jpg" alt="Denim Jacket">
 </noscript>
   
   <style>#Image-9802875043904-0 {
@@ -3247,7 +3241,7 @@ for (var attr in meta) {
     
   >
 <noscript>
-  <img class="popup_cart_image secondary__img" src="../frontend/frontend_trangchinh/images/f20_2048x2048c885.jpg1551239711" alt="Denim Jacket">
+  <img class="popup_cart_image secondary__img" src="../frontend/frontend_trangchinh/images/f20_2048x2048c885.jpg" alt="Denim Jacket">
 </noscript>
 </a>
 <div class="single-product__floating-badges">
@@ -3515,7 +3509,7 @@ for (var attr in meta) {
       <div class="variant_img">
         <a data-tippy-content="
     black
-    " data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme = "sharpborder" href="../frontend/frontend_trangchinh/images/f19_600x800_crop_bottombdbe.jpg1551239710"><img class="lazyload" data-src="//cdn.shopify.com/s/files/1/0132/3116/1408/products/f19_icon_crop_center.jpg1551239710" alt=""></a>
+    " data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme = "sharpborder" href="../frontend/frontend_trangchinh/images/f19_600x800_crop_bottombdbe.jpg"><img class="lazyload" data-src="//cdn.shopify.com/s/files/1/0132/3116/1408/products/f19_icon_crop_center..jpg" alt=""></a>
       </div>
       
     </li>
@@ -3537,7 +3531,7 @@ for (var attr in meta) {
       <div class="variant_img">
         <a data-tippy-content="
     blue
-    " data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme = "sharpborder" href="../frontend/frontend_trangchinh/images/f20_600x800_crop_bottomc885.jpg1551239711"><img class="lazyload" data-src="//cdn.shopify.com/s/files/1/0132/3116/1408/products/f20_icon_crop_center.jpg1551239711" alt=""></a>
+    " data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme = "sharpborder" href="../frontend/frontend_trangchinh/images/f20_600x800_crop_bottomc885.jpg"><img class="lazyload" data-src="//cdn.shopify.com/s/files/1/0132/3116/1408/products/f20_icon_crop_center.jpg1551239711" alt=""></a>
       </div>
       
     </li>
@@ -3559,7 +3553,7 @@ for (var attr in meta) {
       <div class="variant_img">
         <a data-tippy-content="
     white
-    " data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme = "sharpborder" href="../frontend/frontend_trangchinh/images/f30_600x800_crop_bottom13d8.jpg1551239712"><img class="lazyload" data-src="//cdn.shopify.com/s/files/1/0132/3116/1408/products/f30_icon_crop_center.jpg1551239712" alt=""></a>
+    " data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme = "sharpborder" href="../frontend/frontend_trangchinh/images/f30_600x800_crop_bottom13d8.jpg"><img class="lazyload" data-src="//cdn.shopify.com/s/files/1/0132/3116/1408/products/f30_icon_crop_center.jpg" alt=""></a>
       </div>
       
     </li>
@@ -3581,7 +3575,7 @@ for (var attr in meta) {
       <div class="variant_img">
         <a data-tippy-content="
     green
-    " data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme = "sharpborder" href="../frontend/frontend_trangchinh/images/f31_600x800_crop_bottomb40d.jpg1551239713"><img class="lazyload" data-src="//cdn.shopify.com/s/files/1/0132/3116/1408/products/f31_icon_crop_center.jpg1551239713" alt=""></a>
+    " data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme = "sharpborder" href="../frontend/frontend_trangchinh/images/f31_600x800_crop_bottomb40d.jpg"><img class="lazyload" data-src="//cdn.shopify.com/s/files/1/0132/3116/1408/products/f31_icon_crop_center.jpg" alt=""></a>
       </div>
       
     </li>
@@ -3603,7 +3597,7 @@ for (var attr in meta) {
       <div class="variant_img">
         <a data-tippy-content="
     red
-    " data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme = "sharpborder" href="../frontend/frontend_trangchinh/images/f41_600x800_crop_bottom1bf1.jpg1551239714"><img class="lazyload" data-src="//cdn.shopify.com/s/files/1/0132/3116/1408/products/f41_icon_crop_center.jpg1551239714" alt=""></a>
+    " data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme = "sharpborder" href="../frontend/frontend_trangchinh/images/f41_600x800_crop_bottom1bf1.jpg"><img class="lazyload" data-src="//cdn.shopify.com/s/files/1/0132/3116/1408/products/f41_icon_crop_center.jpg" alt=""></a>
       </div>
       
     </li>
@@ -4011,7 +4005,7 @@ for (var attr in meta) {
       <div class="variant_img">
         <a data-tippy-content="
     black
-    " data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme = "sharpborder" href="../frontend/frontend_trangchinh/images/f19_600x800_crop_bottombdbe.jpg1551239710"><img class="lazyload" data-src="//cdn.shopify.com/s/files/1/0132/3116/1408/products/f19_icon_crop_center.jpg1551239710" alt=""></a>
+    " data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme = "sharpborder" href="../frontend/frontend_trangchinh/images/f19_600x800_crop_bottombdbe.jpg"><img class="lazyload" data-src="//cdn.shopify.com/s/files/1/0132/3116/1408/products/f19_icon_crop_center..jpg" alt=""></a>
       </div>
       
     </li>
@@ -4033,7 +4027,7 @@ for (var attr in meta) {
       <div class="variant_img">
         <a data-tippy-content="
     blue
-    " data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme = "sharpborder" href="../frontend/frontend_trangchinh/images/f20_600x800_crop_bottomc885.jpg1551239711"><img class="lazyload" data-src="//cdn.shopify.com/s/files/1/0132/3116/1408/products/f20_icon_crop_center.jpg1551239711" alt=""></a>
+    " data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme = "sharpborder" href="../frontend/frontend_trangchinh/images/f20_600x800_crop_bottomc885.jpg"><img class="lazyload" data-src="//cdn.shopify.com/s/files/1/0132/3116/1408/products/f20_icon_crop_center.jpg1551239711" alt=""></a>
       </div>
       
     </li>
@@ -4055,7 +4049,7 @@ for (var attr in meta) {
       <div class="variant_img">
         <a data-tippy-content="
     white
-    " data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme = "sharpborder" href="../frontend/frontend_trangchinh/images/f30_600x800_crop_bottom13d8.jpg1551239712"><img class="lazyload" data-src="//cdn.shopify.com/s/files/1/0132/3116/1408/products/f30_icon_crop_center.jpg1551239712" alt=""></a>
+    " data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme = "sharpborder" href="../frontend/frontend_trangchinh/images/f30_600x800_crop_bottom13d8.jpg"><img class="lazyload" data-src="//cdn.shopify.com/s/files/1/0132/3116/1408/products/f30_icon_crop_center.jpg" alt=""></a>
       </div>
       
     </li>
@@ -4077,7 +4071,7 @@ for (var attr in meta) {
       <div class="variant_img">
         <a data-tippy-content="
     green
-    " data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme = "sharpborder" href="../frontend/frontend_trangchinh/images/f31_600x800_crop_bottomb40d.jpg1551239713"><img class="lazyload" data-src="//cdn.shopify.com/s/files/1/0132/3116/1408/products/f31_icon_crop_center.jpg1551239713" alt=""></a>
+    " data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme = "sharpborder" href="../frontend/frontend_trangchinh/images/f31_600x800_crop_bottomb40d.jpg"><img class="lazyload" data-src="//cdn.shopify.com/s/files/1/0132/3116/1408/products/f31_icon_crop_center.jpg" alt=""></a>
       </div>
       
     </li>
@@ -4099,7 +4093,7 @@ for (var attr in meta) {
       <div class="variant_img">
         <a data-tippy-content="
     red
-    " data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme = "sharpborder" href="../frontend/frontend_trangchinh/images/f41_600x800_crop_bottom1bf1.jpg1551239714"><img class="lazyload" data-src="//cdn.shopify.com/s/files/1/0132/3116/1408/products/f41_icon_crop_center.jpg1551239714" alt=""></a>
+    " data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme = "sharpborder" href="../frontend/frontend_trangchinh/images/f41_600x800_crop_bottom1bf1.jpg"><img class="lazyload" data-src="//cdn.shopify.com/s/files/1/0132/3116/1408/products/f41_icon_crop_center.jpg" alt=""></a>
       </div>
       
     </li>
@@ -4262,7 +4256,7 @@ for (var attr in meta) {
 </style><img id="Image-9777449664576-0"
     class="responsive-image__image lazyload popup_cart_image"
     src="http://cdn.shopify.com/s/files/1/0132/3116/1408/t/40/assets/ajax_loader.svg10940409207306785910"
-    data-src="//cdn.shopify.com/s/files/1/0132/3116/1408/products/f11_{width}x.jpg1551182556"
+    data-src="//cdn.shopify.com/s/files/1/0132/3116/1408/products/f11_{width}x.jpg"
     data-widths="[180,360,540,720,810]"
     data-aspectratio="0.75"
     data-sizes="auto"
@@ -4271,7 +4265,7 @@ for (var attr in meta) {
     
   >
 <noscript>
-  <img class="popup_cart_image" src="../frontend/frontend_trangchinh/images/f11_2048x20482bda.jpg1551182556" alt="Denim Long Shirt">
+  <img class="popup_cart_image" src="../frontend/frontend_trangchinh/images/f11_2048x20482bda.jpg" alt="Denim Long Shirt">
 </noscript>
   
   <style>#Image-9777449828416-0 {
@@ -4282,7 +4276,7 @@ for (var attr in meta) {
 </style><img id="Image-9777449828416-0"
     class="responsive-image__image lazyload popup_cart_image secondary__img"
     src="http://cdn.shopify.com/s/files/1/0132/3116/1408/t/40/assets/ajax_loader.svg10940409207306785910"
-    data-src="//cdn.shopify.com/s/files/1/0132/3116/1408/products/f12_{width}x.jpg1551182557"
+    data-src="//cdn.shopify.com/s/files/1/0132/3116/1408/products/f12_{width}x.jpg"
     data-widths="[180,360,540,720,810]"
     data-aspectratio="0.75"
     data-sizes="auto"
@@ -4291,7 +4285,7 @@ for (var attr in meta) {
     
   >
 <noscript>
-  <img class="popup_cart_image secondary__img" src="../frontend/frontend_trangchinh/images/f12_2048x20483b32.jpg1551182557" alt="Denim Long Shirt">
+  <img class="popup_cart_image secondary__img" src="../frontend/frontend_trangchinh/images/f12_2048x20483b32.jpg" alt="Denim Long Shirt">
 </noscript>
 </a>
 <div class="single-product__floating-badges">
@@ -4483,7 +4477,7 @@ for (var attr in meta) {
       <div class="variant_img">
         <a data-tippy-content="
     gold
-    " data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme = "sharpborder" href="../frontend/frontend_trangchinh/images/f11_600x800_crop_bottom2bda.jpg1551182556"><img class="lazyload" data-src="//cdn.shopify.com/s/files/1/0132/3116/1408/products/f11_icon_crop_center.jpg1551182556" alt=""></a>
+    " data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme = "sharpborder" href="../frontend/frontend_trangchinh/images/f11_600x800_crop_bottom2bda.jpg"><img class="lazyload" data-src="//cdn.shopify.com/s/files/1/0132/3116/1408/products/f11_icon_crop_center.jpg" alt=""></a>
       </div>
       
     </li>
@@ -4505,7 +4499,7 @@ for (var attr in meta) {
       <div class="variant_img">
         <a data-tippy-content="
     gray
-    " data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme = "sharpborder" href="../frontend/frontend_trangchinh/images/f12_600x800_crop_bottom3b32.jpg1551182557"><img class="lazyload" data-src="//cdn.shopify.com/s/files/1/0132/3116/1408/products/f12_icon_crop_center.jpg1551182557" alt=""></a>
+    " data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme = "sharpborder" href="../frontend/frontend_trangchinh/images/f12_600x800_crop_bottom3b32.jpg"><img class="lazyload" data-src="//cdn.shopify.com/s/files/1/0132/3116/1408/products/f12_icon_crop_center.jpg" alt=""></a>
       </div>
       
     </li>
@@ -4527,7 +4521,7 @@ for (var attr in meta) {
       <div class="variant_img">
         <a data-tippy-content="
     magenta
-    " data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme = "sharpborder" href="../frontend/frontend_trangchinh/images/f13_600x800_crop_bottom650a.jpg1551182558"><img class="lazyload" data-src="//cdn.shopify.com/s/files/1/0132/3116/1408/products/f13_icon_crop_center.jpg1551182558" alt=""></a>
+    " data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme = "sharpborder" href="../frontend/frontend_trangchinh/images/f13_600x800_crop_bottom650a.jpg"><img class="lazyload" data-src="//cdn.shopify.com/s/files/1/0132/3116/1408/products/f13_icon_crop_center.jpg" alt=""></a>
       </div>
       
     </li>
@@ -4828,7 +4822,7 @@ for (var attr in meta) {
       <div class="variant_img">
         <a data-tippy-content="
     gold
-    " data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme = "sharpborder" href="../frontend/frontend_trangchinh/images/f11_600x800_crop_bottom2bda.jpg1551182556"><img class="lazyload" data-src="//cdn.shopify.com/s/files/1/0132/3116/1408/products/f11_icon_crop_center.jpg1551182556" alt=""></a>
+    " data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme = "sharpborder" href="../frontend/frontend_trangchinh/images/f11_600x800_crop_bottom2bda.jpg"><img class="lazyload" data-src="//cdn.shopify.com/s/files/1/0132/3116/1408/products/f11_icon_crop_center.jpg" alt=""></a>
       </div>
       
     </li>
@@ -4850,7 +4844,7 @@ for (var attr in meta) {
       <div class="variant_img">
         <a data-tippy-content="
     gray
-    " data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme = "sharpborder" href="../frontend/frontend_trangchinh/images/f12_600x800_crop_bottom3b32.jpg1551182557"><img class="lazyload" data-src="//cdn.shopify.com/s/files/1/0132/3116/1408/products/f12_icon_crop_center.jpg1551182557" alt=""></a>
+    " data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme = "sharpborder" href="../frontend/frontend_trangchinh/images/f12_600x800_crop_bottom3b32.jpg"><img class="lazyload" data-src="//cdn.shopify.com/s/files/1/0132/3116/1408/products/f12_icon_crop_center.jpg" alt=""></a>
       </div>
       
     </li>
@@ -4872,7 +4866,7 @@ for (var attr in meta) {
       <div class="variant_img">
         <a data-tippy-content="
     magenta
-    " data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme = "sharpborder" href="../frontend/frontend_trangchinh/images/f13_600x800_crop_bottom650a.jpg1551182558"><img class="lazyload" data-src="//cdn.shopify.com/s/files/1/0132/3116/1408/products/f13_icon_crop_center.jpg1551182558" alt=""></a>
+    " data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme = "sharpborder" href="../frontend/frontend_trangchinh/images/f13_600x800_crop_bottom650a.jpg"><img class="lazyload" data-src="//cdn.shopify.com/s/files/1/0132/3116/1408/products/f13_icon_crop_center.jpg" alt=""></a>
       </div>
       
     </li>
@@ -5024,7 +5018,7 @@ for (var attr in meta) {
     
   >
 <noscript>
-  <img class="popup_cart_image" src="../frontend/frontend_trangchinh/images/f50_444ec389-07d2-47f7-bef1-9c2bf45ce2d2_2048x204876cd.jpg1551595586" alt="Dropshipping Product">
+  <img class="popup_cart_image" src="../frontend/frontend_trangchinh/images/f50_444ec389-07d2-47f7-bef1-9c2bf45ce2d2_2048x204876cd.jpg" alt="Dropshipping Product">
 </noscript>
   
   <style>#Image-9935400861760-0 {
@@ -5112,7 +5106,7 @@ for (var attr in meta) {
       <div class="variant_img">
         <a data-tippy-content="
     dark wood
-    " data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme = "sharpborder" href="../frontend/frontend_trangchinh/images/f42_561881a0-14ca-45a3-a3ab-72956e982df0_600x800_crop_bottomc993.jpg1551595599"><img class="lazyload" data-src="//cdn.shopify.com/s/files/1/0132/3116/1408/products/f42_561881a0-14ca-45a3-a3ab-72956e982df0_icon_crop_center.jpg1551595599" alt=""></a>
+    " data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme = "sharpborder" href="../frontend/frontend_trangchinh/images/f42_561881a0-14ca-45a3-a3ab-72956e982df0_600x800_crop_bottomc993.jpg"><img class="lazyload" data-src="//cdn.shopify.com/s/files/1/0132/3116/1408/products/f42_561881a0-14ca-45a3-a3ab-72956e982df0_icon_crop_center.jpg" alt=""></a>
       </div>
       
     </li>
@@ -5134,7 +5128,7 @@ for (var attr in meta) {
       <div class="variant_img">
         <a data-tippy-content="
     black
-    " data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme = "sharpborder" href="../frontend/frontend_trangchinh/images/f41_77786419-a934-4e73-82d1-d6efa463f110_600x800_crop_bottom7ab6.jpg1551595618"><img class="lazyload" data-src="//cdn.shopify.com/s/files/1/0132/3116/1408/products/f41_77786419-a934-4e73-82d1-d6efa463f110_icon_crop_center.jpg1551595618" alt=""></a>
+    " data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme = "sharpborder" href="../frontend/frontend_trangchinh/images/f41_77786419-a934-4e73-82d1-d6efa463f110_600x800_crop_bottom7ab6.jpg"><img class="lazyload" data-src="//cdn.shopify.com/s/files/1/0132/3116/1408/products/f41_77786419-a934-4e73-82d1-d6efa463f110_icon_crop_center.jpg" alt=""></a>
       </div>
       
     </li>
@@ -5268,7 +5262,7 @@ for (var attr in meta) {
       <div class="variant_img">
         <a data-tippy-content="
     black
-    " data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme = "sharpborder" href="../frontend/frontend_trangchinh/images/f41_77786419-a934-4e73-82d1-d6efa463f110_600x800_crop_bottom7ab6.jpg1551595618"><img class="lazyload" data-src="//cdn.shopify.com/s/files/1/0132/3116/1408/products/f41_77786419-a934-4e73-82d1-d6efa463f110_icon_crop_center.jpg1551595618" alt=""></a>
+    " data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme = "sharpborder" href="../frontend/frontend_trangchinh/images/f41_77786419-a934-4e73-82d1-d6efa463f110_600x800_crop_bottom7ab6.jpg"><img class="lazyload" data-src="//cdn.shopify.com/s/files/1/0132/3116/1408/products/f41_77786419-a934-4e73-82d1-d6efa463f110_icon_crop_center.jpg" alt=""></a>
       </div>
       
     </li>
@@ -5311,21 +5305,21 @@ for (var attr in meta) {
     
     <div class="product-description"><h2>Please note: We have this product in United States warehouse. If destination is United States, we'll ship this product from oversea warehouses priority. It means you can receive the parcel faster and earlier than expected. Welcome to place your orders and we'll provide our best service. </h2>
 <h3></h3>
-<p style="font-size: 14px;"><img src="../../img2.mangoerp.com/userbucket/13433787990/2018-12-11/1544498460226.html" alt=""></p>
-<p style="font-size: 14px;"><img src="../../img2.mangoerp.com/userbucket/13433787990/2018-12-11/1544498459585.html" alt=""></p>
-<p style="font-size: 14px;"><img src="../../img2.mangoerp.com/userbucket/13433787990/2018-12-11/1544498459057.html" alt=""></p>
-<p style="font-size: 14px;"><img src="../../img2.mangoerp.com/userbucket/13433787990/2018-12-11/1544498458579.html" alt=""></p>
-<p style="font-size: 14px;"><img src="../../img2.mangoerp.com/userbucket/13433787990/2018-12-11/1544498458077.html" alt=""></p>
-<p style="font-size: 14px;"><img src="../../img2.mangoerp.com/userbucket/13433787990/2018-12-11/1544498457071.html" alt=""></p>
-<p style="font-size: 14px;"><img src="../../img2.mangoerp.com/userbucket/13433787990/2018-12-11/1544498456547.html" alt=""></p>
-<p style="font-size: 14px;"><img src="../../img2.mangoerp.com/userbucket/13433787990/2018-12-11/1544498455862.html" alt=""></p>
-<p style="font-size: 14px;"><img src="../../img2.mangoerp.com/userbucket/13433787990/2018-12-11/1544498455376.html" alt=""></p>
-<p style="font-size: 14px;"><img src="../../img2.mangoerp.com/userbucket/13433787990/2018-12-11/1544498454871.html" alt=""></p>
-<p style="font-size: 14px;"><img src="../../img2.mangoerp.com/userbucket/13433787990/2018-12-11/1544498454371.html" alt=""></p>
-<p style="font-size: 14px;"><img src="../../img2.mangoerp.com/userbucket/13433787990/2018-12-11/1544498453869.html" alt=""></p>
-<p style="font-size: 14px;"><img src="../../img2.mangoerp.com/userbucket/13433787990/2018-12-11/1544498452060.html" alt=""></p>
-<p style="font-size: 14px;"><img src="../../img2.mangoerp.com/userbucket/13433787990/2018-12-11/1544498450946.html" alt=""></p>
-<p style="font-size: 14px;"><img src="../../img2.mangoerp.com/userbucket/13433787990/2018-12-11/1544498450089.html" alt=""></p>
+<p style="font-size: 14px;"><img src="../frontend/frontend_trangchinh/images/1544498460226.html" alt=""></p>
+<p style="font-size: 14px;"><img src="../frontend/frontend_trangchinh/images/1544498459585.html" alt=""></p>
+<p style="font-size: 14px;"><img src="../frontend/frontend_trangchinh/images/1544498459057.html" alt=""></p>
+<p style="font-size: 14px;"><img src="../frontend/frontend_trangchinh/images/1544498458579.html" alt=""></p>
+<p style="font-size: 14px;"><img src="../frontend/frontend_trangchinh/images/1544498458077.html" alt=""></p>
+<p style="font-size: 14px;"><img src="../frontend/frontend_trangchinh/images/1544498457071.html" alt=""></p>
+<p style="font-size: 14px;"><img src="../frontend/frontend_trangchinh/images/1544498456547.html" alt=""></p>
+<p style="font-size: 14px;"><img src="../frontend/frontend_trangchinh/images/1544498455862.html" alt=""></p>
+<p style="font-size: 14px;"><img src="../frontend/frontend_trangchinh/images/1544498455376.html" alt=""></p>
+<p style="font-size: 14px;"><img src="../frontend/frontend_trangchinh/images/1544498454871.html" alt=""></p>
+<p style="font-size: 14px;"><img src="../frontend/frontend_trangchinh/images/1544498454371.html" alt=""></p>
+<p style="font-size: 14px;"><img src="../frontend/frontend_trangchinh/images/1544498453869.html" alt=""></p>
+<p style="font-size: 14px;"><img src="../frontend/frontend_trangchinh/images/1544498452060.html" alt=""></p>
+<p style="font-size: 14px;"><img src="../frontend/frontend_trangchinh/images/1544498450946.html" alt=""></p>
+<p style="font-size: 14px;"><img src="../frontend/frontend_trangchinh/images/1544498450089.html" alt=""></p>
 </div>
   </div>
 
@@ -5356,7 +5350,7 @@ for (var attr in meta) {
     
   >
 <noscript>
-  <img class="popup_cart_image" src="../frontend/frontend_trangchinh/images/per17_2048x20482cf7.jpg" alt="Herbivore Botanicals">
+  <img class="popup_cart_image" src="/frontend/frontend_trangchinh/images/per17_2048x20482cf7.jpg" alt="Herbivore Botanicals">
 </noscript>
   
   <style>#Image-9807334146112-0 {
@@ -5463,7 +5457,7 @@ for (var attr in meta) {
   
 
   <span>
-  l
+  
   </span>
 
   
@@ -5719,7 +5713,7 @@ for (var attr in meta) {
       <div class="variant_img">
         <a data-tippy-content="
     red
-    " data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme = "sharpborder" href="../frontend/frontend_trangchinh/images/per5_e0d89f6e-ec20-45f9-8cc1-e63ad71a33a6_600x800_crop_bottom2cf7.jpg"><img class="lazyload" data-src="//cdn.shopify.com/s/files/1/0132/3116/1408/products/per5_e0d89f6e-ec20-45f9-8cc1-e63ad71a33a6_icon_crop_center.jpg1551249907" alt=""></a>
+    " data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme = "sharpborder" href="../frontend/frontend_trangchinh/images/per5_e0d89f6e-ec20-45f9-8cc1-e63ad71a33a6_600x800_crop_bottom2cf7.jpg"><img class="lazyload" data-src="../frontend/frontend_trangchinh/images/per5_e0d89f6e-ec20-45f9-8cc1-e63ad71a33a6_icon_crop_center.jpg" alt=""></a>
       </div>
       
     </li>
@@ -6914,7 +6908,7 @@ for (var attr in meta) {
     
   >
 <noscript>
-  <img class="popup_cart_image secondary__img" src="../frontend/frontend_trangchinh/images/per4_2048x2048893d.jpg1551249596" alt="Jasmine Green Tea">
+  <img class="popup_cart_image secondary__img" src="../frontend/frontend_trangchinh/images/per4_2048x2048893d.jpg" alt="Jasmine Green Tea">
 </noscript>
 </a>
 <div class="single-product__floating-badges">
@@ -6983,7 +6977,7 @@ for (var attr in meta) {
 </style><img id="Image-9807344140352-0"
     class="responsive-image__image lazyload popup_cart_image"
     src="http://cdn.shopify.com/s/files/1/0132/3116/1408/t/40/assets/ajax_loader.svg10940409207306785910"
-    data-src="//cdn.shopify.com/s/files/1/0132/3116/1408/products/per8_{width}x.jpg1551249790"
+    data-src="//cdn.shopify.com/s/files/1/0132/3116/1408/products/per8_{width}x.jpg"
     data-widths="[180,360,540,540]"
     data-aspectratio="0.75"
     data-sizes="auto"
@@ -6992,7 +6986,7 @@ for (var attr in meta) {
     
   >
 <noscript>
-  <img class="popup_cart_image" src="../frontend/frontend_trangchinh/images/per8_2048x2048657b.jpg1551249790" alt="Lapis Facial Oil">
+  <img class="popup_cart_image" src="../frontend/frontend_trangchinh/images/per8_2048x2048657b.jpg" alt="Lapis Facial Oil">
 </noscript>
   
   <style>#Image-9807300657216-0 {
@@ -7003,7 +6997,7 @@ for (var attr in meta) {
 </style><img id="Image-9807300657216-0"
     class="responsive-image__image lazyload popup_cart_image secondary__img"
     src="http://cdn.shopify.com/s/files/1/0132/3116/1408/t/40/assets/ajax_loader.svg10940409207306785910"
-    data-src="//cdn.shopify.com/s/files/1/0132/3116/1408/products/per1_0cb67701-e3e5-47c1-8dbe-39823705654f_{width}x.jpg1551249790"
+    data-src="//cdn.shopify.com/s/files/1/0132/3116/1408/products/per1_0cb67701-e3e5-47c1-8dbe-39823705654f_{width}x.jpg"
     data-widths="[180,360,540,720,810]"
     data-aspectratio="0.75"
     data-sizes="auto"
@@ -7012,7 +7006,7 @@ for (var attr in meta) {
     
   >
 <noscript>
-  <img class="popup_cart_image secondary__img" src="../frontend/frontend_trangchinh/images/per1_0cb67701-e3e5-47c1-8dbe-39823705654f_2048x2048657b.jpg1551249790" alt="Lapis Facial Oil">
+  <img class="popup_cart_image secondary__img" src="../frontend/frontend_trangchinh/images/per1_0cb67701-e3e5-47c1-8dbe-39823705654f_2048x2048657b.jpg" alt="Lapis Facial Oil">
 </noscript>
 </a>
 <div class="single-product__floating-badges">
@@ -7105,7 +7099,7 @@ for (var attr in meta) {
     
   >
 <noscript>
-  <img class="popup_cart_image" src="../frontend/frontend_trangchinh/images/w22_2048x2048b9df.jpg1551248197" alt="Light Brown Watch">
+  <img class="popup_cart_image" src="../frontend/frontend_trangchinh/images/w22_2048x2048b9df.jpg" alt="Light Brown Watch">
 </noscript>
   
   <style>#Image-9806458290240-0 {
@@ -7125,7 +7119,7 @@ for (var attr in meta) {
     
   >
 <noscript>
-  <img class="popup_cart_image secondary__img" src="../frontend/frontend_trangchinh/images/w23_2048x2048b9df.jpg1551248197" alt="Light Brown Watch">
+  <img class="popup_cart_image secondary__img" src="../frontend/frontend_trangchinh/images/w23_2048x2048b9df.jpg" alt="Light Brown Watch">
 </noscript>
 </a>
 <div class="single-product__floating-badges">
@@ -7351,7 +7345,7 @@ for (var attr in meta) {
       <div class="variant_img">
         <a data-tippy-content="
     yellow
-    " data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme = "sharpborder" href="../frontend/frontend_trangchinh/images/w23_5b4add9d-9f14-4cb9-9337-284f16ae9ff1_600x800_crop_bottom04e9.jpg../frontend/frontend_trangchinh/images"><img class="lazyload" data-src="//cdn.shopify.com/s/files/1/0132/3116/1408/products/w23_5b4add9d-9f14-4cb9-9337-284f16ae9ff1_icon_crop_center.jpg../frontend/frontend_trangchinh/images" alt=""></a>
+    " data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme = "sharpborder" href="../frontend/frontend_trangchinh/images/w23_5b4add9d-9f14-4cb9-9337-284f16ae9ff1_600x800_crop_bottom04e9.jpg"><img class="lazyload" data-src="//cdn.shopify.com/s/files/1/0132/3116/1408/products/w23_5b4add9d-9f14-4cb9-9337-284f16ae9ff1_icon_crop_center.jpg" alt=""></a>
       </div>
       
     </li>
@@ -7373,7 +7367,7 @@ for (var attr in meta) {
       <div class="variant_img">
         <a data-tippy-content="
     white
-    " data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme = "sharpborder" href="../frontend/frontend_trangchinh/images/w23_5b4add9d-9f14-4cb9-9337-284f16ae9ff1_600x800_crop_bottom04e9.jpg../frontend/frontend_trangchinh/images"><img class="lazyload" data-src="//cdn.shopify.com/s/files/1/0132/3116/1408/products/w23_5b4add9d-9f14-4cb9-9337-284f16ae9ff1_icon_crop_center.jpg../frontend/frontend_trangchinh/images" alt=""></a>
+    " data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme = "sharpborder" href="../frontend/frontend_trangchinh/images/w23_5b4add9d-9f14-4cb9-9337-284f16ae9ff1_600x800_crop_bottom04e9.jpg"><img class="lazyload" data-src="//cdn.shopify.com/s/files/1/0132/3116/1408/products/w23_5b4add9d-9f14-4cb9-9337-284f16ae9ff1_icon_crop_center.jpg" alt=""></a>
       </div>
       
     </li>
@@ -7551,7 +7545,7 @@ for (var attr in meta) {
       <div class="variant_img">
         <a data-tippy-content="
     yellow
-    " data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme = "sharpborder" href="../frontend/frontend_trangchinh/images/w23_5b4add9d-9f14-4cb9-9337-284f16ae9ff1_600x800_crop_bottom04e9.jpg../frontend/frontend_trangchinh/images"><img class="lazyload" data-src="//cdn.shopify.com/s/files/1/0132/3116/1408/products/w23_5b4add9d-9f14-4cb9-9337-284f16ae9ff1_icon_crop_center.jpg../frontend/frontend_trangchinh/images" alt=""></a>
+    " data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme = "sharpborder" href="../frontend/frontend_trangchinh/images/w23_5b4add9d-9f14-4cb9-9337-284f16ae9ff1_600x800_crop_bottom04e9.jpg"><img class="lazyload" data-src="//cdn.shopify.com/s/files/1/0132/3116/1408/products/w23_5b4add9d-9f14-4cb9-9337-284f16ae9ff1_icon_crop_center.jpg" alt=""></a>
       </div>
       
     </li>
@@ -7573,7 +7567,7 @@ for (var attr in meta) {
       <div class="variant_img">
         <a data-tippy-content="
     white
-    " data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme = "sharpborder" href="../frontend/frontend_trangchinh/images/w23_5b4add9d-9f14-4cb9-9337-284f16ae9ff1_600x800_crop_bottom04e9.jpg../frontend/frontend_trangchinh/images"><img class="lazyload" data-src="//cdn.shopify.com/s/files/1/0132/3116/1408/products/w23_5b4add9d-9f14-4cb9-9337-284f16ae9ff1_icon_crop_center.jpg../frontend/frontend_trangchinh/images" alt=""></a>
+    " data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme = "sharpborder" href="../frontend/frontend_trangchinh/images/w23_5b4add9d-9f14-4cb9-9337-284f16ae9ff1_600x800_crop_bottom04e9.jpg"><img class="lazyload" data-src="//cdn.shopify.com/s/files/1/0132/3116/1408/products/w23_5b4add9d-9f14-4cb9-9337-284f16ae9ff1_icon_crop_center.jpg" alt=""></a>
       </div>
       
     </li>
@@ -8518,11 +8512,11 @@ for (var attr in meta) {
 
 
 
-<script src="../../cdn.shopify.com/s/files/1/0132/3116/1408/t/40/assets/isotope.min1864.js15219398260741714579" defer="defer"></script>  
+<script src="/frontend/frontend_trangchinh/js/isotope.min1864.js" defer="defer"></script>  
 
 
 
-<script src="../../cdn.shopify.com/s/files/1/0132/3116/1408/t/40/assets/theme.mina645.js4034074237895092132" defer="defer"></script>
+<script src="/frontend/frontend_trangchinh/js/theme.mina645.js" defer="defer"></script>
 <script>
   
 </script>
@@ -8773,7 +8767,7 @@ for (var attr in meta) {
 
   <span></span>
 
-  <link href="../../cdn.shopify.com/s/global/social/social-icons.css" rel="stylesheet" type="text/css" media="all" />
+  <link href="../frontend/frontend_trangchinh/css/social-icons.css" rel="stylesheet" type="text/css" media="all" />
   <style>
     .social-links a { display: -moz-inline-stack; display: inline-block; zoom: 1; *display: inline; margin: 0; padding: 0.05em; color: #555!important; font-size: 24px!important; }
   </style>
