@@ -1006,914 +1006,914 @@ for (var attr in meta) {
   </div>
 </div><!-- BREADCRUMBS SETCTION END --><main>
       <div id="shopify-section-collection-template" class="shopify-section"><div class="shop-page-wrapper" data-section="collectionTemplate">
-  <div class="shop-page-header">
-    <div class=" container ">
-      <div class="row align-items-center">
-        
-<div class="col-6 col-md-3 col-xl-3 col-lg-3 col-sm-2">
-  <!--=======  filter icons  =======-->
-  <div class="filter-icons">
-    <div class="single-icon grid-icons">
-      <a data-target="five-column" href="javascript:void(0)"><i class="ti-layout-grid4-alt"></i></a>
-      <a data-target="four-column" class="active"  href="javascript:void(0)"><i class="ti-layout-grid3-alt"></i></a>
-      <a data-target="three-column" href="javascript:void(0)"><i class="ti-layout-grid2-alt"></i></a>
-      <a data-target="grid-list" href="javascript:void(0)"><i class="ti-view-list-alt"></i></a>
-    </div>
-  </div>
-  <!--=======  End of filter icons  =======-->
-</div>
-
-
-<div class="col-6 col-xl-9 col-lg-9 col-md-9 col-sm-10">
-  <!--=======  End of grid icons  =======-->
-  <div class="shopbar_right_info">
-    <div class="showing_result d-none d-lg-block">Showing  
-      25 - 36 
-       of  
-      54 
-       result 
-    </div>
-    <div class="product-showing">
-      <p>Show      
-        <select name="paginateBy" id="paginateBy" class="collection-sort__input">
-          
-          
-          <option value="1"
-                  
-                  
-                  >
-            1 
-          </option>
-          
-          
-          <option value="2"
-                  
-                  
-                  >
-            2 
-          </option>
-          
-          
-          <option value="3"
-                  
-                  
-                  >
-            3 
-          </option>
-          
-          
-          <option value="4"
-                  
-                  
-                  >
-            4 
-          </option>
-          
-          
-          <option value="5"
-                  
-                  
-                  >
-            5 
-          </option>
-          
-          
-          <option value="6"
-                  
-                  
-                  >
-            6 
-          </option>
-          
-          
-          <option value="7"
-                  
-                  
-                  >
-            7 
-          </option>
-          
-          
-          <option value="8"
-                  
-                  
-                  >
-            8 
-          </option>
-          
-          
-          <option value="9"
-                  
-                  
-                  >
-            9 
-          </option>
-          
-          
-          <option value="10"
-                  
-                  
-                  >
-            10 
-          </option>
-          
-          
-          <option value="11"
-                  
-                  
-                  >
-            11 
-          </option>
-          
-          
-          <option value="12"
-                  
-                   selected
-                  >
-            12 
-          </option>
-          
-          
-          <option value="13"
-                  
-                  
-                  >
-            13 
-          </option>
-          
-          
-          <option value="14"
-                  
-                  
-                  >
-            14 
-          </option>
-          
-          
-          <option value="15"
-                  
-                  
-                  >
-            15 
-          </option>
-          
-          
-          <option value="16"
-                  
-                  
-                  >
-            16 
-          </option>
-          
-          
-          <option value="17"
-                  
-                  
-                  >
-            17 
-          </option>
-          
-          
-          <option value="18"
-                  
-                  
-                  >
-            18 
-          </option>
-          
-          
-          <option value="19"
-                  
-                  
-                  >
-            19 
-          </option>
-          
-          
-          <option value="20"
-                  
-                  
-                  >
-            20 
-          </option>
-          
-          
-          <option value="21"
-                  
-                  
-                  >
-            21 
-          </option>
-          
-          
-          <option value="22"
-                  
-                  
-                  >
-            22 
-          </option>
-          
-          
-          <option value="23"
-                  
-                  
-                  >
-            23 
-          </option>
-          
-          
-          <option value="24"
-                  
-                  
-                  >
-            24 
-          </option>
-          
-          
-          <option value="25"
-                  
-                  
-                  >
-            25 
-          </option>
-          
-          
-          <option value="26"
-                  
-                  
-                  >
-            26 
-          </option>
-          
-          
-          <option value="27"
-                  
-                  
-                  >
-            27 
-          </option>
-          
-          
-          <option value="28"
-                  
-                  
-                  >
-            28 
-          </option>
-          
-          
-          <option value="29"
-                  
-                  
-                  >
-            29 
-          </option>
-          
-          
-          <option value="30"
-                  
-                  
-                  >
-            30 
-          </option>
-          
-          
-          <option value="31"
-                  
-                  
-                  >
-            31 
-          </option>
-          
-          
-          <option value="32"
-                  
-                  
-                  >
-            32 
-          </option>
-          
-          
-          <option value="33"
-                  
-                  
-                  >
-            33 
-          </option>
-          
-          
-          <option value="34"
-                  
-                  
-                  >
-            34 
-          </option>
-          
-          
-          <option value="35"
-                  
-                  
-                  >
-            35 
-          </option>
-          
-          
-          <option value="36"
-                  
-                  
-                  >
-            36 
-          </option>
-          
-          
-          <option value="37"
-                  
-                  
-                  >
-            37 
-          </option>
-          
-          
-          <option value="38"
-                  
-                  
-                  >
-            38 
-          </option>
-          
-          
-          <option value="39"
-                  
-                  
-                  >
-            39 
-          </option>
-          
-          
-          <option value="40"
-                  
-                  
-                  >
-            40 
-          </option>
-          
-          
-          <option value="41"
-                  
-                  
-                  >
-            41 
-          </option>
-          
-          
-          <option value="42"
-                  
-                  
-                  >
-            42 
-          </option>
-          
-          
-          <option value="43"
-                  
-                  
-                  >
-            43 
-          </option>
-          
-          
-          <option value="44"
-                  
-                  
-                  >
-            44 
-          </option>
-          
-          
-          <option value="45"
-                  
-                  
-                  >
-            45 
-          </option>
-          
-          
-          <option value="46"
-                  
-                  
-                  >
-            46 
-          </option>
-          
-          
-          <option value="47"
-                  
-                  
-                  >
-            47 
-          </option>
-          
-          
-          <option value="48"
-                  
-                  
-                  >
-            48 
-          </option>
-          
-          
-          <option value="49"
-                  
-                  
-                  >
-            49 
-          </option>
-          
-          
-          <option value="50"
-                  
-                  
-                  >
-            50 
-          </option>
-          
-          
-          <option value="51"
-                  
-                  
-                  >
-            51 
-          </option>
-          
-          
-          <option value="52"
-                  
-                  
-                  >
-            52 
-          </option>
-          
-          
-          <option value="53"
-                  
-                  
-                  >
-            53 
-          </option>
-          
-          
-          <option value="54"
-                  
-                  
-                  >
-            54 
-          </option>
-          
-          
-          <option value="55"
-                  
-                  
-                  >
-            55 
-          </option>
-          
-          
-          <option value="56"
-                  
-                  
-                  >
-            56 
-          </option>
-          
-          
-          <option value="57"
-                  
-                  
-                  >
-            57 
-          </option>
-          
-          
-          <option value="58"
-                  
-                  
-                  >
-            58 
-          </option>
-          
-          
-          <option value="59"
-                  
-                  
-                  >
-            59 
-          </option>
-          
-          
-          <option value="60"
-                  
-                  
-                  >
-            60 
-          </option>
-          
-          
-          <option value="61"
-                  
-                  
-                  >
-            61 
-          </option>
-          
-          
-          <option value="62"
-                  
-                  
-                  >
-            62 
-          </option>
-          
-          
-          <option value="63"
-                  
-                  
-                  >
-            63 
-          </option>
-          
-          
-          <option value="64"
-                  
-                  
-                  >
-            64 
-          </option>
-          
-          
-          <option value="65"
-                  
-                  
-                  >
-            65 
-          </option>
-          
-          
-          <option value="66"
-                  
-                  
-                  >
-            66 
-          </option>
-          
-          
-          <option value="67"
-                  
-                  
-                  >
-            67 
-          </option>
-          
-          
-          <option value="68"
-                  
-                  
-                  >
-            68 
-          </option>
-          
-          
-          <option value="69"
-                  
-                  
-                  >
-            69 
-          </option>
-          
-          
-          <option value="70"
-                  
-                  
-                  >
-            70 
-          </option>
-          
-          
-          <option value="71"
-                  
-                  
-                  >
-            71 
-          </option>
-          
-          
-          <option value="72"
-                  
-                  
-                  >
-            72 
-          </option>
-          
-          
-          <option value="73"
-                  
-                  
-                  >
-            73 
-          </option>
-          
-          
-          <option value="74"
-                  
-                  
-                  >
-            74 
-          </option>
-          
-          
-          <option value="75"
-                  
-                  
-                  >
-            75 
-          </option>
-          
-          
-          <option value="76"
-                  
-                  
-                  >
-            76 
-          </option>
-          
-          
-          <option value="77"
-                  
-                  
-                  >
-            77 
-          </option>
-          
-          
-          <option value="78"
-                  
-                  
-                  >
-            78 
-          </option>
-          
-          
-          <option value="79"
-                  
-                  
-                  >
-            79 
-          </option>
-          
-          
-          <option value="80"
-                  
-                  
-                  >
-            80 
-          </option>
-          
-          
-          <option value="81"
-                  
-                  
-                  >
-            81 
-          </option>
-          
-          
-          <option value="82"
-                  
-                  
-                  >
-            82 
-          </option>
-          
-          
-          <option value="83"
-                  
-                  
-                  >
-            83 
-          </option>
-          
-          
-          <option value="84"
-                  
-                  
-                  >
-            84 
-          </option>
-          
-          
-          <option value="85"
-                  
-                  
-                  >
-            85 
-          </option>
-          
-          
-          <option value="86"
-                  
-                  
-                  >
-            86 
-          </option>
-          
-          
-          <option value="87"
-                  
-                  
-                  >
-            87 
-          </option>
-          
-          
-          <option value="88"
-                  
-                  
-                  >
-            88 
-          </option>
-          
-          
-          <option value="89"
-                  
-                  
-                  >
-            89 
-          </option>
-          
-          
-          <option value="90"
-                  
-                  
-                  >
-            90 
-          </option>
-          
-          
-          <option value="91"
-                  
-                  
-                  >
-            91 
-          </option>
-          
-          
-          <option value="92"
-                  
-                  
-                  >
-            92 
-          </option>
-          
-          
-          <option value="93"
-                  
-                  
-                  >
-            93 
-          </option>
-          
-          
-          <option value="94"
-                  
-                  
-                  >
-            94 
-          </option>
-          
-          
-          <option value="95"
-                  
-                  
-                  >
-            95 
-          </option>
-          
-          
-          <option value="96"
-                  
-                  
-                  >
-            96 
-          </option>
-          
-          
-          <option value="97"
-                  
-                  
-                  >
-            97 
-          </option>
-          
-          
-          <option value="98"
-                  
-                  
-                  >
-            98 
-          </option>
-          
-          
-          <option value="99"
-                  
-                  
-                  >
-            99 
-          </option>
-          
-          
-          <option value="100"
-                  
-                  
-                  >
-            100 
-          </option>
-          
-        </select>      
-        <span class="ajax_paginate__text"> per page</span>
-      </p>
-    </div><div class="single-icon filter-dropdown d-none d-sm-block">
-      <label for="SortBy">Sort by: </label>
-      <select name="SortBy" id="SortBy">
-        <option value="manual">Featured</option>
-        <option value="best-selling">Best Selling</option>
-        <option value="title-ascending">Alphabetically, A-Z</option>
-        <option value="title-descending">Alphabetically, Z-A</option>
-        <option value="price-ascending">Price, low to high</option>
-        <option value="price-descending">Price, high to low</option>
-        <option value="created-descending">Date, new to old</option>
-        <option value="created-ascending">Date, old to new</option>
-      </select>
-    </div><!--=======  advance filter icon  =======-->
-
-    
-    <div class="single-icon advance-filter-icon d-none d-lg-block">
-      <a href="javascript:void(0)" id="advance-filter-active-btn"><i class="ion-android-funnel"></i> Filters</a>
-    </div>
-    
-    <div class="single-icon advance-filter-icon d-lg-none">
-      <a id="sidebar-filter-active-btn" href="javascript:void(0)"><i class="ion-android-funnel"></i> Filters</a>
-    </div>
-    
-
-  </div>
-
-</div>
-
-
-
-
-<script>
-  Shopify.queryParams = {};
-  if (location.search.length) {
-    for (var aKeyValue, i = 0, aCouples = location.search.substr(1).split('&'); i < aCouples.length; i++) {
-      aKeyValue = aCouples[i].split('=');
-      if (aKeyValue.length > 1) {
-        Shopify.queryParams[decodeURIComponent(aKeyValue[0])] = decodeURIComponent(aKeyValue[1]);
-      }
-    }
-  }
-
-  $(function() {
-    $('#SortBy')
-    .val('title-ascending')
-         .bind('change', function() {
-      Shopify.queryParams.sort_by = jQuery(this).val();
-      location.search = jQuery.param(Shopify.queryParams);
-    }
-    );
-  });
-  
-  
-  $('#paginateBy').on('change', function(){
-    var val = $(this).val();
-    $.ajax({
-      type: "POST",
-      url: '/cart.js',
-      data: {"attributes[pagination]": val},
-      success: function(d){
-        window.location.reload();
-      },
-      dataType: 'json'
-    });
-  });
-  
-  
-  
-  
-  
-</script>
+        <div class="shop-page-header">
+          <div class=" container ">
+            <div class="row align-items-center">
+              
+      <div class="col-6 col-md-3 col-xl-3 col-lg-3 col-sm-2">
+        <!--=======  filter icons  =======-->
+        <div class="filter-icons">
+          <div class="single-icon grid-icons">
+            <a data-target="five-column" href="javascript:void(0)"><i class="ti-layout-grid4-alt"></i></a>
+            <a data-target="four-column" class="active"  href="javascript:void(0)"><i class="ti-layout-grid3-alt"></i></a>
+            <a data-target="three-column" href="javascript:void(0)"><i class="ti-layout-grid2-alt"></i></a>
+            <a data-target="grid-list" href="javascript:void(0)"><i class="ti-view-list-alt"></i></a>
+          </div>
+        </div>
+        <!--=======  End of filter icons  =======-->
       </div>
-    </div>
-  </div>
+      
+      
+      <div class="col-6 col-xl-9 col-lg-9 col-md-9 col-sm-10">
+        <!--=======  End of grid icons  =======-->
+        <div class="shopbar_right_info">
+          <div class="showing_result d-none d-lg-block">Showing  
+            25 - 36 
+             of  
+            54 
+             result 
+          </div>
+          <div class="product-showing">
+            <p>Show      
+              <select name="paginateBy" id="paginateBy" class="collection-sort__input">
+                
+                
+                <option value="1"
+                        
+                        
+                        >
+                  1 
+                </option>
+                
+                
+                <option value="2"
+                        
+                        
+                        >
+                  2 
+                </option>
+                
+                
+                <option value="3"
+                        
+                        
+                        >
+                  3 
+                </option>
+                
+                
+                <option value="4"
+                        
+                        
+                        >
+                  4 
+                </option>
+                
+                
+                <option value="5"
+                        
+                        
+                        >
+                  5 
+                </option>
+                
+                
+                <option value="6"
+                        
+                        
+                        >
+                  6 
+                </option>
+                
+                
+                <option value="7"
+                        
+                        
+                        >
+                  7 
+                </option>
+                
+                
+                <option value="8"
+                        
+                        
+                        >
+                  8 
+                </option>
+                
+                
+                <option value="9"
+                        
+                        
+                        >
+                  9 
+                </option>
+                
+                
+                <option value="10"
+                        
+                        
+                        >
+                  10 
+                </option>
+                
+                
+                <option value="11"
+                        
+                        
+                        >
+                  11 
+                </option>
+                
+                
+                <option value="12"
+                        
+                         selected
+                        >
+                  12 
+                </option>
+                
+                
+                <option value="13"
+                        
+                        
+                        >
+                  13 
+                </option>
+                
+                
+                <option value="14"
+                        
+                        
+                        >
+                  14 
+                </option>
+                
+                
+                <option value="15"
+                        
+                        
+                        >
+                  15 
+                </option>
+                
+                
+                <option value="16"
+                        
+                        
+                        >
+                  16 
+                </option>
+                
+                
+                <option value="17"
+                        
+                        
+                        >
+                  17 
+                </option>
+                
+                
+                <option value="18"
+                        
+                        
+                        >
+                  18 
+                </option>
+                
+                
+                <option value="19"
+                        
+                        
+                        >
+                  19 
+                </option>
+                
+                
+                <option value="20"
+                        
+                        
+                        >
+                  20 
+                </option>
+                
+                
+                <option value="21"
+                        
+                        
+                        >
+                  21 
+                </option>
+                
+                
+                <option value="22"
+                        
+                        
+                        >
+                  22 
+                </option>
+                
+                
+                <option value="23"
+                        
+                        
+                        >
+                  23 
+                </option>
+                
+                
+                <option value="24"
+                        
+                        
+                        >
+                  24 
+                </option>
+                
+                
+                <option value="25"
+                        
+                        
+                        >
+                  25 
+                </option>
+                
+                
+                <option value="26"
+                        
+                        
+                        >
+                  26 
+                </option>
+                
+                
+                <option value="27"
+                        
+                        
+                        >
+                  27 
+                </option>
+                
+                
+                <option value="28"
+                        
+                        
+                        >
+                  28 
+                </option>
+                
+                
+                <option value="29"
+                        
+                        
+                        >
+                  29 
+                </option>
+                
+                
+                <option value="30"
+                        
+                        
+                        >
+                  30 
+                </option>
+                
+                
+                <option value="31"
+                        
+                        
+                        >
+                  31 
+                </option>
+                
+                
+                <option value="32"
+                        
+                        
+                        >
+                  32 
+                </option>
+                
+                
+                <option value="33"
+                        
+                        
+                        >
+                  33 
+                </option>
+                
+                
+                <option value="34"
+                        
+                        
+                        >
+                  34 
+                </option>
+                
+                
+                <option value="35"
+                        
+                        
+                        >
+                  35 
+                </option>
+                
+                
+                <option value="36"
+                        
+                        
+                        >
+                  36 
+                </option>
+                
+                
+                <option value="37"
+                        
+                        
+                        >
+                  37 
+                </option>
+                
+                
+                <option value="38"
+                        
+                        
+                        >
+                  38 
+                </option>
+                
+                
+                <option value="39"
+                        
+                        
+                        >
+                  39 
+                </option>
+                
+                
+                <option value="40"
+                        
+                        
+                        >
+                  40 
+                </option>
+                
+                
+                <option value="41"
+                        
+                        
+                        >
+                  41 
+                </option>
+                
+                
+                <option value="42"
+                        
+                        
+                        >
+                  42 
+                </option>
+                
+                
+                <option value="43"
+                        
+                        
+                        >
+                  43 
+                </option>
+                
+                
+                <option value="44"
+                        
+                        
+                        >
+                  44 
+                </option>
+                
+                
+                <option value="45"
+                        
+                        
+                        >
+                  45 
+                </option>
+                
+                
+                <option value="46"
+                        
+                        
+                        >
+                  46 
+                </option>
+                
+                
+                <option value="47"
+                        
+                        
+                        >
+                  47 
+                </option>
+                
+                
+                <option value="48"
+                        
+                        
+                        >
+                  48 
+                </option>
+                
+                
+                <option value="49"
+                        
+                        
+                        >
+                  49 
+                </option>
+                
+                
+                <option value="50"
+                        
+                        
+                        >
+                  50 
+                </option>
+                
+                
+                <option value="51"
+                        
+                        
+                        >
+                  51 
+                </option>
+                
+                
+                <option value="52"
+                        
+                        
+                        >
+                  52 
+                </option>
+                
+                
+                <option value="53"
+                        
+                        
+                        >
+                  53 
+                </option>
+                
+                
+                <option value="54"
+                        
+                        
+                        >
+                  54 
+                </option>
+                
+                
+                <option value="55"
+                        
+                        
+                        >
+                  55 
+                </option>
+                
+                
+                <option value="56"
+                        
+                        
+                        >
+                  56 
+                </option>
+                
+                
+                <option value="57"
+                        
+                        
+                        >
+                  57 
+                </option>
+                
+                
+                <option value="58"
+                        
+                        
+                        >
+                  58 
+                </option>
+                
+                
+                <option value="59"
+                        
+                        
+                        >
+                  59 
+                </option>
+                
+                
+                <option value="60"
+                        
+                        
+                        >
+                  60 
+                </option>
+                
+                
+                <option value="61"
+                        
+                        
+                        >
+                  61 
+                </option>
+                
+                
+                <option value="62"
+                        
+                        
+                        >
+                  62 
+                </option>
+                
+                
+                <option value="63"
+                        
+                        
+                        >
+                  63 
+                </option>
+                
+                
+                <option value="64"
+                        
+                        
+                        >
+                  64 
+                </option>
+                
+                
+                <option value="65"
+                        
+                        
+                        >
+                  65 
+                </option>
+                
+                
+                <option value="66"
+                        
+                        
+                        >
+                  66 
+                </option>
+                
+                
+                <option value="67"
+                        
+                        
+                        >
+                  67 
+                </option>
+                
+                
+                <option value="68"
+                        
+                        
+                        >
+                  68 
+                </option>
+                
+                
+                <option value="69"
+                        
+                        
+                        >
+                  69 
+                </option>
+                
+                
+                <option value="70"
+                        
+                        
+                        >
+                  70 
+                </option>
+                
+                
+                <option value="71"
+                        
+                        
+                        >
+                  71 
+                </option>
+                
+                
+                <option value="72"
+                        
+                        
+                        >
+                  72 
+                </option>
+                
+                
+                <option value="73"
+                        
+                        
+                        >
+                  73 
+                </option>
+                
+                
+                <option value="74"
+                        
+                        
+                        >
+                  74 
+                </option>
+                
+                
+                <option value="75"
+                        
+                        
+                        >
+                  75 
+                </option>
+                
+                
+                <option value="76"
+                        
+                        
+                        >
+                  76 
+                </option>
+                
+                
+                <option value="77"
+                        
+                        
+                        >
+                  77 
+                </option>
+                
+                
+                <option value="78"
+                        
+                        
+                        >
+                  78 
+                </option>
+                
+                
+                <option value="79"
+                        
+                        
+                        >
+                  79 
+                </option>
+                
+                
+                <option value="80"
+                        
+                        
+                        >
+                  80 
+                </option>
+                
+                
+                <option value="81"
+                        
+                        
+                        >
+                  81 
+                </option>
+                
+                
+                <option value="82"
+                        
+                        
+                        >
+                  82 
+                </option>
+                
+                
+                <option value="83"
+                        
+                        
+                        >
+                  83 
+                </option>
+                
+                
+                <option value="84"
+                        
+                        
+                        >
+                  84 
+                </option>
+                
+                
+                <option value="85"
+                        
+                        
+                        >
+                  85 
+                </option>
+                
+                
+                <option value="86"
+                        
+                        
+                        >
+                  86 
+                </option>
+                
+                
+                <option value="87"
+                        
+                        
+                        >
+                  87 
+                </option>
+                
+                
+                <option value="88"
+                        
+                        
+                        >
+                  88 
+                </option>
+                
+                
+                <option value="89"
+                        
+                        
+                        >
+                  89 
+                </option>
+                
+                
+                <option value="90"
+                        
+                        
+                        >
+                  90 
+                </option>
+                
+                
+                <option value="91"
+                        
+                        
+                        >
+                  91 
+                </option>
+                
+                
+                <option value="92"
+                        
+                        
+                        >
+                  92 
+                </option>
+                
+                
+                <option value="93"
+                        
+                        
+                        >
+                  93 
+                </option>
+                
+                
+                <option value="94"
+                        
+                        
+                        >
+                  94 
+                </option>
+                
+                
+                <option value="95"
+                        
+                        
+                        >
+                  95 
+                </option>
+                
+                
+                <option value="96"
+                        
+                        
+                        >
+                  96 
+                </option>
+                
+                
+                <option value="97"
+                        
+                        
+                        >
+                  97 
+                </option>
+                
+                
+                <option value="98"
+                        
+                        
+                        >
+                  98 
+                </option>
+                
+                
+                <option value="99"
+                        
+                        
+                        >
+                  99 
+                </option>
+                
+                
+                <option value="100"
+                        
+                        
+                        >
+                  100 
+                </option>
+                
+              </select>      
+              <span class="ajax_paginate__text"> per page</span>
+            </p>
+          </div><div class="single-icon filter-dropdown d-none d-sm-block">
+            <label for="SortBy">Sort by: </label>
+            <select name="SortBy" id="SortBy">
+              <option value="manual">Featured</option>
+              <option value="best-selling">Best Selling</option>
+              <option value="title-ascending">Alphabetically, A-Z</option>
+              <option value="title-descending">Alphabetically, Z-A</option>
+              <option value="price-ascending">Price, low to high</option>
+              <option value="price-descending">Price, high to low</option>
+              <option value="created-descending">Date, new to old</option>
+              <option value="created-ascending">Date, old to new</option>
+            </select>
+          </div><!--=======  advance filter icon  =======-->
+      
+          
+          <div class="single-icon advance-filter-icon d-none d-lg-block">
+            <a href="javascript:void(0)" id="advance-filter-active-btn"><i class="ion-android-funnel"></i> Filters</a>
+          </div>
+          
+          <div class="single-icon advance-filter-icon d-lg-none">
+            <a id="sidebar-filter-active-btn" href="javascript:void(0)"><i class="ion-android-funnel"></i> Filters</a>
+          </div>
+          
+      
+        </div>
+      
+      </div>
+      
+      
+      
+      
+      <script>
+        Shopify.queryParams = {};
+        if (location.search.length) {
+          for (var aKeyValue, i = 0, aCouples = location.search.substr(1).split('&'); i < aCouples.length; i++) {
+            aKeyValue = aCouples[i].split('=');
+            if (aKeyValue.length > 1) {
+              Shopify.queryParams[decodeURIComponent(aKeyValue[0])] = decodeURIComponent(aKeyValue[1]);
+            }
+          }
+        }
+      
+        $(function() {
+          $('#SortBy')
+          .val('title-ascending')
+               .bind('change', function() {
+            Shopify.queryParams.sort_by = jQuery(this).val();
+            location.search = jQuery.param(Shopify.queryParams);
+          }
+          );
+        });
+        
+        
+        $('#paginateBy').on('change', function(){
+          var val = $(this).val();
+          $.ajax({
+            type: "POST",
+            url: '/cart.js',
+            data: {"attributes[pagination]": val},
+            success: function(d){
+              window.location.reload();
+            },
+            dataType: 'json'
+          });
+        });
+        
+        
+        
+        
+        
+      </script>
+            </div>
+          </div>
+        </div>
   
 
   
@@ -1964,10 +1964,15 @@ for (var attr in meta) {
         <div class="col-lg-2 col-md-4 col-sm-6 mb-50">
           <!--=======  single advance filte  =======-->
 
-          <div class="single-filter-widget"><h2 class="single-filter-widget--title">Vendors</h2><ul class="single-filter-widget--list single-filter-widget--list--category">
+          <div class="single-filter-widget"><h2 class="single-filter-widget--title">Thương hiệu sản phẩm</h2><ul class="single-filter-widget--list single-filter-widget--list--category">
               
               
-              <li><a href="vendorsb74e.html?q=Lezada%20-%20Multipurpose%20eCommerce%20Shopify%20Theme" title="Lezada - Multipurpose eCommerce Shopify Theme">Lezada - Multipurpose eCommerce Shopify Theme</a></li> 
+            @foreach ($brand as $key => $br)
+            <ul>
+                   <li class="active"><a href="{{URL::to('/thuong-hieu-san-pham/'.$br->brand_id)}}">{{($br->brand_name)}}</a></li>
+                 
+                   </ul>
+     @endforeach
               
               <li><a href="vendors323e.html?q=Vendor%201" title="Vendor 1">Vendor 1</a></li> 
               
@@ -2234,18 +2239,15 @@ for (var attr in meta) {
     
     
     
-    <div class="single-sidebar-widget mb-40"><h2 class="single-sidebar-widget--title">Categories</h2><ul class="single-sidebar-widget--list single-sidebar-widget--list--category">
+    <div class="single-sidebar-widget mb-40"><h2 class="single-sidebar-widget--title">Danh mục sản phẩm</h2><ul class="single-sidebar-widget--list single-sidebar-widget--list--category">
         
         
-        <li class=""><a href="bags.html">Bags <span>(2)</span></a></li>
+      @foreach ($category as $key => $cate)
+      <li class="active"><a href="{{URL::to('/danh-muc-san-pham/'.$cate->category_id)}}">{{($cate->category_name)}}<span>(2)</span></a></li>
         
-        <li class=""><a href="bestselling.html">Bestselling <span>(2)</span></a></li>
+      @endforeach
         
-        <li class=""><a href="fashion.html">Fashion <span>(17)</span></a></li>
-        
-        <li class=""><a href="featured.html">Featured <span>(4)</span></a></li>
-        
-        <li class=""><a href="frontpage.html">Home page <span>(4)</span></a></li>
+      
         
 
       </ul>
@@ -2254,18 +2256,19 @@ for (var attr in meta) {
     
     
     
-    <div class="single-sidebar-widget mb-40"><h2 class="single-filter-widget--title">Vendors</h2><ul class="single-filter-widget--list single-filter-widget--list--category">
+    <div class="single-sidebar-widget mb-40"><h2 class="single-filter-widget--title">Thương hiệu sản phẩm</h2><ul class="single-filter-widget--list single-filter-widget--list--category">
         
         
-        <li><a href="vendorsb74e.html?q=Lezada%20-%20Multipurpose%20eCommerce%20Shopify%20Theme" title="Lezada - Multipurpose eCommerce Shopify Theme">Lezada - Multipurpose eCommerce Shopify Theme</a></li> 
+      @foreach ($brand as $key => $br)
+      <ul>
+             <li class="active"><a href="{{URL::to('/thuong-hieu-san-pham/'.$br->brand_id)}}">{{($br->brand_name)}}</a></li>
+           
+             </ul>
+@endforeach
         
         <li><a href="vendors323e.html?q=Vendor%201" title="Vendor 1">Vendor 1</a></li> 
         
-        <li><a href="vendors070d.html?q=Vendor%2010" title="Vendor 10">Vendor 10</a></li> 
         
-        <li><a href="vendors16d1.html?q=Vendor%2011" title="Vendor 11">Vendor 11</a></li> 
-        
-        <li><a href="vendorsc606.html?q=Vendor%202" title="Vendor 2">Vendor 2</a></li> 
         
       </ul>
     </div>
@@ -2428,7 +2431,12 @@ for (var attr in meta) {
           
 
           
-          <div class="row  product-isotope shop-product-wrap four-column"><div class="col-6 col-sm-6 col-lg-3 col-md-4 col-sm-6 mb-45">
+          <div class="row  product-isotope shop-product-wrap four-column">
+            
+
+
+            @yield('content_product')
+            <div class="col-6 col-sm-6 col-lg-3 col-md-4 col-sm-6 mb-45">
               
 <div class="single-product  18938903527488   ">
   <div class="single-product__image"><!-- Product Image Lazyload with Retina  -->
@@ -3198,1050 +3206,7 @@ for (var attr in meta) {
 </div>
             </div>
 
-            <div class="col-6 col-sm-6 col-lg-3 col-md-4 col-sm-6 mb-45">
-              
-<div class="single-product  18938772127808   sold_out_prod  ">
-  <div class="single-product__image"><!-- Product Image Lazyload with Retina  -->
-<a class="image-wrap" href="../products/dummy-product-name-2.html">
-  
-   <style>#Image-9802874781760-0 {
-      max-width: 600.0px;
-      max-height: 800px;
-    }
-  
-</style><img id="Image-9802874781760-0"
-    class="responsive-image__image lazyload popup_cart_image"
-    src="http://cdn.shopify.com/s/files/1/0132/3116/1408/t/40/assets/ajax_loader.svg10940409207306785910"
-    data-src="//cdn.shopify.com/s/files/1/0132/3116/1408/products/f19_{width}x..jpg"
-    data-widths="[180,360,540,720,810]"
-    data-aspectratio="0.75"
-    data-sizes="auto"
-    tabindex="-1"
-    alt="Denim Jacket"
-    
-  >
-<noscript>
-  <img class="popup_cart_image" src="../frontend/frontend_trangchinh/images/f19_2048x2048bdbe..jpg" alt="Denim Jacket">
-</noscript>
-  
-  <style>#Image-9802875043904-0 {
-      max-width: 600.0px;
-      max-height: 800px;
-    }
-  
-</style><img id="Image-9802875043904-0"
-    class="responsive-image__image lazyload popup_cart_image secondary__img"
-    src="http://cdn.shopify.com/s/files/1/0132/3116/1408/t/40/assets/ajax_loader.svg10940409207306785910"
-    data-src="//cdn.shopify.com/s/files/1/0132/3116/1408/products/f20_{width}x.jpg1551239711"
-    data-widths="[180,360,540,720,810]"
-    data-aspectratio="0.75"
-    data-sizes="auto"
-    tabindex="-1"
-    alt="Denim Jacket"
-    
-  >
-<noscript>
-  <img class="popup_cart_image secondary__img" src="../frontend/frontend_trangchinh/images/f20_2048x2048c885.jpg" alt="Denim Jacket">
-</noscript>
-</a>
-<div class="single-product__floating-badges">
-<span class="soldout-title">Soldout</span>
-</div>
-
-    <div class="single-product__floating-icons"><span class="wishlist_inner">
-<a class="wishlist" href="../account/login.html" data-tippy-content="Add To Wishlist" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme = "sharpborder" data-tippy-placement = "left">
-<i class="ion-android-favorite-outline"></i>
-</a>
-
-
-</span><span class="compare"><a  href="#" data-tippy-content="Compare" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme = "sharpborder" data-tippy-placement = "left"  class="compare" data-pid="dummy-product-name-2"><i class="ion-ios-shuffle-strong"></i></a> </span><span class="quickview">
-        <a data-toggle="modal" data-target="#quickViewModal" href="javascript:void(0);" onclick="quiqview('dummy-product-name-2')"  data-tippy-content="Quick View" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme = "sharpborder" data-tippy-placement = "left"  ><i class="ion-ios-search-strong"></i></a></span></div>
-    
-    <div class="single-product__variations d-none d-lg-block">
-        <div class="size-container ">
-  
-  
-  
-  
-  
-  
-  
-  
-
-  
-
-  <span>
-  x
-  </span>
-
-  
-
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-
-  
-
-  <span>
-  l
-  </span>
-
-  
-
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-
-  
-
-  <span>
-  m
-  </span>
-
-  
-
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-
-  
-
-  <span>
-  xl
-  </span>
-
-  
-
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-
-  
-
-  <span>
-  s
-  </span>
-
-  
-
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-
-  
-
-  <span>
-  xxl
-  </span>
-
-  
-
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-
-  
-
-  <span>
-  xxxl
-  </span>
-
-  
-
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-  
-  
-</div>
-
-        <div class="color-container">
-  <ul class="grid-color-swatch ">
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-
-    <li  class="img_variant" >
-      
-
-      
-      <div class="variant_img">
-        <a data-tippy-content="
-    black
-    " data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme = "sharpborder" href="../frontend/frontend_trangchinh/images/f19_600x800_crop_bottombdbe.jpg"><img class="lazyload" data-src="//cdn.shopify.com/s/files/1/0132/3116/1408/products/f19_icon_crop_center..jpg" alt=""></a>
-      </div>
-      
-    </li>
-
-    
-
-    
-    
-
-    
-    
-    
-    
-
-    <li  class="img_variant" >
-      
-
-      
-      <div class="variant_img">
-        <a data-tippy-content="
-    blue
-    " data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme = "sharpborder" href="../frontend/frontend_trangchinh/images/f20_600x800_crop_bottomc885.jpg"><img class="lazyload" data-src="//cdn.shopify.com/s/files/1/0132/3116/1408/products/f20_icon_crop_center.jpg1551239711" alt=""></a>
-      </div>
-      
-    </li>
-
-    
-
-    
-    
-
-    
-    
-    
-    
-
-    <li  class="img_variant" >
-      
-
-      
-      <div class="variant_img">
-        <a data-tippy-content="
-    white
-    " data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme = "sharpborder" href="../frontend/frontend_trangchinh/images/f30_600x800_crop_bottom13d8.jpg"><img class="lazyload" data-src="//cdn.shopify.com/s/files/1/0132/3116/1408/products/f30_icon_crop_center.jpg" alt=""></a>
-      </div>
-      
-    </li>
-
-    
-
-    
-    
-
-    
-    
-    
-    
-
-    <li  class="img_variant" >
-      
-
-      
-      <div class="variant_img">
-        <a data-tippy-content="
-    green
-    " data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme = "sharpborder" href="../frontend/frontend_trangchinh/images/f31_600x800_crop_bottomb40d.jpg"><img class="lazyload" data-src="//cdn.shopify.com/s/files/1/0132/3116/1408/products/f31_icon_crop_center.jpg" alt=""></a>
-      </div>
-      
-    </li>
-
-    
-
-    
-    
-
-    
-    
-    
-    
-
-    <li  class="img_variant" >
-      
-
-      
-      <div class="variant_img">
-        <a data-tippy-content="
-    red
-    " data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme = "sharpborder" href="../frontend/frontend_trangchinh/images/f41_600x800_crop_bottom1bf1.jpg"><img class="lazyload" data-src="//cdn.shopify.com/s/files/1/0132/3116/1408/products/f41_icon_crop_center.jpg" alt=""></a>
-      </div>
-      
-    </li>
-
-    
-
-    
-    
-
-    
-    
-    
-
-    
-    
-    
-
-    
-    
-    
-
-    
-    
-    
-
-    
-    
-    
-
-    
-    
-    
-
-    
-    
-    
-
-    
-    
-    
-
-    
-    
-    
-
-    
-    
-    
-
-    
-    
-    
-
-    
-    
-    
-
-    
-    
-    
-
-    
-    
-    
-
-    
-    
-    
-
-    
-    
-    
-
-    
-    
-    
-
-    
-    
-    
-
-    
-    
-    
-
-    
-    
-    
-
-    
-    
-    
-
-    
-    
-    
-
-    
-    
-    
-
-    
-    
-    
-
-    
-    
-    
-
-    
-    
-    
-
-    
-    
-    
-
-    
-    
-    
-
-    
-    
-    
-
-    
-    
-    
-
-    
-    
-    
-  </ul>
-</div>
-
-    </div>
-    
-    
-    
-  </div>
-  <div class="single-product__content ">
-    <div class="title"><h3 class="popup_cart_title">  <a href="../products/dummy-product-name-2.html">Denim Jacket</a></h3><div class="product-cart-action">
-        <button class="cart-disable">
-          <span class="cart-text">Soldout</span>
-        </button></div></div>
-    <div>
-    <div class="price">
-      <span id="product_current_price" class="discounted-price" ><span class=money>$19.00</span></span>
-      
-      <span class="main-price discounted "><span class=money>$29.00</span></span>
-      
-    </div>
-    </div>
-    
-    
-    <div class="single-product__variations mobile__view d-lg-none">
-        <div class="size-container ">
-  
-  
-  
-  
-  
-  
-  
-  
-
-  
-
-  <span>
-  x
-  </span>
-
-  
-
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-
-  
-
-  <span>
-  l
-  </span>
-
-  
-
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-
-  
-
-  <span>
-  m
-  </span>
-
-  
-
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-
-  
-
-  <span>
-  xl
-  </span>
-
-  
-
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-
-  
-
-  <span>
-  s
-  </span>
-
-  
-
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-
-  
-
-  <span>
-  xxl
-  </span>
-
-  
-
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-
-  
-
-  <span>
-  xxxl
-  </span>
-
-  
-
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-  
-  
-</div>
-
-        <div class="color-container">
-  <ul class="grid-color-swatch ">
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-
-    <li  class="img_variant" >
-      
-
-      
-      <div class="variant_img">
-        <a data-tippy-content="
-    black
-    " data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme = "sharpborder" href="../frontend/frontend_trangchinh/images/f19_600x800_crop_bottombdbe.jpg"><img class="lazyload" data-src="//cdn.shopify.com/s/files/1/0132/3116/1408/products/f19_icon_crop_center..jpg" alt=""></a>
-      </div>
-      
-    </li>
-
-    
-
-    
-    
-
-    
-    
-    
-    
-
-    <li  class="img_variant" >
-      
-
-      
-      <div class="variant_img">
-        <a data-tippy-content="
-    blue
-    " data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme = "sharpborder" href="../frontend/frontend_trangchinh/images/f20_600x800_crop_bottomc885.jpg"><img class="lazyload" data-src="//cdn.shopify.com/s/files/1/0132/3116/1408/products/f20_icon_crop_center.jpg1551239711" alt=""></a>
-      </div>
-      
-    </li>
-
-    
-
-    
-    
-
-    
-    
-    
-    
-
-    <li  class="img_variant" >
-      
-
-      
-      <div class="variant_img">
-        <a data-tippy-content="
-    white
-    " data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme = "sharpborder" href="../frontend/frontend_trangchinh/images/f30_600x800_crop_bottom13d8.jpg"><img class="lazyload" data-src="//cdn.shopify.com/s/files/1/0132/3116/1408/products/f30_icon_crop_center.jpg" alt=""></a>
-      </div>
-      
-    </li>
-
-    
-
-    
-    
-
-    
-    
-    
-    
-
-    <li  class="img_variant" >
-      
-
-      
-      <div class="variant_img">
-        <a data-tippy-content="
-    green
-    " data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme = "sharpborder" href="../frontend/frontend_trangchinh/images/f31_600x800_crop_bottomb40d.jpg"><img class="lazyload" data-src="//cdn.shopify.com/s/files/1/0132/3116/1408/products/f31_icon_crop_center.jpg" alt=""></a>
-      </div>
-      
-    </li>
-
-    
-
-    
-    
-
-    
-    
-    
-    
-
-    <li  class="img_variant" >
-      
-
-      
-      <div class="variant_img">
-        <a data-tippy-content="
-    red
-    " data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme = "sharpborder" href="../frontend/frontend_trangchinh/images/f41_600x800_crop_bottom1bf1.jpg"><img class="lazyload" data-src="//cdn.shopify.com/s/files/1/0132/3116/1408/products/f41_icon_crop_center.jpg" alt=""></a>
-      </div>
-      
-    </li>
-
-    
-
-    
-    
-
-    
-    
-    
-
-    
-    
-    
-
-    
-    
-    
-
-    
-    
-    
-
-    
-    
-    
-
-    
-    
-    
-
-    
-    
-    
-
-    
-    
-    
-
-    
-    
-    
-
-    
-    
-    
-
-    
-    
-    
-
-    
-    
-    
-
-    
-    
-    
-
-    
-    
-    
-
-    
-    
-    
-
-    
-    
-    
-
-    
-    
-    
-
-    
-    
-    
-
-    
-    
-    
-
-    
-    
-    
-
-    
-    
-    
-
-    
-    
-    
-
-    
-    
-    
-
-    
-    
-    
-
-    
-    
-    
-
-    
-    
-    
-
-    
-    
-    
-
-    
-    
-    
-
-    
-    
-    
-
-    
-    
-    
-
-    
-    
-    
-  </ul>
-</div>
-
-    </div>
-    
-    
-    <div class="product-description">
-<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
-
-</div>
-  </div>
-
-  <!--=======  End of single product content  =======-->
-</div>
-            </div>
-
+            
             <div class="col-6 col-sm-6 col-lg-3 col-md-4 col-sm-6 mb-45">
               
 <div class="single-product  18938841825344   ">
