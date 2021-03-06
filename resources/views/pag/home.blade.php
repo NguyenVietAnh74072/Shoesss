@@ -2,12 +2,13 @@
 @section('content_product')
 
 @foreach($all_product as $key => $product)
+         
 <div class="col-6 col-sm-6 col-lg-3 col-md-4 col-sm-6 mb-45">
 
               
   <div class="single-product  18938903527488   ">
     <div class="single-product__image"><!-- Product Image Lazyload with Retina  -->
-  <a class="image-wrap" href="../products/product-dummy-title.html">
+  <a class="image-wrap" href="{{URL::to('/chi-tiet-san-pham/'.$product->product_id)}}">
     
      <style>#Image-9806251065408-0 {
         max-width: 600.0px;
@@ -772,7 +773,9 @@
     <!--=======  End of single product content  =======-->
   </div>
   
-              </div>  @endforeach
+              </div>
+               
+              @endforeach
            
 
                 

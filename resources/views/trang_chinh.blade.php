@@ -561,7 +561,7 @@ for (var attr in meta) {
 		
         <!--=======  header bottom navigation  =======--><div class="header-bottom-navigation">
           <div class="site-main-nav d-none d-lg-block">
-            <nav class="site-nav center-menu"><ul><li><a href="index.html">Homeeeeeeeeeeeee</a></li><li class="menu-item-has-children"><a href="collections/all.html">Shop <span> NEW</span></a>
+            <nav class="site-nav center-menu"><ul><li><a href="{{URL::to('trangchinh')}}">Trang Chính</a></li><li class="menu-item-has-children"><a href="{{URL::to('all')}}">Shop <span> NEW</span></a>
     <ul class="sub-menu"><li class="mega_dropdown">
         <a class="mega-column-title" href="#">Shop Page</a>
         <ul class="mega-sub-menu" ><li><a href="collections/all/index92e2.html?preview_theme_id=83821002816">Shop No Sidebar</a></li><li><a href="collections/all/indexdfae.html?preview_theme_id=83820740672">Shop Left Sidebar</a></li><li><a href="collections/all/index34b3.html?preview_theme_id=83820904512">Shop Right Sidebar</a></li><li><a href="collections/all/index90e7.html?preview_theme_id=83821035584">Shop Fullwidth No Space</a></li><li><a href="collections/all/index181b.html?preview_theme_id=83821068352">Shop Fullwidth No Sidebar</a></li><li><a href="collections/all/indexa1f2.html?preview_theme_id=83820838976">Shop Fullwidth Left Sidebar</a></li><li><a href="collections/all/indexdd39.html?preview_theme_id=83825360960">Shop Fullwidth Right Sidebar</a></li></ul> 
