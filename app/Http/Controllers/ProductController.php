@@ -119,6 +119,15 @@ class ProductController extends Controller
     //End Fuction Admin Page
     public function details_product($product_id)
     {
-        return view('pag.sanpham.show_details_product');
+        $cate_product = DB::table('tbl_category_product')->where('category_status', '0')->orderBy('category_id', 'desc')->get();
+
+        $brand_product = DB::table('tbl_brand')->where('brand_status', '0')->orderBy('brand_id', 'desc')->get();
+        $details_product = DB::table('tbl_product')
+            ->join('tbl_category_product', 'tbl_category_product.category_id', '=', 'tbl_product.category_id')
+            ->join('tbl_brand', 'tbl_brand.brand_id', '=', 'tbl_product.brand_id')
+            ->where('tbl_product.product_id', $product_id)->get();
+
+
+        return view('pag.sanpham.show_details_product')->with('category', $cate_product)->with('brand', $brand_product)->with('details', $details_product);
     }
 }
