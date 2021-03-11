@@ -1109,7 +1109,7 @@ for (var attr in meta) {
 <div class="shop-page-wrapper mt-100 mt-sm-80" id="product-details-with-gallery" itemscope itemtype="http://schema.org/Product" data-section="ProductPage">
   <meta itemprop="name" content="3. Wooden Candle Holder">
   <meta itemprop="url" content="https://lezada-demo.myshopify.com/products/3-variable-product">
-  <meta itemprop="image" content="/frontend/frontend_trangchinh/images/5_800x.jpg?v=1551175841">
+  <meta itemprop="image" content="/frontend/frontend_trangchinh/images/5_800x.jpg">
 
 
 
@@ -1126,7 +1126,7 @@ for (var attr in meta) {
 <div class="pro_gallery_item filter-3-wooden-candle-holder">
   <div class="product-single__media" data-media-id="4374752100416">
     <a href="javascript:void(0)" >
-      <img src="{{URL::to('/frontend/product/'.$details->product_image)}}" alt="3. Wooden Candle Holder">
+      <img src="/frontend/frontend_trangchinh/images/5_800x.jpg" alt="3. Wooden Candle Holder">
     </a>
   </div>
 </div>
@@ -1145,7 +1145,7 @@ for (var attr in meta) {
 <div class="pro_gallery_item filter-3-wooden-candle-holder">
   <div class="product-single__media" data-media-id="4374752723008">
     <a href="javascript:void(0)" >
-      <img src="{{URL::to('/frontend/product/'.$details->product_image)}}" alt="3. Wooden Candle Holder">
+      <img src="{{URL::to('../frontend/product/'.$details->product_image)}}" alt="3. Wooden Candle Holder">
     </a>
   </div>
 </div>
@@ -1156,7 +1156,7 @@ for (var attr in meta) {
       <div class="Play__icon">
         <i class="fa fa-play" aria-hidden="true"></i>
       </div>
-      <img src="../../img.youtube.com/vi/eS9Qm4AOOBY/0.jpg" alt="3. Wooden Candle Holder">
+      <img src={{URL::to('/frontend/product/'.$details->product_image)}}" alt="3. Wooden Candle Holder">
 
     </div>
   </div>
