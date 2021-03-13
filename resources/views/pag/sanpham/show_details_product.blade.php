@@ -1178,7 +1178,7 @@ for (var attr in meta) {
 <span class="onsale">Sale</span>
 
 
-<span class="onsale percent-count">-18%</span>
+<span class="onsale percent-count">-12%</span>
 
 
 
