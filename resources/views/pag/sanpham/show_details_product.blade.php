@@ -2,7 +2,7 @@
 <!--[if IE 9]> <html class="ie9 no-js supports-no-cookies" lang="en"> <![endif]-->
 <!--[if (gt IE 9)|!(IE)]><!--> <html class="no-js supports-no-cookies" lang="en"> <!--<![endif]-->
 
-<!-- Mirrored from lezada-demo.myshopify.com/products/3-variable-product by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 26 Feb 2021 16:16:34 GMT -->
+<!-- Mirrored from lezada-demo.myshopify.com/products/3-variable-product by HTTrack Website Copier/3.x [XR&CO2014], Fri, 26 Feb 2021 16:16:34 GMT -->
 <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
 <head>
   <!-- Basic and Helper page needs -->
@@ -1126,14 +1126,18 @@ for (var attr in meta) {
 <div class="pro_gallery_item filter-3-wooden-candle-holder">
   <div class="product-single__media" data-media-id="4374752100416">
     <a href="javascript:void(0)" >
+<<<<<<< HEAD
       <img src="{{URL::to('/frontend/product/'.$details->product_image)}}"" alt="3. Wooden Candle Holder">
+=======
+      <img src="{{url('/product/'.$details->product_image)}}" alt="3. Wooden Candle Holder">
+>>>>>>> 68745d50960763da1222b3ddeb0198769bd47c23
     </a>
   </div>
 </div>
 
 <div class="pro_gallery_item model_viewer_nav">
   <div class="product-single__media" data-media-id="8703921750080">
-    <model-viewer reveal="interaction" toggleable="true" data-model-id="8703921750080" auto-rotate="true" src="{{URL::to('/frontend/product/'.$details->product_image)}}" camera-controls="true" data-shopify-feature="1.2" alt="3. Wooden Candle Holder" poster="./frontend/frontend_trangchinh/images/Thonker_fa1fc39d-0374-40ae-a865-4bdca28660b1_160x8ba5.jpg"></model-viewer>
+    <model-viewer reveal="interaction" toggleable="true" data-model-id="8703921750080" auto-rotate="true" src="{{url('/product/'.$details->product_image)}}" camera-controls="true" data-shopify-feature="1.2" alt="3. Wooden Candle Holder" poster="{{url('/product/'.$details->product_image)}}"></model-viewer>
     
     <div class="model_view_btn">
       <svg viewBox="0 0 60 60"><path fill="none" d="M0 0h60v60H0z"></path><path fill="currentColor" d="M40.4 22.57l-8.8-5.14a3.19 3.19 0 00-3.21 0l-8.8 5.14A3.24 3.24 0 0018 25.36v10.28a3.23 3.23 0 001.6 2.79l8.8 5.14a3.2 3.2 0 003.21 0l8.8-5.14A3.23 3.23 0 0042 35.64V25.36a3.24 3.24 0 00-1.6-2.79zM20.6 36.7a1.23 1.23 0 01-.6-1.06V25.36a1.23 1.23 0 01.6-1.06l8.8-5.14a1.19 1.19 0 011.19 0l8.8 5.14a1.2 1.2 0 01.36.34l-9.51 4.89a2.23 2.23 0 00-1.25 2V41.6z"></path></svg>
@@ -1145,7 +1149,7 @@ for (var attr in meta) {
 <div class="pro_gallery_item filter-3-wooden-candle-holder">
   <div class="product-single__media" data-media-id="4374752723008">
     <a href="javascript:void(0)" >
-      <img src="{{URL::to('/frontend/product/'.$details->product_image)}}" alt="3. Wooden Candle Holder">
+      <img src="{{url('/product/'.$details->product_image)}}" alt="3. Wooden Candle Holder">
     </a>
   </div>
 </div>
@@ -1156,12 +1160,13 @@ for (var attr in meta) {
       <div class="Play__icon">
         <i class="fa fa-play" aria-hidden="true"></i>
       </div>
-      <img src="../../img.youtube.com/vi/eS9Qm4AOOBY/0.jpg" alt="3. Wooden Candle Holder">
+      <img src={{url('/product/'.$details->product_image)}}" alt="3. Wooden Candle Holder">
 
     </div>
   </div>
 </div>
 
+<<<<<<< HEAD
 <div class="pro_gallery_item filter-3-wooden-candle-holder">
   <div class="product-single__media" data-media-id="4447643795520">
     <a href="javascript:void(0)" >
@@ -1169,54 +1174,12 @@ for (var attr in meta) {
     </a>
   </div>
 </div>
+=======
+>>>>>>> 68745d50960763da1222b3ddeb0198769bd47c23
 
-<div class="pro_gallery_item filter-3-wooden-candle-holder">
-  <div class="product-single__media" data-media-id="4447643828288">
-    <a href="javascript:void(0)" >
-      <img src="{{URL::to('/frontend/product/'.$details->product_image)}}" alt="3. Wooden Candle Holder">
-    </a>
-  </div>
-</div>
 
-<div class="pro_gallery_item filter-3-wooden-candle-holder">
-  <div class="product-single__media" data-media-id="4447643861056">
-    <a href="javascript:void(0)" >
-      <img src="{{URL::to('/frontend/product/'.$details->product_image)}}" alt="3. Wooden Candle Holder">
-    </a>
-  </div>
-</div>
 
-<div class="pro_gallery_item filter-3-wooden-candle-holder">
-  <div class="product-single__media" data-media-id="4447643893824">
-    <a href="javascript:void(0)" >
-      <img src="{{URL::to('/frontend/product/'.$details->product_image)}}" alt="3. Wooden Candle Holder">
-    </a>
-  </div>
-</div>
 
-<div class="pro_gallery_item filter-3-wooden-candle-holder">
-  <div class="product-single__media" data-media-id="4447643959360">
-    <a href="javascript:void(0)" >
-      <img src="{{URL::to('/frontend/product/'.$details->product_image)}}" alt="3. Wooden Candle Holder">
-    </a>
-  </div>
-</div>
-
-<div class="pro_gallery_item filter-3-wooden-candle-holder">
-  <div class="product-single__media" data-media-id="4447643992128">
-    <a href="javascript:void(0)" >
-      <img src="{{URL::to('/frontend/product/'.$details->product_image)}}" alt="3. Wooden Candle Holder">
-    </a>
-  </div>
-</div>
-
-<div class="pro_gallery_item filter-3-wooden-candle-holder">
-  <div class="product-single__media" data-media-id="4447644483648">
-    <a href="javascript:void(0)" >
-      <img src="{{URL::to('/frontend/product/'.$details->product_image)}}" alt="3. Wooden Candle Holder">
-    </a>
-  </div>
-</div>
 </div>
       </div>
       <div class="col-md-9 order-1 order-sm-1">
@@ -1240,84 +1203,113 @@ for (var attr in meta) {
   
   <div class="shop-product-rightside-icons ">
     <span class="enlarge-icon">
+<<<<<<< HEAD
       <a class="fancybox" href="{{URL::to('/frontend/product/'.$details->product_image)}}"" rel="gallery1" data-fancybox="images" data-tippy-content="Click to enlarge" data-tippy-placement="left" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme = "sharpborder" >
         <i class="ion-android-expand"></i>
         <img class="d-none" src="{{URL::to('/frontend/product/'.$details->product_image)}}" alt="3. Wooden Candle Holder">
+=======
+      <a class="fancybox" href="{{url('/product/'.$details->product_image)}}" rel="gallery1" data-fancybox="images" data-tippy-content="Click to enlarge" data-tippy-placement="left" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme = "sharpborder" >
+        <i class="ion-android-expand"></i>
+        <img class="d-none" src={{url('/product/'.$details->product_image)}}" alt="3. Wooden Candle Holder">
+>>>>>>> 68745d50960763da1222b3ddeb0198769bd47c23
       </a>
     </span>
   </div>
   
+<<<<<<< HEAD
   <a data-image="/frontend/product/'.$details->product_image" class="product-zoom" href="javascript: void(0)">
+=======
+  <a data-image="{{url('/product/'.$details->product_image)}}" class="product-zoom" href="javascript: void(0)">
+>>>>>>> 68745d50960763da1222b3ddeb0198769bd47c23
     <img id="product-featured-image-4374752100416" alt="3. Wooden Candle Holder"
          class="lazyload product_variant_image"
-         src="{{URL::to('/frontend/product/'.$details->product_image)}}"
-         data-src="{{URL::to('/frontend/product/'.$details->product_image)}}"
+         src="{{url('/product/'.$details->product_image)}}"
+         data-src="{{url('/product/'.$details->product_image)}}"
          data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]"
+<<<<<<< HEAD
          data-aspectratio="/frontend/product/'.$details->product_image"
+=======
+         data-aspectratio="{{url('/product/'.$details->product_image)}}"
+>>>>>>> 68745d50960763da1222b3ddeb0198769bd47c23
          data-sizes="auto">
   </a>
 </div>
 
 
-<div class="thumb">
-  <div class="product-single__media model-viewer-click" data-media-id="8703921750080" style="padding-top: 130%"> 
-    <model-viewer reveal="interaction" toggleable="true" data-model-id="8703921750080" auto-rotate="true" id="paused-change-demo" src="https://model3d.shopifycdn.com/models/o/07367a398cd32077/Thonker.glb" camera-controls="true" data-shopify-feature="1.2" alt="3. Wooden Candle Holder" poster="/frontend/frontend_trangchinh/images/Thonker_fa1fc39d-0374-40ae-a865-4bdca28660b1_500x8ba5.jpg"></model-viewer>
-  </div>
-</div>
+
 
 <div class="thumb filter-3-wooden-candle-holder">
   
   <div class="shop-product-rightside-icons ">
     <span class="enlarge-icon">
+<<<<<<< HEAD
       <a class="fancybox" href="{{URL::to('/frontend/product/'.$details->product_image)}}"" rel="gallery1" data-fancybox="images" data-tippy-content="Click to enlarge" data-tippy-placement="left" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme = "sharpborder" >
+=======
+      <a class="fancybox" href="{{url('/product/'.$details->product_image)}}" rel="gallery1" data-fancybox="images" data-tippy-content="Click to enlarge" data-tippy-placement="left" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme = "sharpborder" >
+>>>>>>> 68745d50960763da1222b3ddeb0198769bd47c23
         <i class="ion-android-expand"></i>
-        <img class="d-none" src="{{URL::to('/frontend/product/'.$details->product_image)}}" alt="3. Wooden Candle Holder">
+        <img class="d-none" src="{{url('/product/'.$details->product_image)}}" alt="3. Wooden Candle Holder">
       </a>
     </span>
   </div>
   
+<<<<<<< HEAD
   <a data-image="{{URL::to('/frontend/product/'.$details->product_image)}}"" class="product-zoom" href="javascript: void(0)">
+=======
+  <a data-image="{{url('/product/'.$details->product_image)}}" class="product-zoom" href="javascript: void(0)">
+>>>>>>> 68745d50960763da1222b3ddeb0198769bd47c23
     <img id="product-featured-image-4374752723008" alt="3. Wooden Candle Holder"
          class="lazyload product_variant_image"
-         src="{{URL::to('/frontend/product/'.$details->product_image)}}"
-         data-src="{{URL::to('/frontend/product/'.$details->product_image)}}"
+         src="{{url('/product/'.$details->product_image)}}"
+         data-src="{{url('/product/'.$details->product_image)}}"
          data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]"
+<<<<<<< HEAD
          data-aspectratio="{{URL::to('/frontend/product/'.$details->product_image)}}""
+=======
+         data-aspectratio="{{url('/product/'.$details->product_image)}}"
+>>>>>>> 68745d50960763da1222b3ddeb0198769bd47c23
          data-sizes="auto">
   </a>
 </div>
 
 
-<div class="thumb filter-3-wooden-candle-holder">
-  <div class="product-single__media" data-media-id="8703926599744" style="padding-top: 130%">
-    <iframe frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen" src="https://www.youtube.com/embed/eS9Qm4AOOBY?controls=1&amp;enablejsapi=1&amp;modestbranding=1&amp;playsinline=1&amp;rel=0" title="3. Wooden Candle Holder"></iframe>
-  </div>
-</div>
+
 
 <div class="thumb filter-3-wooden-candle-holder">
   
   <div class="shop-product-rightside-icons ">
     <span class="enlarge-icon">
+<<<<<<< HEAD
       <a class="fancybox" href="{{URL::to('/frontend/product/'.$details->product_image)}}"" rel="gallery1" data-fancybox="images" data-tippy-content="Click to enlarge" data-tippy-placement="left" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme = "sharpborder" >
+=======
+      <a class="fancybox" href="{{url('/product/'.$details->product_image)}}" rel="gallery1" data-fancybox="images" data-tippy-content="Click to enlarge" data-tippy-placement="left" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme = "sharpborder" >
+>>>>>>> 68745d50960763da1222b3ddeb0198769bd47c23
         <i class="ion-android-expand"></i>
-        <img class="d-none" src="{{URL::to('/frontend/product/'.$details->product_image)}}" alt="3. Wooden Candle Holder">
+        <img class="d-none" src="{{url('/product/'.$details->product_image)}}" alt="3. Wooden Candle Holder">
       </a>
     </span>
   </div>
   
+<<<<<<< HEAD
   <a data-image="{{URL::to('/frontend/product/'.$details->product_image)}}"" class="product-zoom" href="javascript: void(0)">
+=======
+  <a data-image="{{url('/product/'.$details->product_image)}}" class="product-zoom" href="javascript: void(0)">
+>>>>>>> 68745d50960763da1222b3ddeb0198769bd47c23
     <img id="product-featured-image-4447643795520" alt="3. Wooden Candle Holder"
          class="lazyload product_variant_image"
-         src="{{URL::to('/frontend/product/'.$details->product_image)}}"
-         data-src="{{URL::to('/frontend/product/'.$details->product_image)}}"
+         src="{{url('/product/'.$details->product_image)}}"
+         data-src="{{url('/product/'.$details->product_image)}}"
          data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]"
+<<<<<<< HEAD
          data-aspectratio="{{URL::to('/frontend/product/'.$details->product_image)}}""
+=======
+         data-aspectratio="{{url('/product/'.$details->product_image)}}"
+>>>>>>> 68745d50960763da1222b3ddeb0198769bd47c23
          data-sizes="auto">
   </a>
 </div>
-
-
 <div class="thumb filter-3-wooden-candle-holder">
+<<<<<<< HEAD
   
   <div class="shop-product-rightside-icons ">
     <span class="enlarge-icon">
@@ -1452,6 +1444,30 @@ for (var attr in meta) {
          data-sizes="auto">
   </a>
 </div>
+=======
+  <div class="product-single__media" data-media-id="8703926599744" style="padding-top: 130%">
+    <iframe frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen" src="https://www.youtube.com/embed/eS9Qm4AOOBY?controls=1&amp;enablejsapi=1&amp;modestbranding=1&amp;playsinline=1&amp;rel=0" title="3. Wooden Candle Holder"></iframe>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> 68745d50960763da1222b3ddeb0198769bd47c23
 
 </div>
         </div>
@@ -1494,13 +1510,13 @@ for (var attr in meta) {
   <select id="product-selectors" name="id" style="display: none;">
     
     
-    <option data-imge="/frontend/frontend_trangchinh/images/5_compact.jpg?v=1551175841"  selected="selected"  value="18938966573120">
+    <option data-imge="{{url('/product/'.$details->product_image)}}"  selected="selected"  value="18938966573120">
       s / purple / metal
     </option>
     
     
     
-    <option data-imge="/frontend/frontend_trangchinh/images/6_compact.jpg?v=1604471032"  value="18938966671424">
+    <option data-imge="{{url('/product/'.$details->product_image)}}"  value="18938966671424">
       s / purple / resin
     </option>
     
@@ -3216,7 +3232,7 @@ for (var attr in meta) {
     <div data-value="black" class="swatch-element color black available">
       <input id="swatch-1-black" type="radio" name="option-1" value="black"  />
       
-      <label class="lazyload" data-tippy-content="black" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme = "sharpborder"   for="swatch-1-black" data-src="/frontend/frontend_trangchinh/images/15_645e1aa1-6839-4760-ac95-b611b94e4015_100x100_crop_center.jpg?v=1604470991" style="background-color: black; background-image: url(/frontend/frontend_trangchinh/images/15_645e1aa1-6839-4760-ac95-b611b94e4015_100x100_crop_center0679.jpg?v=1604470991);">
+      <label class="lazyload" data-tippy-content="black" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme = "sharpborder"   for="swatch-1-black" data-src="/frontend/frontend_trangchinh/images/15_645e1aa1-6839-4760-ac95-b611b94e4015_100x100_crop_center.jpg?v=1604470991" style="background-color: black; background-image: url(/frontend/frontend_trangchinh/images/15_645e1aa1-6839-4760-ac95-b611b94e4015_100x100_crop_center0679.jpg);">
         
       </label>
       
@@ -12161,7 +12177,7 @@ for (var attr in meta) {
     
     <div class="product-description"><p>A long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like.</p>
 <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-<p><img src="../../cdn.shopify.com/s/files/1/0082/5078/5910/files/mens-t-shirt-size-chart_ed0b1fdd-271a-4221-9d65-41a27bf4c685_2048x2048992e.png?v=1538311686" alt=""></p>
+<p><img src="./frontend/frontend_trangchinh/images/mens-t-shirt-size-chart_ed0b1fdd-271a-4221-9d65-41a27bf4c685_2048x2048992e.png" alt=""></p>
 </div>
   </div>
 
@@ -12183,7 +12199,7 @@ for (var attr in meta) {
 </style><img id="Image-10119970652224-0"
     class="responsive-image__image lazyload popup_cart_image"
     src="http://cdn.shopify.com/s/files/1/0132/3116/1408/t/40/assets/ajax_loader.svg?v=10940409207306785910"
-    data-src="/frontend/frontend_trangchinh/images/f53_{width}x.jpg?v=1552111224"
+    data-src="/frontend/frontend_trangchinh/images/f53_{width}x.jpg"
     data-widths="[180,360,540,720,810]"
     data-aspectratio="0.75"
     data-sizes="auto"
@@ -12192,7 +12208,7 @@ for (var attr in meta) {
     
   >
 <noscript>
-  <img class="popup_cart_image" src="/frontend/frontend_trangchinh/images/f53_2048x20484693.jpg?v=1552111224" alt="Wide Leg Crop Brown">
+  <img class="popup_cart_image" src="/frontend/frontend_trangchinh/images/f53_2048x20484693.jpg" alt="Wide Leg Crop Brown">
 </noscript>
   
   <style>#Image-10119970947136-0 {
@@ -12203,7 +12219,7 @@ for (var attr in meta) {
 </style><img id="Image-10119970947136-0"
     class="responsive-image__image lazyload popup_cart_image secondary__img"
     src="http://cdn.shopify.com/s/files/1/0132/3116/1408/t/40/assets/ajax_loader.svg?v=10940409207306785910"
-    data-src="/frontend/frontend_trangchinh/images/f54_{width}x.jpg?v=1552111224"
+    data-src="/frontend/frontend_trangchinh/images/f54_{width}x.jpg"
     data-widths="[180,360,540,720,810]"
     data-aspectratio="0.75"
     data-sizes="auto"
@@ -12212,7 +12228,7 @@ for (var attr in meta) {
     
   >
 <noscript>
-  <img class="popup_cart_image secondary__img" src="/frontend/frontend_trangchinh/images/f54_2048x20484693.jpg?v=1552111224" alt="Wide Leg Crop Brown">
+  <img class="popup_cart_image secondary__img" src="/frontend/frontend_trangchinh/images/f54_2048x20484693.jpg" alt="Wide Leg Crop Brown">
 </noscript>
 </a>
 <div class="single-product__floating-badges">
@@ -14450,8 +14466,8 @@ for (var attr in meta) {
       margin-bottom: 65px !important;}
   }</style>
 
-</div><div id="shopify-section-recent_viewed_product" class="shopify-section"><script src="../../ajax.aspnetcdn.com/ajax/jquery.templates/beta1/jquery.tmpl.min.js" type="text/javascript"></script>
-<script src="../../cdn.shopify.com/s/files/1/0132/3116/1408/t/40/assets/jquery.products.min2909.js?v=17167927147857583098" type="text/javascript"></script>
+</div><div id="shopify-section-recent_viewed_product" class="shopify-section"><script src="frontend/frontend_trangchinh/js/jquery.tmpl.min.js" type="text/javascript"></script>
+<script src="frontend/frontend_trangchinh/js/jquery.products.min2909.js" type="text/javascript"></script>
 <section class="recent_view_product mb-90 mb-md-80 mb-sm-70" id="section-recent_viewed_product">
   <div class="container">
     <div  class="row">
