@@ -1086,7 +1086,7 @@ for (var attr in meta) {
   <ul class="breadcrumb-list">
 
     <li>
-      <a href="../index.html" title="Back to the home page">Home</a>
+      <a href="../index.html" title="Back to the home page">Homeeeee</a>
     </li>
     <li>
       
@@ -1192,7 +1192,7 @@ for (var attr in meta) {
 <span class="onsale">Sale</span>
 
 
-<span class="onsale percent-count">-18%</span>
+<span class="onsale percent-count">-12%</span>
 
 
 
