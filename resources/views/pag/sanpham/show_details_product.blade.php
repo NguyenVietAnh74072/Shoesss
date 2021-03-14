@@ -2,7 +2,7 @@
 <!--[if IE 9]> <html class="ie9 no-js supports-no-cookies" lang="en"> <![endif]-->
 <!--[if (gt IE 9)|!(IE)]><!--> <html class="no-js supports-no-cookies" lang="en"> <!--<![endif]-->
 
-<!-- Mirrored from lezada-demo.myshopify.com/products/3-variable-product by HTTrack Website Copier/3.x [XR&CO2014], Fri, 26 Feb 2021 16:16:34 GMT -->
+<!-- Mirrored from lezada-demo.myshopify.com/products/3-variable-product by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 26 Feb 2021 16:16:34 GMT -->
 <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
 <head>
   <!-- Basic and Helper page needs -->
@@ -1126,11 +1126,7 @@ for (var attr in meta) {
 <div class="pro_gallery_item filter-3-wooden-candle-holder">
   <div class="product-single__media" data-media-id="4374752100416">
     <a href="javascript:void(0)" >
-<<<<<<< HEAD
-      <img src="{{URL::to('/frontend/product/'.$details->product_image)}}"" alt="3. Wooden Candle Holder">
-=======
       <img src="{{url('/product/'.$details->product_image)}}" alt="3. Wooden Candle Holder">
->>>>>>> 68745d50960763da1222b3ddeb0198769bd47c23
     </a>
   </div>
 </div>
@@ -1166,16 +1162,6 @@ for (var attr in meta) {
   </div>
 </div>
 
-<<<<<<< HEAD
-<div class="pro_gallery_item filter-3-wooden-candle-holder">
-  <div class="product-single__media" data-media-id="4447643795520">
-    <a href="javascript:void(0)" >
-      <img src="{{URL::to('/frontend/product/'.$details->product_image)}}"" alt="3. Wooden Candle Holder">
-    </a>
-  </div>
-</div>
-=======
->>>>>>> 68745d50960763da1222b3ddeb0198769bd47c23
 
 
 
@@ -1203,34 +1189,20 @@ for (var attr in meta) {
   
   <div class="shop-product-rightside-icons ">
     <span class="enlarge-icon">
-<<<<<<< HEAD
-      <a class="fancybox" href="{{URL::to('/frontend/product/'.$details->product_image)}}"" rel="gallery1" data-fancybox="images" data-tippy-content="Click to enlarge" data-tippy-placement="left" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme = "sharpborder" >
-        <i class="ion-android-expand"></i>
-        <img class="d-none" src="{{URL::to('/frontend/product/'.$details->product_image)}}" alt="3. Wooden Candle Holder">
-=======
       <a class="fancybox" href="{{url('/product/'.$details->product_image)}}" rel="gallery1" data-fancybox="images" data-tippy-content="Click to enlarge" data-tippy-placement="left" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme = "sharpborder" >
         <i class="ion-android-expand"></i>
         <img class="d-none" src={{url('/product/'.$details->product_image)}}" alt="3. Wooden Candle Holder">
->>>>>>> 68745d50960763da1222b3ddeb0198769bd47c23
       </a>
     </span>
   </div>
   
-<<<<<<< HEAD
-  <a data-image="/frontend/product/'.$details->product_image" class="product-zoom" href="javascript: void(0)">
-=======
   <a data-image="{{url('/product/'.$details->product_image)}}" class="product-zoom" href="javascript: void(0)">
->>>>>>> 68745d50960763da1222b3ddeb0198769bd47c23
     <img id="product-featured-image-4374752100416" alt="3. Wooden Candle Holder"
          class="lazyload product_variant_image"
          src="{{url('/product/'.$details->product_image)}}"
          data-src="{{url('/product/'.$details->product_image)}}"
          data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]"
-<<<<<<< HEAD
-         data-aspectratio="/frontend/product/'.$details->product_image"
-=======
          data-aspectratio="{{url('/product/'.$details->product_image)}}"
->>>>>>> 68745d50960763da1222b3ddeb0198769bd47c23
          data-sizes="auto">
   </a>
 </div>
@@ -1242,32 +1214,20 @@ for (var attr in meta) {
   
   <div class="shop-product-rightside-icons ">
     <span class="enlarge-icon">
-<<<<<<< HEAD
-      <a class="fancybox" href="{{URL::to('/frontend/product/'.$details->product_image)}}"" rel="gallery1" data-fancybox="images" data-tippy-content="Click to enlarge" data-tippy-placement="left" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme = "sharpborder" >
-=======
       <a class="fancybox" href="{{url('/product/'.$details->product_image)}}" rel="gallery1" data-fancybox="images" data-tippy-content="Click to enlarge" data-tippy-placement="left" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme = "sharpborder" >
->>>>>>> 68745d50960763da1222b3ddeb0198769bd47c23
         <i class="ion-android-expand"></i>
         <img class="d-none" src="{{url('/product/'.$details->product_image)}}" alt="3. Wooden Candle Holder">
       </a>
     </span>
   </div>
   
-<<<<<<< HEAD
-  <a data-image="{{URL::to('/frontend/product/'.$details->product_image)}}"" class="product-zoom" href="javascript: void(0)">
-=======
   <a data-image="{{url('/product/'.$details->product_image)}}" class="product-zoom" href="javascript: void(0)">
->>>>>>> 68745d50960763da1222b3ddeb0198769bd47c23
     <img id="product-featured-image-4374752723008" alt="3. Wooden Candle Holder"
          class="lazyload product_variant_image"
          src="{{url('/product/'.$details->product_image)}}"
          data-src="{{url('/product/'.$details->product_image)}}"
          data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]"
-<<<<<<< HEAD
-         data-aspectratio="{{URL::to('/frontend/product/'.$details->product_image)}}""
-=======
          data-aspectratio="{{url('/product/'.$details->product_image)}}"
->>>>>>> 68745d50960763da1222b3ddeb0198769bd47c23
          data-sizes="auto">
   </a>
 </div>
@@ -1279,172 +1239,24 @@ for (var attr in meta) {
   
   <div class="shop-product-rightside-icons ">
     <span class="enlarge-icon">
-<<<<<<< HEAD
-      <a class="fancybox" href="{{URL::to('/frontend/product/'.$details->product_image)}}"" rel="gallery1" data-fancybox="images" data-tippy-content="Click to enlarge" data-tippy-placement="left" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme = "sharpborder" >
-=======
       <a class="fancybox" href="{{url('/product/'.$details->product_image)}}" rel="gallery1" data-fancybox="images" data-tippy-content="Click to enlarge" data-tippy-placement="left" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme = "sharpborder" >
->>>>>>> 68745d50960763da1222b3ddeb0198769bd47c23
         <i class="ion-android-expand"></i>
         <img class="d-none" src="{{url('/product/'.$details->product_image)}}" alt="3. Wooden Candle Holder">
       </a>
     </span>
   </div>
   
-<<<<<<< HEAD
-  <a data-image="{{URL::to('/frontend/product/'.$details->product_image)}}"" class="product-zoom" href="javascript: void(0)">
-=======
   <a data-image="{{url('/product/'.$details->product_image)}}" class="product-zoom" href="javascript: void(0)">
->>>>>>> 68745d50960763da1222b3ddeb0198769bd47c23
     <img id="product-featured-image-4447643795520" alt="3. Wooden Candle Holder"
          class="lazyload product_variant_image"
          src="{{url('/product/'.$details->product_image)}}"
          data-src="{{url('/product/'.$details->product_image)}}"
          data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]"
-<<<<<<< HEAD
-         data-aspectratio="{{URL::to('/frontend/product/'.$details->product_image)}}""
-=======
          data-aspectratio="{{url('/product/'.$details->product_image)}}"
->>>>>>> 68745d50960763da1222b3ddeb0198769bd47c23
          data-sizes="auto">
   </a>
 </div>
 <div class="thumb filter-3-wooden-candle-holder">
-<<<<<<< HEAD
-  
-  <div class="shop-product-rightside-icons ">
-    <span class="enlarge-icon">
-      <a class="fancybox" href="{{URL::to('/frontend/product/'.$details->product_image)}}"" rel="gallery1" data-fancybox="images" data-tippy-content="Click to enlarge" data-tippy-placement="left" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme = "sharpborder" >
-        <i class="ion-android-expand"></i>
-        <img class="d-none" src="{{URL::to('/frontend/product/'.$details->product_image)}}" alt="3. Wooden Candle Holder">
-      </a>
-    </span>
-  </div>
-  
-  <a data-image="{{URL::to('/frontend/product/'.$details->product_image)}}"" class="product-zoom" href="javascript: void(0)">
-    <img id="product-featured-image-4447643828288" alt="3. Wooden Candle Holder"
-         class="lazyload product_variant_image"
-         src="{{URL::to('/frontend/product/'.$details->product_image)}}"
-         data-src="{{URL::to('/frontend/product/'.$details->product_image)}}"
-         data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]"
-         data-aspectratio="{{URL::to('/frontend/product/'.$details->product_image)}}""
-         data-sizes="auto">
-  </a>
-</div>
-
-
-<div class="thumb filter-3-wooden-candle-holder">
-  
-  <div class="shop-product-rightside-icons ">
-    <span class="enlarge-icon">
-      <a class="fancybox" href="{{URL::to('/frontend/product/'.$details->product_image)}}"" rel="gallery1" data-fancybox="images" data-tippy-content="Click to enlarge" data-tippy-placement="left" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme = "sharpborder" >
-        <i class="ion-android-expand"></i>
-        <img class="d-none" src="{{URL::to('/frontend/product/'.$details->product_image)}}" alt="3. Wooden Candle Holder">
-      </a>
-    </span>
-  </div>
-  
-  <a data-image="{{URL::to('/frontend/product/'.$details->product_image)}}"" class="product-zoom" href="javascript: void(0)">
-    <img id="product-featured-image-4447643861056" alt="3. Wooden Candle Holder"
-         class="lazyload product_variant_image"
-         src="{{URL::to('/frontend/product/'.$details->product_image)}}"
-         data-src={{URL::to('/frontend/product/'.$details->product_image)}}""
-         data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]"
-         data-aspectratio={{URL::to('/frontend/product/'.$details->product_image)}}""
-         data-sizes="auto">
-  </a>
-</div>
-
-
-<div class="thumb filter-3-wooden-candle-holder">
-  
-  <div class="shop-product-rightside-icons ">
-    <span class="enlarge-icon">
-      <a class="fancybox" href="{{URL::to('/frontend/product/'.$details->product_image)}}"" rel="gallery1" data-fancybox="images" data-tippy-content="Click to enlarge" data-tippy-placement="left" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme = "sharpborder" >
-        <i class="ion-android-expand"></i>
-        <img class="d-none" src="{{URL::to('/frontend/product/'.$details->product_image)}}" alt="3. Wooden Candle Holder">
-      </a>
-    </span>
-  </div>
-  
-  <a data-image="{{URL::to('/frontend/product/'.$details->product_image)}}"" class="product-zoom" href="javascript: void(0)">
-    <img id="product-featured-image-4447643893824" alt="3. Wooden Candle Holder"
-         class="lazyload product_variant_image"
-         src="{{URL::to('/frontend/product/'.$details->product_image)}}"
-         data-src="{{URL::to('/frontend/product/'.$details->product_image)}}"
-         data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]"
-         data-aspectratio="{{URL::to('/frontend/product/'.$details->product_image)}}""
-         data-sizes="auto">
-  </a>
-</div>
-
-
-<div class="thumb filter-3-wooden-candle-holder">
-  
-  <div class="shop-product-rightside-icons ">
-    <span class="enlarge-icon">
-      <a class="fancybox" href="{{URL::to('/frontend/product/'.$details->product_image)}}"" rel="gallery1" data-fancybox="images" data-tippy-content="Click to enlarge" data-tippy-placement="left" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme = "sharpborder" >
-        <i class="ion-android-expand"></i>
-        <img class="d-none" src="{{URL::to('/frontend/product/'.$details->product_image)}}" alt="3. Wooden Candle Holder">
-      </a>
-    </span>
-  </div>
-  
-  <a data-image="{{URL::to('/frontend/product/'.$details->product_image)}}"" class="product-zoom" href="javascript: void(0)">
-    <img id="product-featured-image-4447643959360" alt="3. Wooden Candle Holder"
-         class="lazyload product_variant_image"
-         src="{{URL::to('/frontend/product/'.$details->product_image)}}"
-         data-src="{{URL::to('/frontend/product/'.$details->product_image)}}"
-         data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]"
-         data-aspectratio="{{URL::to('/frontend/product/'.$details->product_image)}}""
-         data-sizes="auto">
-  </a>
-</div>
-
-
-<div class="thumb filter-3-wooden-candle-holder">
-  
-  <div class="shop-product-rightside-icons ">
-    <span class="enlarge-icon">
-      <a class="fancybox" href="{{URL::to('/frontend/product/'.$details->product_image)}}" rel="gallery1" data-fancybox="images" data-tippy-content="Click to enlarge" data-tippy-placement="left" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme = "sharpborder" >
-        <i class="ion-android-expand"></i>
-        <img class="d-none" src="{{URL::to('/frontend/product/'.$details->product_image)}}" alt="3. Wooden Candle Holder">
-      </a>
-    </span>
-  </div>
-  
-  <a data-image="{{URL::to('/frontend/product/'.$details->product_image)}}" class="product-zoom" href="javascript: void(0)">
-    <img id="product-featured-image-4447643992128" alt="3. Wooden Candle Holder"
-         class="lazyload product_variant_image"
-         src="{{URL::to('/frontend/product/'.$details->product_image)}}"
-         data-src="{{URL::to('/frontend/product/'.$details->product_image)}}"
-         data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]"
-         data-aspectratio="{{URL::to('/frontend/product/'.$details->product_image)}}"
-  </a>
-</div>
-
-
-<div class="thumb filter-3-wooden-candle-holder">
-  
-  <div class="shop-product-rightside-icons ">
-    <span class="enlarge-icon">
-      <a class="fancybox" href="{{URL::to('/frontend/product/'.$details->product_image)}}"')}}" rel="gallery1" data-fancybox="images" data-tippy-content="Click to enlarge" data-tippy-placement="left" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme = "sharpborder" >
-        <i class="ion-android-expand"></i>
-        <img class="d-none" src="{{URL::to('/frontend/product/'.$details->product_image)}}" alt="3. Wooden Candle Holder">
-      </a>
-    </span>
-  </div>
-  
-  <a data-image="{{URL::to('/frontend/product/'.$details->product_image)}}"" class="product-zoom" href="javascript: void(0)">
-    <img id="product-featured-image-4447644483648" alt="3. Wooden Candle Holder"
-         class="lazyload product_variant_image"
-         src="{{URL::to('/frontend/product/'.$details->product_image)}}"
-         data-src="{{URL::to('/frontend/product/'.$details->product_image)}}"
-         data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]"
-         data-aspectratio="{{URL::to('/frontend/product/'.$details->product_image)}}""
-         data-sizes="auto">
-  </a>
-</div>
-=======
   <div class="product-single__media" data-media-id="8703926599744" style="padding-top: 130%">
     <iframe frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen" src="https://www.youtube.com/embed/eS9Qm4AOOBY?controls=1&amp;enablejsapi=1&amp;modestbranding=1&amp;playsinline=1&amp;rel=0" title="3. Wooden Candle Holder"></iframe>
   </div>
@@ -1467,7 +1279,6 @@ for (var attr in meta) {
 
 
 
->>>>>>> 68745d50960763da1222b3ddeb0198769bd47c23
 
 </div>
         </div>
@@ -6698,7 +6509,7 @@ for (var attr in meta) {
 </style><img id="Image-9771712348224-0"
     class="responsive-image__image lazyload popup_cart_image"
     src="http://cdn.shopify.com/s/files/1/0132/3116/1408/t/40/assets/ajax_loader.svg?v=10940409207306785910"
-    data-src="/frontend/frontend_trangchinh/images/1_{width}x.jpg"
+    data-src="/frontend/frontend_trangchinh/images/1_{width}x.jpg?v=1598974287"
     data-widths="[180,360,540,720,800]"
     data-aspectratio="0.7407407407407407"
     data-sizes="auto"
@@ -6707,7 +6518,7 @@ for (var attr in meta) {
     
   >
 <noscript>
-  <img class="popup_cart_image" src="/frontend/frontend_trangchinh/images/1_2048x2048b7ca.jpg" alt="1. Side Ottoman">
+  <img class="popup_cart_image" src="/frontend/frontend_trangchinh/images/1_2048x2048b7ca.jpg?v=1598974287" alt="1. Side Ottoman">
 </noscript>
   
   <style>#Image-9771716935744-0 {
@@ -6718,7 +6529,7 @@ for (var attr in meta) {
 </style><img id="Image-9771716935744-0"
     class="responsive-image__image lazyload popup_cart_image secondary__img"
     src="http://cdn.shopify.com/s/files/1/0132/3116/1408/t/40/assets/ajax_loader.svg?v=10940409207306785910"
-    data-src="/frontend/frontend_trangchinh/images/2_{width}x.jpg"
+    data-src="/frontend/frontend_trangchinh/images/2_{width}x.jpg?v=1598974287"
     data-widths="[180,360,540,720,800]"
     data-aspectratio="0.7407407407407407"
     data-sizes="auto"
@@ -6727,7 +6538,7 @@ for (var attr in meta) {
     
   >
 <noscript>
-  <img class="popup_cart_image secondary__img" src="/frontend/frontend_trangchinh/images/2_2048x2048b7ca.jpg" alt="1. Side Ottoman">
+  <img class="popup_cart_image secondary__img" src="/frontend/frontend_trangchinh/images/2_2048x2048b7ca.jpg?v=1598974287" alt="1. Side Ottoman">
 </noscript>
 </a>
 <div class="single-product__floating-badges">
