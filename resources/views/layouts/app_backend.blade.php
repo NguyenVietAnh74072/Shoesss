@@ -41,7 +41,7 @@
 </head>
 
 <body>
-    @yield('content')
+  
 
 <!-- page-wrapper Start-->
 <div class="page-wrapper">
@@ -143,7 +143,13 @@
                 </div>
                 <ul class="sidebar-menu">
                     <li><a class="sidebar-header" href="index-2.html"><i data-feather="home"></i><span>Dashboard</span></a></li>
-                    <li><a class="sidebar-header" href="#"><i data-feather="box"></i> <span>Products</span><i class="fa fa-angle-right pull-right"></i></a>
+                   
+                  
+                    @foreach (config('nav.admin.top') as $item)
+                   
+                    <li><a class="sidebar-header" href="{{route($item['route'])}}"><i data-feather="camera"></i><span>{{$item['name']}}</span></a></li>
+                    @endforeach
+                    <li><a class="sidebar-header" href="#"><i data-feather="box"></i> <span>Sản phẩm</span><i class="fa fa-angle-right pull-right"></i></a>
                         <ul class="sidebar-submenu">
                             <li>
                                 <a href="#"><i class="fa fa-circle"></i>
@@ -170,6 +176,7 @@
                             </li>
                         </ul>
                     </li>
+                   
                     <li><a class="sidebar-header" href="#"><i data-feather="dollar-sign"></i><span>Sales</span><i class="fa fa-angle-right pull-right"></i></a>
                         <ul class="sidebar-submenu">
                             <li><a href="order.html"><i class="fa fa-circle"></i>Orders</a></li>
@@ -313,7 +320,7 @@
                         <div class="col-lg-6">
                             <div class="page-header-left">
                                 <h3>Dashboard
-                                    <small>Multikart Admin panel</small>
+                                    <small>@yield('content')</small>
                                 </h3>
                             </div>
                         </div>
