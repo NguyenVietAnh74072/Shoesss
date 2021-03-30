@@ -5,7 +5,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::group(['namespace' => 'Backend', 'prefix' => 'admin'], function () {
     //Trang chu
-    Route::get('/', 'HomeController@index')->name('get.home');
+    Route::get('/', 'HomeController@index')->name('get_backend.home');
 
     //Category
     Route::prefix('user')->group(function () {
@@ -74,7 +74,7 @@ Route::group(['namespace' => 'Backend', 'prefix' => 'admin'], function () {
         Route::get('/', 'BackendTagController@index')->name('get_backend.tag.index');
 
         Route::get('create', 'BackendTagController@create')->name('get_backend.tag.create');
-        Route::post('store', 'BackendTagController@store');
+        Route::post('store', 'BackendTagController@store')->name('get_backend.tag.store');
 
         Route::get('update/{id}', 'BackendTagController@edit')->name('get_backend.tag.edit');
         Route::post('update/{id}', 'BackendTagController@update');

@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Backend;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+use App\Http\Requests\BackendTagRequest;
 
 class BackendTagController extends Controller
 {
@@ -17,7 +18,7 @@ class BackendTagController extends Controller
         return view($this->folder . "create");
     }
 
-    public function store()
+    public function store(BackendTagRequest $request)
     {
         return view($this->folder . "store");
     }

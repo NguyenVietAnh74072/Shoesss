@@ -124,7 +124,7 @@
             <div class="container">
                 <nav class="site-main-menu justify-content-center">
                     <ul>
-                        <li class="has-children"><a href="{{route('get.home')}}><span class="menu-text">Trang chính</span></a>
+                        <li class="has-children"><a href="{{route('get.home')}}"><span class="menu-text">Trang chính</span></a>
                             
                         </li>
                         <li class="has-children"><a href="#"><span class="menu-text">Danh mục</span></a>
@@ -222,7 +222,7 @@
                                
                          @endforeach
                         </ul>
-                           
+                          
                         </li>
                         <li class="has-children"><a href="#"><span class="menu-text">Pages</span></a>
                             <ul class="sub-menu">
@@ -352,11 +352,11 @@
                             <li class="has-children"><a href="#"><span class="menu-text">Blog</span></a>
                                 <ul class="sub-menu">
                                     @foreach($menusGlobal as $item)
-                                    <li><a href="{{route('get.menu',$item->mn_slug)}} {{ \Request::segment(2)== $item->mn_slug ?'active':''}}"><span class="menu-text">{{$item->mn_name}}</span></a></li>
+                                    <li><a href="{{route('get.menu',$item->mn_slug)}} {{ \request::segment(2)== $item->mn_slug ?'active':''}}"><span class="menu-text">{{$item->mn_name}}</span></a></li>
                                    
                              @endforeach
                             </ul>
-                               
+                                
                             </li>
                             <li class="has-children"><a href="#"><span class="menu-text">Pages</span></a>
                                 <ul class="sub-menu">
@@ -718,15 +718,25 @@
                             </li>
                         </ul>
                     </li>
-                    <li><a href="#"><span class="menu-text">Blog</span></a>
+                    <li><a href=""><span class="menu-text">Blog</span></a>
                         <ul class="sub-menu">
                             @foreach($menusGlobal as $item)
-                            <li><a href="{{route('get.menu',$item->mn_slug)}} {{ \Request::segment(2)== $item->mn_slug ?'active':''}}"><span class="menu-text">{{$item->mn_name}}</span></a></li>
+                            <li><a href="{{route('get.menu',$item->mn_slug)}} {{ \request::segment(2)== $item->mn_slug ?'active':''}}"><span class="menu-text">{{$item->mn_name}}</span></a></li>
                            
                      @endforeach
                     </ul>
-                    </li>
                        
+                    </li>
+                    <li><a href="#"><span class="menu-text">Pages</span></a>
+                        <ul class="sub-menu">
+                            <li><a href="about-us.html"><span class="menu-text">About us</span></a></li>
+                            <li><a href="about-us-2.html"><span class="menu-text">About us 02</span></a></li>
+                            <li><a href="contact-us.html"><span class="menu-text">Contact us</span></a></li>
+                            <li><a href="coming-soon.html"><span class="menu-text">Coming Soon</span></a></li>
+                            <li><a href="404.html"><span class="menu-text">Page 404</span></a></li>
+                        </ul>
+                    </li>
+                </ul>
             </div>
             <div class="offcanvas-buttons">
                 <div class="header-tools">
@@ -796,7 +806,9 @@
     </div>
     <!-- Slider main container End -->
 
-    @yield('content')
+    <!-- Portfolio Section Start -->
+@yield('content')
+    <!-- Portfolio Section End -->
 
     <div class="footer1-section section section-padding">
         <div class="container">

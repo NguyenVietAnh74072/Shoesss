@@ -1,5 +1,5 @@
  @extends('layouts.app_frontend')
- @section('title','Trang chủ')
+ @section('title','Danh muc')
  @section('content')
 <!-- Sale Banner Section Start -->
 <div class="section section-padding">
@@ -8,7 +8,7 @@
         <!-- Section Title Start -->
         <div class="section-title text-center">
             <h3 class="sub-title">Just for you</h3>
-            <h2 class="title title-icon-both">Making & crafting</h2>
+            <h2 class="title title-icon-both">Vật liệu xây dựng</h2>
         </div>
         <!-- Section Title End -->
 
