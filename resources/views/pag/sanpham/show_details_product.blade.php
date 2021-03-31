@@ -1156,7 +1156,7 @@ for (var attr in meta) {
       <div class="Play__icon">
         <i class="fa fa-play" aria-hidden="true"></i>
       </div>
-      <img src={{url('/product/'.$details->product_image)}}" alt="3. Wooden Candle Holder">
+      <img src="{{url('/product/'.$details->product_image)}}" alt="3. Wooden Candle Holder">
 
     </div>
   </div>
@@ -1184,14 +1184,16 @@ for (var attr in meta) {
 
 
 
-</div><div class="product_media_gallery slick-carousel-js">
+</div>
+<div class="product_media_gallery slick-carousel-js">
 <div class="thumb filter-3-wooden-candle-holder">
   
   <div class="shop-product-rightside-icons ">
     <span class="enlarge-icon">
       <a class="fancybox" href="{{url('/product/'.$details->product_image)}}" rel="gallery1" data-fancybox="images" data-tippy-content="Click to enlarge" data-tippy-placement="left" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme = "sharpborder" >
         <i class="ion-android-expand"></i>
-        <img class="d-none" src={{url('/product/'.$details->product_image)}}" alt="3. Wooden Candle Holder">
+        <img class="d-none" src="{{url('/product/'.$details->product_image)}}" alt="3. Wooden Candle Holder">
+        
       </a>
     </span>
   </div>
@@ -1345,7 +1347,7 @@ for (var attr in meta) {
     
     
     
-    <option data-imge="/frontend/frontend_trangchinh/images/2-1_d8e64c35-faa4-4d88-8192-f6160b5152c5_compact.jpg"  value="18938966900800">
+    <option data-imge="/frontend_trangchinh/images/2-1_d8e64c35-faa4-4d88-8192-f6160b5152c5_compact.jpg"  value="18938966900800">
       s / purple / fiber
     </option>
     
@@ -14376,7 +14378,7 @@ Shopify.Products.showRecentlyViewed({
       
       <div class="col footer-single-widget">
         <div class="logo"><a href="../index.html" class="theme-logo">
-            <img src="../../cdn.shopify.com/s/files/1/0132/3116/1408/files/logo_300x30046d6.png?v=1545630084" alt="Lezada - Multipurpose eCommerce Shopify Theme">
+            <img src="./fronted/fronted_trangchinh/images/logo_300x30046d6.png" alt="Lezada - Multipurpose eCommerce Shopify Theme">
 
           </a></div>
 
