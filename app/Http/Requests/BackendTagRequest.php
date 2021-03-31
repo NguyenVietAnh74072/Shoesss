@@ -32,7 +32,7 @@ class BackendTagRequest extends FormRequest
     {
         return [
             't_name.required' => 'Dữ liệu không được để chống',
-            't_name.unique' => 'Dữ liệu đã tồn tại',
+            't_name.unique' => 'Dữ liệu đã tồn tại làm ơn thay cái mới',
 
         ];
     }

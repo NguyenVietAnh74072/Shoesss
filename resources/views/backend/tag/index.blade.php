@@ -10,18 +10,18 @@
         <div class="page-header">
             <div class="row align-items-center">
                 <div class="col">
-                    <h3 class="page-title">Danh sách tag</h3>
+                    <h3 class="page-title"> Danh sách Tag</h3>
+                      @if($errors->first('t_name'))
+                                    <small class="form-text text-danger">{{$errors->first('t_name')}}</small>
+                                    @endif
                     <ul class="breadcrumb">
                         <li class="breadcrumb-item"><a href="index">Dashboard</a></li>
                         <li class="breadcrumb-item active">Tag</li>
                     </ul>
                 </div>
                 <div class="col-auto float-right ml-auto">
-                    <a href="#" class="btn add-btn" data-toggle="modal" data-target="#add_client"><i class="fa fa-plus"></i> Add Client</a>
-                    <div class="view-icons">
-                        <a href="clients" class="grid-view btn btn-link"><i class="fa fa-th"></i></a>
-                        <a href="clients-list" class="list-view btn btn-link active"><i class="fa fa-bars"></i></a>
-                    </div>
+                    <a href="#" class="btn add-btn" data-toggle="modal" data-target="#add_client"><i class="fa fa-plus"></i> Thêm Tag</a>
+                   
                 </div>
             </div>
         </div>
@@ -32,18 +32,18 @@
             <div class="col-sm-6 col-md-3">  
                 <div class="form-group form-focus">
                     <input type="text" class="form-control floating">
-                    <label class="focus-label">Client ID</label>
+                    <label class="focus-label">Tag ID</label>
                 </div>
             </div>
             <div class="col-sm-6 col-md-3">  
                 <div class="form-group form-focus">
                     <input type="text" class="form-control floating">
-                    <label class="focus-label">Client Name</label>
+                    <label class="focus-label">Tag Name</label>
                 </div>
             </div>
          
             <div class="col-sm-6 col-md-3">  
-                <a href="#" class="btn btn-success btn-block"> Search </a>  
+                <a href="#" class="btn btn-success btn-block">Tìm kiếm </a>  
             </div>     
         </div>
         <!-- Search Filter -->
@@ -53,44 +53,48 @@
                 <div class="table-responsive">
                     <table class="table table-striped custom-table datatable">
                         <thead>
+                       
                             <tr>
                                 <th>ID</th>
-                                <th>Name</th>
+                                <th>Tên</th>
                                 <th>Slug</th>
-                                <th>Time</th>
-                                <th>Action</th>
+                                <th>Thời gian</th>
+                                <th>Hành động</th>
                             </tr>
                         </thead>
                         <tbody>
+                            @foreach($tags as $item)
+                            
                             <tr>
                                 <td>
                                     <h2 class="table-avatar">
-                                        <a href="client-profile" class="avatar"><img src="img/profiles/avatar-19.jpg" alt=""></a>
-                                        <a href="client-profile">ID</a>
+                                       
+                                        <a href="client-profile">{{$item->id}}</a>
                                     </h2>
                                 </td>
-                                <td>CLT-0001</td>
-                                <td>Barry Cuda</td>
-                                <td>14/12/201244444444444</td>
+                                <td>{{$item->t_name}}</td>
+                                <td>{{$item->t_slug}}</td>
+                                <td>{{$item->created_at}}</td>
                                 <td>
-                                    <div class="dropdown action-label">
-                                        <a href="#" class="btn btn-white btn-sm btn-rounded dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-dot-circle-o text-success"></i> Active </a>
+                                    <div class="dropdown ">
+                                        <a href="#" class="btn btn-white btn-sm btn-rounded dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-dot-circle-o text-success"></i> Bật </a>
                                         <div class="dropdown-menu">
-                                            <a class="dropdown-item" href="#"><i class="fa fa-dot-circle-o text-success"></i> Active</a>
-                                            <a class="dropdown-item" href="#"><i class="fa fa-dot-circle-o text-danger"></i> Inactive</a>
+                                            <a class="dropdown-item" href="#"><i class="fa fa-dot-circle-o text-success"></i> Bật</a>
+                                            <a class="dropdown-item" href="#"><i class="fa fa-dot-circle-o text-danger"></i> Tắt</a>
                                         </div>
                                     </div>
                                 </td>
-                                <td class="text-right">
+                                <td class="">
                                     <div class="dropdown dropdown-action">
                                         <a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="material-icons">more_vert</i></a>
                                         <div class="dropdown-menu dropdown-menu-right">
-                                            <a class="dropdown-item" href="#" data-toggle="modal" data-target="#edit_client"><i class="fa fa-pencil m-r-5"></i> Edit</a>
-                                            <a class="dropdown-item" href="#" data-toggle="modal" data-target="#delete_client"><i class="fa fa-trash-o m-r-5"></i> Delete</a>
+                                            <a class="dropdown-item" href="#" data-toggle="modal" data-target="#edit_client"><i class="fa fa-pencil m-r-5"></i> Sửa</a>
+                                            <a class="dropdown-item" href="" data-toggle="modal" data-target="#delete_client"><i class="fa fa-trash-o m-r-5"></i> Xóa</a>
                                         </div>
                                     </div>
                                 </td>
                             </tr>
+                            @endforeach
                            
                            
                            
@@ -110,13 +114,14 @@
         <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title">Add Client</h5>
+                    <h5 class="modal-title">Thêm Tag</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
                 <div class="modal-body">
                     <form   action="{{route('get_backend.tag.store')}}"  method="POST">
+                        @csrf
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="form-group">
@@ -126,56 +131,14 @@
                                     <small class="form-text text-danger">{{$errors->first('t_name')}}</small>
                                     @endif
                                 </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <label class="col-form-label">Slug</label>
-                                    <input class="form-control" type="text">
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <label class="col-form-label">Time<span class="text-danger">*</span></label>
-                                    <input class="form-control" type="text">
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <label class="col-form-label">Email <span class="text-danger">*</span></label>
-                                    <input class="form-control floating" type="email">
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <label class="col-form-label">Password</label>
-                                    <input class="form-control" type="password">
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <label class="col-form-label">Confirm Password</label>
-                                    <input class="form-control" type="password">
-                                </div>
-                            </div>
-                            <div class="col-md-6">  
-                                <div class="form-group">
-                                    <label class="col-form-label">Client ID <span class="text-danger">*</span></label>
-                                    <input class="form-control floating" type="text">
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <label class="col-form-label">Phone </label>
-                                    <input class="form-control" type="text">
-                                </div>
-                            </div>
+                            </div>   
                            
                         </div>
                         <div class="table-responsive m-t-15">
                            <h2></h2>
                         </div>
                         <div class="submit-section">
-                            <button class="btn btn-primary submit-btn">Submit</button>
+                            <button class="btn btn-primary submit-btn" type="submit">Submit</button>
                         </div>
                     </form>
                 </div>
@@ -411,16 +374,18 @@
             <div class="modal-content">
                 <div class="modal-body">
                     <div class="form-header">
-                        <h3>Delete Client</h3>
-                        <p>Are you sure want to delete?</p>
+                        <h3>Xóa Tag</h3>
+                        <p>Bạn chắc chắn muốn xóa chứ</p>
                     </div>
                     <div class="modal-btn delete-action">
                         <div class="row">
                             <div class="col-6">
-                                <a href="javascript:void(0);" class="btn btn-primary continue-btn">Delete</a>
+                               
+                                <a href="{{route('get_backend.tag.delete',$item->id)}}" class="btn btn-primary continue-btn">Xóa</a>
+                               
                             </div>
                             <div class="col-6">
-                                <a href="javascript:void(0);" data-dismiss="modal" class="btn btn-primary cancel-btn">Cancel</a>
+                                <a href="javascript:void(0);" data-dismiss="modal" class="btn btn-primary cancel-btn">Hoãn</a>
                             </div>
                         </div>
                     </div>
