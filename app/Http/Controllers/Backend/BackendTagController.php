@@ -9,13 +9,15 @@ use App\Tag;
 use Carbon\Carbon;
 use Illuminate\Support\Str;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Session;
 
 class BackendTagController extends Controller
 {
     protected $folder = "backend.tag.";
     public function index()
     {
-        $tags = Tag::orderbyDesc('id')->get();
+        $tags = Tag::orderbyDESC('id')->get();
+
 
         $viewData = [
             'tags' => $tags
@@ -38,11 +40,25 @@ class BackendTagController extends Controller
     }
     public function edit($id)
     {
-        return view($this->folder . "update");
+        $tag = Tag::find($id);
+        $tags = Tag::orderbyDesc('id')->get();
+
+        $viewData = [
+            'tags' => $tags,
+            'tag' => $tag,
+
+
+        ];
+        return view($this->folder . "update", $viewData);
     }
-    public function update($id)
+    public function update(BackendTagRequest $request, $id)
 
     {
+        $data = $request->except('_token');
+        $data['t_slug'] = Str::slug($request->t_name);
+        $data['update_at'] = Carbon::now();
+        $tag = Tag::find($id)->update($data);
+        return redirect()->back();
     }
     public function delete($id)
     {

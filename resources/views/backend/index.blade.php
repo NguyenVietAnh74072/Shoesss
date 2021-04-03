@@ -1,4 +1,5 @@
 @extends('layouts.app_backend')
+@section('title','Trang chủ ADMIN')
 @section('content')
 
  <!-- Page Wrapper -->
