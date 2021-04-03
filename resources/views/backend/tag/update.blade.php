@@ -27,23 +27,29 @@
             </div>
         </div>
        
-        <form action="{{route('get_backend.tag.update',$tag->id)}}"  method="POST">
+        
+          <form   action="{{route('get_backend.tag.update',$tag->id)}}"  method="POST">
             @csrf
-            <div class="form-group">
-                <label ><h3>Số ID {{$tag->id}}</h3></label>
-                
-              </div>
-              <div class="form-group">
-                <label class="col-form-label">Tên<span class="text-danger">*</span></label>
-                <input class="form-control" type="text" name='t_name' value='{{old('t_name',$tag->t_name ??'')}}'>
-                @if($errors->first('t_name'))
-                <small class="form-text text-danger">{{$errors->first('t_name')}}</small>
-                @endif
+            <div class="row">
+                <div class="col-md-6">
+                    <label ><h3>Số ID {{$tag->id}}</h3></label>
+                    <div class="form-group">
+                        <label class="col-form-label">Tên<span class="text-danger">*</span></label>
+                        <input class="form-control" type="text" name='t_name'value='{{old('t_name',$tag->t_name ??'')}}' >
+                        @if($errors->first('t_name'))
+                        <small class="form-text text-danger">{{$errors->first('t_name')}}</small>
+                        @endif
+                    </div>
+                </div>   
+               
             </div>
-           
-            
-            <button type="submit" class="btn btn-primary">Sửa</button>
-          </form>
+            <div class="table-responsive m-t-15">
+               <h2></h2>
+            </div>
+            <div class="submit-section">
+                <button class="btn btn-primary submit-btn" type="submit">Thêm</button>
+            </div>
+        </form>
           <label class="col-form-label"><span >Danh sách</span></label>
         
         <!-- Search Filter -->
