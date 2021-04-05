@@ -12,9 +12,7 @@
             <div class="row align-items-center">
                 <div class="col">
                     <h3 class="page-title"> SửaTag</h3>
-                      @if($errors->first('t_name'))
-                                    <small class="form-text text-danger">{{$errors->first('t_name')}}</small>
-                                    @endif
+                    
                    
                 </div>
                 <div class="col-auto float-right ml-auto">
@@ -35,7 +33,7 @@
                     <label ><h3>Số ID {{$tag->id}}</h3></label>
                     <div class="form-group">
                         <label class="col-form-label">Tên<span class="text-danger">*</span></label>
-                        <input class="form-control" type="text" name='t_name'value='{{old('t_name',$tag->t_name ??'')}}' >
+                        <input class="form-control" type="text" name='t_name' value='{{old('t_name',$tag->t_name ??'')}}' >
                         @if($errors->first('t_name'))
                         <small class="form-text text-danger">{{$errors->first('t_name')}}</small>
                         @endif
@@ -43,11 +41,9 @@
                 </div>   
                
             </div>
-            <div class="table-responsive m-t-15">
-               <h2></h2>
-            </div>
+          
             <div class="submit-section">
-                <button class="btn btn-primary submit-btn" type="submit">Thêm</button>
+                <button class="btn btn-primary submit-btn" type="submit">Sửa</button>
             </div>
         </form>
           <label class="col-form-label"><span >Danh sách</span></label>
