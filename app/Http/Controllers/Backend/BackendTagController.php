@@ -58,7 +58,7 @@ class BackendTagController extends Controller
         $data = Tag::find($idd);
         $data->t_name = $request->t_name;
         $data->t_slug = Str::slug($request->t_name);
-        $data['created_at'] = Carbon::now();
+        $data['updated_at'] = Carbon::now();
         $data->save();
         return redirect()->back();
     }
