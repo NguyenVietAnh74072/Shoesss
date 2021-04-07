@@ -17,11 +17,11 @@ class BackendCategorylController extends Controller
     protected $folder = "backend.category.";
     public function index()
     {
-        $categories = Category::orderbyDESC('id')->get();
+        $category = Category::orderbyDESC('id')->get();
 
 
         $viewData = [
-            'categories' => $categories
+            'categories' => $category
 
         ];
         return view($this->folder . "index", $viewData);
@@ -38,27 +38,10 @@ class BackendCategorylController extends Controller
     }
     public function edit($id)
     {
-        $category = Category::find($id);
-        $categories = Category::orderbyDesc('id')->get();
-
-        $viewData = [
-            'categories' => $categories,
-            'category' => $category,
-
-
-        ];
-        return view($this->folder . "update", $viewData);
     }
     public function update(BackendCategoryRequest $request, $idd)
 
     {
-        $data = $request->except('_token');
-        $data = Category::find($idd);
-        $data->k_name = $request->k_name;
-        $data->k_slug = Str::slug($request->k_name);
-        $data['updated_at'] = Carbon::now();
-        $data->save();
-        return redirect()->back();
     }
     public function delete($id)
     {
