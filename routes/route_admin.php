@@ -25,10 +25,10 @@ Route::group(['namespace' => 'Backend', 'prefix' => 'admin'], function () {
         Route::get('/', 'BackendCategorylController@index')->name('get_backend.category.index');
 
         Route::get('create', 'BackendCategorylController@create')->name('get_backend.category.create');
-        Route::post('store', 'BackendCategorylController@store');
+        Route::post('store', 'BackendCategorylController@store')->name('get_backend.category.store');
 
-        Route::get('update/{id}', 'BackendCategorylController@edit')->name('get_backend.category.edit');
-        Route::post('update/{id}', 'BackendCategorylController@update');
+        Route::get('update/{id}', 'BackendCategorylController@edit')->name('get_backend.category.update');
+        Route::post('update/{idd}', 'BackendCategorylController@update');
 
         Route::get('delete/{id}', 'BackendCategorylController@delete')->name('get_backend.category.delete');
     });
@@ -38,10 +38,10 @@ Route::group(['namespace' => 'Backend', 'prefix' => 'admin'], function () {
         Route::get('/', 'BackendKeywordController@index')->name('get_backend.keyword.index');
 
         Route::get('create', 'BackendKeywordController@create')->name('get_backend.keyword.create');
-        Route::post('store', 'BackendKeywordController@store');
+        Route::post('store', 'BackendKeywordController@store')->name('get_backend.keyword.store');
 
-        Route::get('update/{id}', 'BackendKeywordController@edit')->name('get_backend.keyword.edit');
-        Route::post('update/{id}', 'BackendKeywordController@update');
+        Route::get('update/{id}', 'BackendKeywordController@edit')->name('get_backend.keyword.update');
+        Route::post('update/{idd}', 'BackendKeywordController@update');
 
         Route::get('delete/{id}', 'BackendKeywordController@delete')->name('get_backend.keyword.delete');
     });
@@ -52,7 +52,7 @@ Route::group(['namespace' => 'Backend', 'prefix' => 'admin'], function () {
         Route::get('create', 'BackendProductController@create')->name('get_backend.product.create');
         Route::post('store', 'BackendProductController@store');
 
-        Route::get('update/{id}', 'BackendProductController@edit')->name('get_backend.product.edit');
+        Route::get('update/{id}', 'BackendProductController@edit')->name('get_backend.product.update');
         Route::post('update/{id}', 'BackendProductController@update');
 
         Route::get('delete/{id}', 'BackendProductController@delete')->name('get_backend.product.delete');
@@ -77,7 +77,7 @@ Route::group(['namespace' => 'Backend', 'prefix' => 'admin'], function () {
         Route::post('store', 'BackendTagController@store')->name('get_backend.tag.store');
 
         Route::get('update/{id}', 'BackendTagController@edit')->name('get_backend.tag.update');
-        Route::post('update/{id}', 'BackendTagController@update');
+        Route::post('update/{idd}', 'BackendTagController@update');
 
         Route::get('delete/{id}', 'BackendTagController@delete')->name('get_backend.tag.delete');
     });

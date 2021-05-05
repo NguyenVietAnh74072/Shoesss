@@ -24,7 +24,7 @@ class BackendCategoryRequest extends FormRequest
     public function rules()
     {
         return [
-            'c_name' => 'required|unique:categories ,c_name' . $this->id,
+            'c_name' => 'required|unique:categories,c_name' . $this->id,
 
         ];
     }

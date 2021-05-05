@@ -51,13 +51,15 @@ class BackendTagController extends Controller
         ];
         return view($this->folder . "update", $viewData);
     }
-    public function update(BackendTagRequest $request, $id)
+    public function update(BackendTagRequest $request, $idd)
 
     {
         $data = $request->except('_token');
-        $data['t_slug'] = Str::slug($request->t_name);
-        $data['update_at'] = Carbon::now();
-        $tag = Tag::find($id)->update($data);
+        $data = Tag::find($idd);
+        $data->t_name = $request->t_name;
+        $data->t_slug = Str::slug($request->t_name);
+        $data['updated_at'] = Carbon::now();
+        $data->save();
         return redirect()->back();
     }
     public function delete($id)
