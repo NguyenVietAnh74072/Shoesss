@@ -51,13 +51,13 @@
         <div class="container">
             <div class="row justify-content-between align-items-center">
                 <div class="col-md-auto col-12">
-                    <p class="text-white text-center text-md-left my-2">Free shipping for orders over $59 !</p>
+                    <p class="text-white text-center text-md-left my-2">Miễn phí giao hàng hóa đơn trên 500k !</p>
                 </div>
                 <div class="col-auto d-none d-md-block">
                     <div class="topbar-menu">
                         <ul>
-                            <li><a href="#" class="text-white"><i class="fa fa-map-marker-alt"></i>Store Location</a></li>
-                            <li><a href="#" class="text-white"><i class="fa fa-truck"></i>Order Status</a></li>
+                            <li><a href="#" class="text-white"><i class="fa fa-map-marker-alt"></i>Địa chỉ</a></li>
+                            <li><a href="#" class="text-white"><i class="fa fa-truck"></i>Đặt hàng ngay</a></li>
                         </ul>
                     </div>
                 </div>
@@ -73,18 +73,13 @@
                 <!-- Header Language & Currency Start -->
                 <div class="col">
                     <ul class="header-lan-curr">
-                        <li><a href="#">English</a>
+                        <li><a href="#">Chính sách</a>
                             <ul class="curr-lan-sub-menu">
-                                <li><a href="#">Français</a></li>
-                                <li><a href="#">Deutsch</a></li>
+                                <li><a href="#">Free Ship</a></li>
+                                <li><a href="#">Đổi trả 24h </a></li>
                             </ul>
                         </li>
-                        <li><a href="#">USD</a>
-                            <ul class="curr-lan-sub-menu">
-                                <li><a href="#">EUR</a></li>
-                                <li><a href="#">GBP</a></li>
-                            </ul>
-                        </li>
+                       
                     </ul>
                 </div>
                 <!-- Header Language & Currency End -->
@@ -140,32 +135,8 @@
                                     </ul>
                                   
                                 </li>
-                                <li>
-                                    <a href="#" class="mega-menu-title"><span class="menu-text">PRODUCT PAGES</span></a>
-                                    <ul>
-                                        <li><a href="product-details.html"><span class="menu-text">Basic</span></a></li>
-                                        <li><a href="product-details-fullwidth.html"><span class="menu-text">Fullwidth</span></a></li>
-                                        <li><a href="product-details-sticky.html"><span class="menu-text">Sticky Details</span></a></li>
-                                        <li><a href="product-details-sidebar.html"><span class="menu-text">Width Sidebar</span></a></li>
-                                        <li><a href="product-details-extra-content.html"><span class="menu-text">Extra Content</span></a></li>
-                                        <li><a href="product-details-image-variation.html"><span class="menu-text">Variations Images</span></a></li>
-                                        <li><a href="product-details-group.html"><span class="menu-text">Bought Together</span></a></li>
-                                        <li><a href="product-details-360.html"><span class="menu-text">Product 360</span></a></li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <a href="#" class="mega-menu-title"><span class="menu-text">PRODUCT & Other PAGES</span></a>
-                                    <ul>
-                                        <li><a href="product-details-background.html"><span class="menu-text">Product with Background</span></a></li>
-                                        <li><a href="shopping-cart.html"><span class="menu-text">Shopping Cart</span></a></li>
-                                        <li><a href="checkout.html"><span class="menu-text">Checkout</span></a></li>
-                                        <li><a href="order-tracking.html"><span class="menu-text">Order Tracking</span></a></li>
-                                        <li><a href="wishlist.html"><span class="menu-text">Wishlist</span></a></li>
-                                        <li><a href="login-register.html"><span class="menu-text">Customer Login</span></a></li>
-                                        <li><a href="my-account.html"><span class="menu-text">My Account</span></a></li>
-                                        <li><a href="lost-password.html"><span class="menu-text">Lost Password</span></a></li>
-                                    </ul>
-                                </li>
+                               
+                                
                                 <li class="align-self-center">
                                     <a href="#" class="menu-banner"><img src="../frontend/images/banner/menu-banner-2.png" alt="Shop Menu Banner"></a>
                                 </li>

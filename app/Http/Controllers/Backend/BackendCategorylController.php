@@ -38,10 +38,28 @@ class BackendCategorylController extends Controller
     }
     public function edit($id)
     {
+        $category = Category::find($id);
+        $categories = Category::orderbyDesc('id')->get();
+
+        $viewData = [
+            'categories' => $categories,
+            'category' => $category,
+
+
+        ];
+        return view($this->folder . "update", $viewData);
     }
     public function update(BackendCategoryRequest $request, $idd)
 
     {
+        $data = $request->except('_token');
+        $data = Category::find($idd);
+        $data->c_name = $request->c_name;
+        $data->c_description = $request->c_description;
+        $data->c_slug = Str::slug($request->c_name);
+        $data['updated_at'] = Carbon::now();
+        $data->save();
+        return redirect()->back();
     }
     public function delete($id)
     {

@@ -32,6 +32,11 @@
                         <small class="form-text text-danger">{{$errors->first('c_name')}}</small>
                         @endif
                     </div>
+                    <div class="form-group">
+                        <label class="col-form-label">mieu ta<span class="text-danger">*</span></label>
+                        <input class="form-control" type="text" name='c_description' value='{{old('c_description',$category->c_description ??'')}}' >
+                       
+                    </div>
                 </div>   
                
             </div>

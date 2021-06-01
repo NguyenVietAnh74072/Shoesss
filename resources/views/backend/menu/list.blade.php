@@ -4,14 +4,12 @@
         <th>ID</th>
         <th>Tên</th>
         <th>Slug</th>
-        <th>mieu ta</th>
         <th>Thời gian</th>
         <th>Hành động</th>
-        <th>Sửa/Xóa</th>
     </tr>
 </thead>
 <tbody>
-    @foreach($categories as $item)
+    @foreach($menus as $item)
     
     <tr>
         <td>
@@ -20,9 +18,8 @@
                 <a href="client-profile">{{$item->id}}</a>
             </h2>
         </td>
-        <td>{{$item->c_name}}</td>
-        <td>{{$item->c_slug}}</td>
-        <td>{{$item->c_description}}</td>
+        <td>{{$item->mn_name}}</td>
+        <td>{{$item->mn_slug}}</td>
         <td>{{$item->created_at}}</td>
         <td>
             <div class="dropdown ">
@@ -37,8 +34,8 @@
             <div class="dropdown dropdown-action">
                 <a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="material-icons">more_vert</i></a>
                 <div class="dropdown-menu dropdown-menu-right">
-                    <a class="dropdown-item" href="{{route('get_backend.category.update',$item->id)}}" data-toggle="" data-target="#edik_client"><i class="fa fa-pencil m-r-5"></i> Sửa</a>
-                    <a class="dropdown-item" href="{{route('get_backend.category.delete',$item->id)}}"  data-id="{{$item->id}}" data-toggle="" data-target="#delete_client"><i class="fa fa-trash-o m-r-5"></i> Xóa</a>
+                    <a class="dropdown-item" href="{{route('get_backend.menu.update',$item->id)}}" data-toggle="" data-target="#edimn_client"><i class="fa fa-pencil m-r-5"></i> Sửa</a>
+                    <a class="dropdown-item" href="{{route('get_backend.menu.delete',$item->id)}}"  data-id="{{$item->id}}" data-toggle="" data-target="#delete_client"><i class="fa fa-trash-o m-r-5"></i> Xóa</a>
                     
                 </div>
             </div>

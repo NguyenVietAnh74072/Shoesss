@@ -85,6 +85,13 @@
                                     @endif
                                 </div>
                             </div>   
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label class="col-form-label">mieu ta<span class="text-danger">*</span></label>
+                                    <input class="form-control" type="text" name='c_description' >
+                                  
+                                </div>
+                            </div>   
                            
                         </div>
                         <div class="table-responsive m-t-15">

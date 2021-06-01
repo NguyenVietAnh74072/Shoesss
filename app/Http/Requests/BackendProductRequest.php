@@ -4,7 +4,7 @@ namespace App\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 
-class BackendProdcutRequest extends FormRequest
+class BackendProductRequest extends FormRequest
 {
     /**
      * Determine if the user is authorized to make this request.
@@ -24,7 +24,8 @@ class BackendProdcutRequest extends FormRequest
     public function rules()
     {
         return [
-            'pro_name' => 'required|unique:products ,pro_name' . $this->id,
+            //  'pro_name' => 'required|unique:products,pro_name' . $this->id,
+            'pro_name' => 'required:products,pro_name' . $this->id,
             'pro_price' => 'required',
             'pro_category_id' => 'required',
             'pro_number' => 'required',
@@ -38,11 +39,12 @@ class BackendProdcutRequest extends FormRequest
     {
         return [
             'pro_name.required' => 'Dữ liệu không được để chống',
-            'pro_name.unique' => 'Dữ liệu đã tồn tại',
+            // 'pro_name.unique' => 'Dữ liệu đã tồn tại',
             'pro_price.required' => 'Dữ liệu không được để chống',
             'pro_category_id.required' => 'Dữ liệu không được để chống',
             'pro_number.required' => 'Dữ liệu không được để chống',
             'pro_content.required' => 'Dữ liệu không được để chống',
+            'pro_description.required' => 'Dữ liệu không được để chống',
 
         ];
     }

@@ -56,8 +56,8 @@ class BackendKeywordController extends Controller
     {
         $data = $request->except('_token');
         $data = Keyword::find($idd);
-        $data->c_name = $request->c_name;
-        $data->c_slug = Str::slug($request->c_name);
+        $data->k_name = $request->k_name;
+        $data->k_slug = Str::slug($request->k_name);
         $data['updated_at'] = Carbon::now();
         $data->save();
         return redirect()->back();

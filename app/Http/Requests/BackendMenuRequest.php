@@ -24,7 +24,7 @@ class BackendMenuRequest extends FormRequest
     public function rules()
     {
         return [
-            'mn_name' => 'required|unique:menus ,mn_name' . $this->id,
+            'mn_name' => 'required|unique:menus,mn_name' . $this->id,
 
         ];
     }

@@ -50,10 +50,10 @@ Route::group(['namespace' => 'Backend', 'prefix' => 'admin'], function () {
         Route::get('/', 'BackendProductController@index')->name('get_backend.product.index');
 
         Route::get('create', 'BackendProductController@create')->name('get_backend.product.create');
-        Route::post('store', 'BackendProductController@store');
+        Route::post('store', 'BackendProductController@store')->name('get_backend.product.store');
 
         Route::get('update/{id}', 'BackendProductController@edit')->name('get_backend.product.update');
-        Route::post('update/{id}', 'BackendProductController@update');
+        Route::post('update/{idd}', 'BackendProductController@update');
 
         Route::get('delete/{id}', 'BackendProductController@delete')->name('get_backend.product.delete');
     });
@@ -62,10 +62,10 @@ Route::group(['namespace' => 'Backend', 'prefix' => 'admin'], function () {
         Route::get('/', 'BackendMenuController@index')->name('get_backend.menu.index');
 
         Route::get('create', 'BackendMenuController@create')->name('get_backend.menu.create');
-        Route::post('store', 'BackendMenuController@store');
+        Route::post('store', 'BackendMenuController@store')->name('get_backend.menu.store');
 
-        Route::get('update/{id}', 'BackendMenuController@edit')->name('get_backend.menu.edit');
-        Route::post('update/{id}', 'BackendMenuController@update');
+        Route::get('update/{id}', 'BackendMenuController@edit')->name('get_backend.menu.update');
+        Route::post('update/{idd}', 'BackendMenuController@update');
 
         Route::get('delete/{id}', 'BackendMenuController@delete')->name('get_backend.menu.delete');
     });
@@ -86,10 +86,10 @@ Route::group(['namespace' => 'Backend', 'prefix' => 'admin'], function () {
         Route::get('/', 'BackendArticleController@index')->name('get_backend.article.index');
 
         Route::get('create', 'BackendArticleController@create')->name('get_backend.article.create');
-        Route::post('store', 'BackendArticleController@store');
+        Route::post('store', 'BackendArticleController@store')->name('get_backend.article.store');;
 
         Route::get('update/{id}', 'BackendArticleController@edit')->name('get_backend.article.edit');
-        Route::post('update/{id}', 'BackendArticleController@update');
+        Route::post('update/{idd}', 'BackendArticleController@update');
 
         Route::get('delete/{id}', 'BackendArticleController@delete')->name('get_backend.article.delete');
     });
