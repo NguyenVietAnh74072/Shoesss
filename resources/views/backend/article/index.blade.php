@@ -91,8 +91,8 @@
                                     <div class="dropdown dropdown-action">
                                         <a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="material-icons">more_vert</i></a>
                                         <div class="dropdown-menu dropdown-menu-right">
-                                            <a class="dropdown-item" href="{{route('get_backend.product.update',$item->id)}}" data-toggle="" data-target="#edia_client"><i class="fa fa-pencil m-r-5"></i> Sửa</a>
-                                            <a class="dropdown-item" href="{{route('get_backend.product.delete',$item->id)}}"  data-id="{{$item->id}}" data-toggle="" data-target="#delete_client"><i class="fa fa-trash-o m-r-5"></i> Xóa</a>
+                                            <a class="dropdown-item" href="{{route('get_backend.article.update',$item->id)}}" data-toggle="" data-target="#edia_client"><i class="fa fa-pencil m-r-5"></i> Sửa</a>
+                                            <a class="dropdown-item" href="{{route('get_backend.article.delete',$item->id)}}"  data-id="{{$item->id}}" data-toggle="" data-target="#delete_client"><i class="fa fa-trash-o m-r-5"></i> Xóa</a>
                                             
                                         </div>
                                     </div>

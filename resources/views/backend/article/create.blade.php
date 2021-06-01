@@ -14,7 +14,7 @@
             <div class="col-md-6">
                 <div class="form-group">
                     <label class="col-form-label">Tên<span class="text-danger">*</span></label>
-                    <input class="form-control" type="text" name='a_name' >
+                    <input class="form-control" type="text" name='a_name'>
                     @if($errors->first('a_name'))
                     <small class="form-text text-danger">{{$errors->first('a_name')}}</small>
                     @endif
