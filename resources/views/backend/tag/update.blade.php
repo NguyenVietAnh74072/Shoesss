@@ -30,7 +30,10 @@
             @csrf
             <div class="row">
                 <div class="col-md-6">
-                    <label ><h3>Số ID {{$tag->id}}</h3></label>
+                    <label ><h3>Số ID :{{$tag->id}}</h3></label>
+                    <div class="form-group">
+                    <label ><h3>Tên Tag hiện tại : {{$tag->t_name}}</h3></label>
+                    </div>
                     <div class="form-group">
                         <label class="col-form-label">Tên<span class="text-danger">*</span></label>
                         <input class="form-control" type="text" name='t_name' value='{{old('t_name',$tag->t_name ??'')}}' >

@@ -24,7 +24,7 @@
             @csrf
             <div class="row">
                 <div class="col-md-6">
-                    <label ><h3>Số ID {{$category->id}}</h3></label>
+                    <label ><h3>Số ID cua tao nè{{$category->id}}</h3></label>
                     <div class="form-group">
                         <label class="col-form-label">Tên<span class="text-danger">*</span></label>
                         <input class="form-control" type="text" name='c_name' value='{{old('c_name',$category->c_name ??'')}}' >

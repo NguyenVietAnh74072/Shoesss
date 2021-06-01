@@ -1,6 +1,11 @@
 @extends('layouts.app_Backend')
 @section('title','Danh sách Category')
 @section('content')
+<<<<<<< HEAD
+<h1> danh sach hang hoa </h1>
+123ầdfdsfdf
+helo the gioi
+=======
  <!-- Page Wrapper -->
  <div class="page-wrapper">
 			
@@ -118,4 +123,5 @@
 </div>
 <!-- /Page Wrapper -->
 
+>>>>>>> 43b78938e5dadb512e95aad86be53c96bcd84b37
 @endsection
