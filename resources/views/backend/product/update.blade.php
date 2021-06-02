@@ -75,9 +75,10 @@
                                 <th>ID</th>
                                 <th>Tên</th>
                                 <th>Slug</th>
+                                <th>Img</th>
                                 <th>Giá</th>
                                 <th>So Luong</th>
-                                <th>category_id</th>
+                                <th>Danh muc</th>
                                 <th>Miêu tả</th>
                                 <th>Noi dung</th>
                                 <th>Thời gian</th>
@@ -96,12 +97,18 @@
                                 </td>
                                 <td>{{$item->pro_name}}</td>
                                 <td>{{$item->pro_slug}}</td>
+                                <td><a>
+                                    <img src={{asset("public/uploads/product/$item->pro_avatar")}} width="60px"height="60px"></a></td>
                             
                                 <td class="text-danger">{{number_format($item->pro_price,0,',','.')}}</td>
                                 <td>{{$item->pro_number}}</td>
-                                <td>{{$item->pro_category_id}}</td>
+                               
+                               
+                                <td>{{$item->category->c_name ??[N\A]}}</td>
+                               
+                            
                                 
-
+                               
                                 <td>{{$item->pro_description}}</td>
                                 <td>{{$item->pro_content}}</td>
                                 <td>{{$item->created_at}}</td>
@@ -210,6 +217,9 @@
                                       <label for="exampleFormControlFile1">Chọn ảnh từ máy tính bạn</label>
                                       <input type="file" class="form-control-file" id="exampleFormControlFile1" accept="image/*" name="pro_avatar">
                                     </div>
+                                    @if(isset($product)&&$product->pro_avatar)
+                                    <img src={{asset("public/uploads/product/$product->pro_avatar")}} class="img-thumbnail" width="100%"height="auto">
+                                    @endif
                                   </form>
                             </div>
                         </div>

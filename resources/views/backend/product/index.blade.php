@@ -63,8 +63,10 @@
                                 <th>ID</th>
                                 <th>Tên</th>
                                 <th>Slug</th>
+                               <th>Image</th>
                                 <th>Miêu tả</th>
                                 <th>Giá</th>
+                                <th>Danh muc</th>
                                 <th>Thời gian</th>
                                 <th>Hành động</th>
                             </tr>
@@ -81,8 +83,11 @@
                                 </td>
                                 <td>{{$item->pro_name}}</td>
                                 <td>{{$item->pro_slug}}</td>
+                                <td><a>
+                                    <img src={{asset("public/uploads/product/$item->pro_avatar")}} width="60px"height="60px"></a></td>
                                 <td>{{$item->pro_description}}</td>
                                 <td class="text-danger">{{number_format($item->pro_price,0,',','.')}}</td>
+                                <td>{{$item->category->c_name ??[N\A]}}</td>
                                 <td>{{$item->created_at}}</td>
                                 <td>
                                     <div class="dropdown ">

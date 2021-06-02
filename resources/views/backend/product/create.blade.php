@@ -9,7 +9,7 @@
             </div>
      <div class="modal-body">
     <form   action="{{route("get_backend.product.store")}}"  method="POST" enctype="multipart/form-data">
-        @csrf
+       {{csrf_field()}}
         <div class="row">
             <div class="col-md-6">
                 <div class="form-group">

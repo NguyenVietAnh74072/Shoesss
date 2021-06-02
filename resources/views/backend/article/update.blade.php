@@ -74,6 +74,7 @@
                                 <th>ID</th>
                                 <th>Tên</th>
                                 <th>Slug</th>
+                                <th>Img</th>
                                 
                                 <th>menu_id</th>
                                 <th>Miêu tả</th>
@@ -95,7 +96,8 @@
                                 <td>{{$item->a_name}}</td>
                                 <td>{{$item->a_slug}}</td>
                             
-                               
+                                <td><a>
+                                    <img src={{asset("public/uploads/article/$item->a_avatar")}} width="60px"height="60px"></a></td>
                                 <td>{{$item->a_menu_id}}</td>
                                 
 
@@ -195,6 +197,9 @@
                                       <label for="exampleFormControlFile1">Chọn ảnh từ máy tính bạn</label>
                                       <input type="file" class="form-control-file" id="exampleFormControlFile1" accept="image/*" name="a_avatar">
                                     </div>
+                                    @if(isset($article)&&$article->a_avatar)
+                                    <img src={{asset("public/uploads/article/$article->a_avatar")}} class="img-thumbnail" width="100%"height="auto">
+                                    @endif
                                   </form>
                             </div>
                         </div>

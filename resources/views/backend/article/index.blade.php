@@ -59,6 +59,9 @@
                                 <th>ID</th>
                                 <th>Tên</th>
                                 <th>Slug</th>
+                                <th>Image</th>
+                                <th>Menu</th>
+                                
                             
                                 <th>Thời gian</th>
                                 <th>Hành động</th>
@@ -76,6 +79,9 @@
                                 </td>
                                 <td>{{$item->a_name}}</td>
                                 <td>{{$item->a_slug}}</td>
+                                <td><a>
+                                    <img src={{asset("public/uploads/article/$item->a_avatar")}} width="60px"height="60px"></a></td>
+                                <td>{{$item->menu->mn_name??"[N\A"}}</td>
                                
                                 <td>{{$item->created_at}}</td>
                                 <td>
