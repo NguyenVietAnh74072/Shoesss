@@ -86,11 +86,12 @@
                                 <td>{{$item->created_at}}</td>
                                 <td>
                                     <div class="dropdown ">
-                                        <a href="#" class="btn btn-white btn-sm btn-rounded dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-dot-circle-o text-success"></i> Bật </a>
-                                        <div class="dropdown-menu">
-                                            <a class="dropdown-item" href="#"><i class="fa fa-dot-circle-o text-success"></i> Bật</a>
-                                            <a class="dropdown-item" href="#"><i class="fa fa-dot-circle-o text-danger"></i> Tắt</a>
-                                        </div>
+                                        @if($item->a_active ==1)
+                                        <a href="{{route('get_backend.article.active',$item->id)}}" class="btn btn-white btn-sm btn-rounded dropdown-toggle"  aria-expanded="false"><i class="fa fa-dot-circle-o text-success"></i> Bật </a>
+                                        @else
+                                        <a href="{{route('get_backend.article.active',$item->id)}}" class="btn btn-white btn-sm btn-rounded dropdown-toggle"  aria-expanded="false"><i class="fa fa-dot-circle-o text-unsuccess"></i> Tat </a>
+                                        @endif
+                                      
                                     </div>
                                 </td>
                                 <td class="">

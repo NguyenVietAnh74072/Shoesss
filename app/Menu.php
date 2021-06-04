@@ -8,4 +8,9 @@ class Menu extends Model
 {
     protected $guarded = [''];
     protected $table = 'menus';
+
+    public function articles()
+    {
+        return $this->hasMany(Article::class, 'a_menu_id');
+    }
 }

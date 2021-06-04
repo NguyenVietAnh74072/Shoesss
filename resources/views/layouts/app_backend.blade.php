@@ -28,7 +28,12 @@
 		<link rel="stylesheet" href="{{asset('/backend/css/morris.css')}}">
 		
 		<!-- Main CSS -->
+
         <link rel="stylesheet" href="{{asset('/backend/css/style.css')}}">
+
+
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css">
+       
 	
     </head>
 	
@@ -214,7 +219,7 @@
 													<div class="clearfix"></div>
 													<span class="message-content">Lorem ipsum dolor sit amet, consectetur adipiscing</span>
 												</div>
-											</div>
+ 											</div>
 										</a>
 									</li>
 									<li class="notification-message">
@@ -614,6 +619,24 @@
 		
 		<!-- Custom JS -->
 		<script src="/backend/js/app.js"></script>
+
+
+		<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+
+<script>
+	$(function(){
+		$(document).ready(function() {
+    $('.js-tags').select2();
+});
+
+	}))
+
+
+</script>
 		
     </body>
 

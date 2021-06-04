@@ -76,7 +76,7 @@
                                 <th>Slug</th>
                                 <th>Img</th>
                                 
-                                <th>menu_id</th>
+                                <th>Danh mục</th>
                                 <th>Miêu tả</th>
                                 <th>Noi dung</th>
                                 <th>Thời gian</th>
@@ -98,7 +98,7 @@
                             
                                 <td><a>
                                     <img src={{asset("public/uploads/article/$item->a_avatar")}} width="60px"height="60px"></a></td>
-                                <td>{{$item->a_menu_id}}</td>
+                                    <td>{{$item->menu->mn_name??"[N\A"}}</td>
                                 
 
                                 <td>{{$item->a_description}}</td>
@@ -171,6 +171,20 @@
                             </select>
                             @if($errors->first('a_menu_id'))
                             <small class="form-text text-danger">{{$errors->first('a_menu_id')}}</small>
+                            @endif
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label class="col-form-label">Từ khóa<span class="text-danger">*</span></label>
+                            <select class="form-control js-tags"  multiple="multiple" name="tags[]" >
+                            <option   >__Chọn Từ khóa__</option>
+                            @foreach($tags as $item)
+                            <option value="{{$item->id}}"{{in_array($item->id,$tagsOld)?"selected":""}}>{{$item->t_name}}</option>
+                            @endforeach
+                            </select>
+                            @if($errors->first('t_id'))
+                            <small class="form-text text-danger">{{$errors->first('t_id')}}</small>
                             @endif
                         </div>
                     </div>

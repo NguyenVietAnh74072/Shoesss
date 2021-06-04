@@ -8,27 +8,25 @@
             <div class="col-xl-9 col-lg-8 col-12 order-lg-2 learts-mb-50">
                 <div class="single-blog">
                     <div class="image">
-                        <a href="blog-details-right-sidebar.html"><img src="../frontend/images/blog/s870/blog-1.jpg" alt="Blog Image"></a>
+                        <a href="blog-details-right-sidebar.html"><img src="{{asset("public/uploads/article/$article->a_avatar")}}" alt="{{$article->a_name}}"  width="100px" height="auto"></a>
                     </div>
                     <div class="content">
                         <ul class="category">
-                            <li><a href="#">Decor</a></li>
-                            <li><a href="#">Kitchen</a></li>
+                            {{$article->name}}
                         </ul>
-                        <h2 class="title">Start a Kickass Online Blog</h2>
+                        <h2 class="title">{{$article->a_name}}</h2>
                         <ul class="meta">
                             <li><i class="fal fa-user"></i> By <a href="#">Owen Christ</a></li>
-                            <li><i class="far fa-calendar"></i><a href="#">January 22, 2020</a></li>
+                            <li><i class="far fa-calendar"></i><a href="#">{{$article->created_at}}</a></li>
                             <li><i class="fal fa-comment"></i><a href="#">4 Comments</a></li>
                             <li><i class="far fa-eye"></i> 201 views</li>
                         </ul>
                         <div class="desc">
-                            <p>It was designer Steven Miller—no slouch in the taste department—who first showed me the work of Jenny Hacker, a San Francisco-based textile artist. It was a blanket—black on black—with two different textiles fused together, one side organic cotton and the other, felted wool.</p>
+                            <p>{{$article->a_description}}</p>
                             <blockquote>
-                                <p>A triumph of&nbsp;texture and form, and&nbsp;dramatic, organic, sophisticated, sensual, it was one of the most beguiling pieces of functional art&nbsp;I’ve seen of late.</p>
+                                <p>{{$article->a_name}}</p>
                             </blockquote>
-                            <p>Doing a little background research for the interview was no mean feat. At a time when so many tread the same art-meets-craft sales circuits and tend their Instagram feeds with greater passion than their craft, this woman was mysterious. A minimalist website was all there was. Even better. A trip out to the deliciously un-hip Excelsior District in San Francisco was a good start.</p>
-                            <p>So was poking around the garage-turned-workshop: a vat of something brewing in the corner, a few bottles holding another experiment (homemade dyes from flowers in the yard), tatami mats on the floor, vintage Knoll chairs, a drool-worthy assortment of books on fashion, Japanese anime figurines… Oh, and an old letterpress nestled beneath a work table.</p>
+                            <p>{{$article->a_content}}</p>
                         </div>
                     </div>
                     <div class="blog-footer row no-gutters justify-content-between align-items-center">
@@ -211,36 +209,21 @@
 
                 <!-- Blog Post Widget Start -->
                 <div class="single-widget learts-mb-40">
-                    <h3 class="widget-title product-filter-widget-title">Recent Post</h3>
+                    <h3 class="widget-title product-filter-widget-title">Bài viết mới nhất</h3>
+                    @foreach ($getAriticlesLatest ??[] as $item)
                     <ul class="widget-blogs">
                         <li class="widget-blog">
                             <div class="thumbnail">
-                                <a href="blog-details-right-sidebar.html"><img src="../frontend/images/blog/widget/widget-1.jpg" alt="Widget Blog Post"></a>
+                                <a href="{{route('get.article_detail',$item->a_slug)}}"><img src="{{asset("public/uploads/article/$item->a_avatar")}}" alt="Widget Blog Post"></a>
                             </div>
                             <div class="content">
-                                <h6 class="title"><a href="blog-details-right-sidebar.html">Start a Kickass Online Blog</a></h6>
-                                <span class="date">January 22, 2020</span>
+                                <h6 class="title"><a href="{{route('get.article_detail',$item->a_slug)}}l">{{$item->a_name}}</a></h6>
+                                <span class="date">{{$item->created_at}}</span>
                             </div>
                         </li>
-                        <li class="widget-blog">
-                            <div class="thumbnail">
-                                <a href="blog-details-right-sidebar.html"><img src="../frontend/images/blog/widget/widget-2.jpg" alt="Widget Blog Post"></a>
-                            </div>
-                            <div class="content">
-                                <h6 class="title"><a href="blog-details-right-sidebar.html">Tile Tray with Brass Handles</a></h6>
-                                <span class="date">January 22, 2020</span>
-                            </div>
-                        </li>
-                        <li class="widget-blog">
-                            <div class="thumbnail">
-                                <a href="blog-details-right-sidebar.html"><img src="../frontend/images/blog/widget/widget-3.jpg" alt="Widget Blog Post"></a>
-                            </div>
-                            <div class="content">
-                                <h6 class="title"><a href="blog-details-right-sidebar.html">Dining Table Chairs Makeover</a></h6>
-                                <span class="date">January 22, 2020</span>
-                            </div>
-                        </li>
+            
                     </ul>
+                    @endforeach
                 </div>
                 <!-- Blog Post Widget End -->
 
@@ -254,22 +237,26 @@
 
                 <!-- Categories Start -->
                 <div class="single-widget learts-mb-40">
-                    <h3 class="widget-title product-filter-widget-title">Categories</h3>
+                    <h3 class="widget-title product-filter-widget-title">Menus</h3>
                     <ul class="widget-list">
-                        <li><a href="#">Gift ideas</a> <span class="count">11</span></li>
-                        <li><a href="#">Feature</a> <span class="count">2</span></li>
-                        <li><a href="#">Kitchen</a> <span class="count">11</span></li>
+                        @foreach($menus ??[] as $item)
+                      
+                        
+                        <li><a href="{{route('get.menu',$item->mn_slug)}}">{{$item->mn_name}}</a> <span class="count">{{$item->articles_count}}</span></li>
+                        
+                        @endforeach
                     </ul>
                 </div>
                 <!-- Categories End -->
 
                 <!-- Tags Start -->
                 <div class="single-widget learts-mb-40">
-                    <h3 class="widget-title product-filter-widget-title">Product Tags</h3>
+                    <h3 class="widget-title product-filter-widget-title">Bai viet Tag</h3>
                     <div class="widget-tags">
-                        <a href="#">design</a>
-                        <a href="#">fashion</a>
-                        <a href="#">learts</a>
+                        @foreach($tags ??[] as $item)
+                        <a href="{{route('get.tag',$item->t_slug)}}">{{$item->t_name}}</a>
+                        
+                        @endforeach
                     </div>
                 </div>
                 <!-- Tags End -->

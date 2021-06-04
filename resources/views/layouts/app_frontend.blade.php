@@ -125,7 +125,7 @@
                         <li class="has-children"><a href="#"><span class="menu-text">Danh mục</span></a>
                             <ul class="sub-menu mega-menu">
                                 <li>
-                                    <a href="#" class="mega-menu-title"><span class="menu-text">SHOP PAGES</span></a>
+                                 
                                     
                                     <ul>
                                         @foreach($categoriesGlobal as $item)
@@ -195,7 +195,7 @@
                         </ul>
                            
                         </li>
-                        <li class="has-children"><a href="#"><span class="menu-text">Pages</span></a>
+                        <li class="has-children"><a href="{{route('get.blog')}}"><span class="menu-text">Bài viết</span></a>
                             <ul class="sub-menu">
                                 <li><a href="about-us.html"><span class="menu-text">About us</span></a></li>
                                 <li><a href="about-us-2.html"><span class="menu-text">About us 02</span></a></li>

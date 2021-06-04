@@ -56,6 +56,8 @@ Route::group(['namespace' => 'Backend', 'prefix' => 'admin'], function () {
         Route::post('update/{idd}', 'BackendProductController@update');
 
         Route::get('delete/{id}', 'BackendProductController@delete')->name('get_backend.product.delete');
+
+        Route::get('active/{id}', 'BackendProductController@active')->name('get_backend.product.active');
     });
     Route::prefix('menu')->group(function () {
 
@@ -92,6 +94,8 @@ Route::group(['namespace' => 'Backend', 'prefix' => 'admin'], function () {
         Route::post('update/{idd}', 'BackendArticleController@update');
 
         Route::get('delete/{id}', 'BackendArticleController@delete')->name('get_backend.article.delete');
+
+        Route::get('active/{id}', 'BackendArticleController@active')->name('get_backend.article.active');
     });
 
 

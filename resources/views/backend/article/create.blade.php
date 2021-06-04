@@ -8,7 +8,8 @@
                 </button>
             </div>
      <div class="modal-body">
-    <form   action="{{route("get_backend.article.store")}}"  method="POST" enctype="multipart/form-data">
+       
+        <form   action="{{route("get_backend.article.store")}}"  method="POST" enctype="multipart/form-data">
         @csrf
         <div class="row">
             <div class="col-md-6">
@@ -34,9 +35,21 @@
                     @endif
                 </div>
             </div>
-          
-         
-              
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label class="col-form-label">Từ khóa<span class="text-danger">*</span></label>
+                    <select class="form-control js-tags"  multiple="multiple" name="tags[]" >
+                    <option   >__Chọn Từ khóa__</option>
+                    @foreach($tags as $item)
+                    <option value="{{$item->id}}"{{in_array($item->id,$tagsOld)?"selected":""}}>{{$item->t_name}}</option>
+                    @endforeach
+                    </select>
+                    @if($errors->first('t_id'))
+                    <small class="form-text text-danger">{{$errors->first('t_id')}}</small>
+                    @endif
+                </div>
+            </div>
+           
                 <div class="col-md-6">
                 <div class="form-group">
                     <label class="col-form-label">Miêu tả<span class="text-danger">*</span></label>
@@ -45,7 +58,9 @@
                     <small class="form-text text-danger">{{$errors->first('a_description')}}</small>
                     @endif
                 </div>
+
             </div>
+            
                 <div class="col-md-6">
                 <div class="form-group">
                     <label class="col-form-label">Nội dung<span class="text-danger">*</span></label>
@@ -54,25 +69,17 @@
                     <small class="form-text text-danger">{{$errors->first('a_content')}}</small>
                     @endif
                 </div>
-                <div class="col-md-6">
-                    <div class ="form-group">
-                        <form>
-                            <div class="form-group">
-                              <label for="exampleFormControlFile1">Chọn ảnh từ máy tính bạn</label>
-                              <input type="file" class="form-control-file" id="exampleFormControlFile1" accept="image/*" name="a_avatar">
-                            </div>
-                          </form>
+                
+        </div>
+        <div class="col-md-6">
+            <div class ="form-group">
+                <form>
+                    <div class="form-group">
+                      <label for="exampleFormControlFile1">Chọn ảnh từ máy tính bạn</label>
+                      <input type="file" class="form-control-file" id="exampleFormControlFile1" accept="image/*" name="a_avatar">
                     </div>
-                </div>
-           
-                        
-               
-           
-        
-                
-                  
-                
-           
+                  </form>
+            </div>
         </div>
         <div class="submit-section">
             <button class="btn btn-primary submit-btn" type="submit">Thêm</button>

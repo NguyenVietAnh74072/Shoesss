@@ -30,6 +30,8 @@ Route::group(['namespace' => 'Frontend'], function () {
 
     //danh muc bai viet
     Route::get('menu/{slug}', 'MenuController@index')->name('get.menu');
+    Route::get('bai-viet', 'ArticleController@index')->name('get.blog');
+    Route::get('tag/{slug}', 'TagController@index')->name('get.tag');
 });
 
 //Backend

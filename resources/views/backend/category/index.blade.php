@@ -123,5 +123,5 @@ helo the gioi
 </div>
 <!-- /Page Wrapper -->
 
->>>>>>> 43b78938e5dadb512e95aad86be53c96bcd84b37
+
 @endsection
