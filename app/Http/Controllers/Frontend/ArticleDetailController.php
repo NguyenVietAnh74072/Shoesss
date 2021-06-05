@@ -11,7 +11,7 @@ class ArticleDetailController extends BlogBaseController
     public function index(Request $request, $slug)
     {
 
-        $article = Article::where('a_slug', $slug)->first();
+        $article = Article::where('a_slug', $slug)->first();   // chi tiet bai viet
         if (!$article) return abort(404);
 
         $viewData = [

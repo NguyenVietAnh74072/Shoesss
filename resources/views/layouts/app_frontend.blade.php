@@ -142,51 +142,11 @@
                                 </li>
                             </ul>
                         </li>
-                        <li class="has-children"><a href="#"><span class="menu-text">Sản phẩm</span></a>
-                            <ul class="sub-menu">
-                                <li><a href="portfolio-3-columns.html"><span class="menu-text">Portfolio 3 Columns</span></a></li>
-                                <li><a href="portfolio-4-columns.html"><span class="menu-text">Portfolio 4 Columns</span></a></li>
-                                <li><a href="portfolio-5-columns.html"><span class="menu-text">Portfolio 5 Columns</span></a></li>
-                                <li><a href="portfolio-details.html"><span class="menu-text">Portfolio Details</span></a></li>
-                            </ul>
+                        <li class="has-children"><a href="{{route('get.product')}}"><span class="menu-text">Sản phẩm</span></a>
+                        
                         </li>
-                        <li class="has-children"><a href="#"><span class="menu-text">Chi tiết sản phẩm</span></a>
-                            <ul class="sub-menu mega-menu">
-                                <li>
-                                    <a href="#" class="mega-menu-title"><span class="menu-text">Column One</span></a>
-                                    <ul>
-                                        <li><a href="elements-products.html"><span class="menu-text">Product Styles</span></a></li>
-                                        <li><a href="elements-products-tabs.html"><span class="menu-text">Product Tabs</span></a></li>
-                                        <li><a href="elements-product-sale-banner.html"><span class="menu-text">Product & Sale Banner</span></a></li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <a href="#" class="mega-menu-title"><span class="menu-text">Column Two</span></a>
-                                    <ul>
-                                        <li><a href="elements-category-banner.html"><span class="menu-text">Category Banner</span></a></li>
-                                        <li><a href="elements-team.html"><span class="menu-text">Team Member</span></a></li>
-                                        <li><a href="elements-testimonials.html"><span class="menu-text">Testimonials</span></a></li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <a href="#" class="mega-menu-title"><span class="menu-text">Column Three</span></a>
-                                    <ul>
-                                        <li><a href="elements-instagram.html"><span class="menu-text">Instagram</span></a></li>
-                                        <li><a href="elements-map.html"><span class="menu-text">Google Map</span></a></li>
-                                        <li><a href="elements-icon-box.html"><span class="menu-text">Icon Box</span></a></li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <a href="#" class="mega-menu-title"><span class="menu-text">Column Four</span></a>
-                                    <ul>
-                                        <li><a href="elements-buttons.html"><span class="menu-text">Buttons</span></a></li>
-                                        <li><a href="elements-faq.html"><span class="menu-text">FAQs / Toggles</span></a></li>
-                                        <li><a href="elements-brands.html"><span class="menu-text">Brands</span></a></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="has-children"><a href="#"><span class="menu-text">Blog</span></a>
+                        
+                        <li class="has-children"><a href="#"><span class="menu-text">Thông tin</span></a>
                             <ul class="sub-menu">
                                 @foreach($menusGlobal as $item)
                                 <li><a href="{{route('get.menu',$item->mn_slug)}} {{ \Request::segment(2)== $item->mn_slug ?'active':''}}"><span class="menu-text">{{$item->mn_name}}</span></a></li>
@@ -196,13 +156,7 @@
                            
                         </li>
                         <li class="has-children"><a href="{{route('get.blog')}}"><span class="menu-text">Bài viết</span></a>
-                            <ul class="sub-menu">
-                                <li><a href="about-us.html"><span class="menu-text">About us</span></a></li>
-                                <li><a href="about-us-2.html"><span class="menu-text">About us 02</span></a></li>
-                                <li><a href="contact-us.html"><span class="menu-text">Contact us</span></a></li>
-                                <li><a href="coming-soon.html"><span class="menu-text">Coming Soon</span></a></li>
-                                <li><a href="404.html"><span class="menu-text">Page 404</span></a></li>
-                            </ul>
+                           
                         </li>
                     </ul>
                 </nav>

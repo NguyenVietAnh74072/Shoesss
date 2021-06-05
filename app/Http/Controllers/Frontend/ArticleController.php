@@ -11,7 +11,7 @@ class ArticleController extends BlogBaseController
 {
     public function index()
     {
-        $articles = Article::with('menu:id,mn_name,mn_slug')->orderbyDesc('id')->paginate(10);
+        $articles = Article::with('menu:id,mn_name,mn_slug')->orderbyDesc('id')->paginate(10); // hien thi bai viet
         $menus = $this->getMenus();
         $viewData = [
             'articles' => $articles,

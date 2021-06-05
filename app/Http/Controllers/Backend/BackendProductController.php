@@ -45,11 +45,21 @@ class BackendProductController extends Controller
             $get_image->move('public/uploads/product', $new_image);
             $data['pro_avatar'] = $new_image;
         }
-        // echo '<pre>';
-        //  print_r($data);
-        //  echo '</pre>';
 
         $product = Product::create($data);
+        if ($request->keywords) {
+            $datas = [];
+            foreach ($request->keywords as $keyword) {
+
+                $datas[] = [
+                    'pk_product_id' => $product->id,
+                    'pk_keyword_id' => $keyword,
+
+                ];
+            }
+            DB::table('products_keywords')->where('pk_product_id', $product->id)->delete();
+            DB::table('products_keywords')->insert($datas);
+        }
         return redirect()->back();
     }
     public function edit($id)

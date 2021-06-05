@@ -20,6 +20,9 @@ Route::group(['namespace' => 'Frontend'], function () {
 
     //danh muc san pham
     Route::get('danh-muc/{slug}', 'CategoryController@index')->name('get.category');
+    Route::get('san-pham', 'ProductController@index')->name('get.product');
+    Route::get('keyword/{slug}', 'KeywordController@index')->name('get.keyword');
+
 
     //chi tiet san pham
     Route::get('san-pham/{slug}', 'ProductDetailController@index')->name('get.product_detail');

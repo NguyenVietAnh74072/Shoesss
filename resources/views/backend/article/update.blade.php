@@ -106,11 +106,12 @@
                                 <td>{{$item->created_at}}</td>
                                 <td>
                                     <div class="dropdown ">
-                                        <a href="#" class="btn btn-white btn-sm btn-rounded dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-dot-circle-o text-success"></i> Bật </a>
-                                        <div class="dropdown-menu">
-                                            <a class="dropdown-item" href="#"><i class="fa fa-dot-circle-o text-success"></i> Bật</a>
-                                            <a class="dropdown-item" href="#"><i class="fa fa-dot-circle-o text-danger"></i> Tắt</a>
-                                        </div>
+                                        @if($item->a_active ==1)
+                                        <a href="{{route('get_backend.article.active',$item->id)}}" class="btn btn-white btn-sm btn-rounded dropdown-toggle"  aria-expanded="false"><i class="fa fa-dot-circle-o text-success"></i> Bật </a>
+                                        @else
+                                        <a href="{{route('get_backend.article.active',$item->id)}}" class="btn btn-white btn-sm btn-rounded dropdown-toggle"  aria-expanded="false"><i class="fa fa-dot-circle-o text-unsuccess"></i> Tat </a>
+                                        @endif
+                                      
                                     </div>
                                 </td>
                                 <td class="">
@@ -177,7 +178,7 @@
                     <div class="col-md-6">
                         <div class="form-group">
                             <label class="col-form-label">Từ khóa<span class="text-danger">*</span></label>
-                            <select class="form-control js-tags"  multiple="multiple" name="tags[]" >
+                            <select class="form-control js-tags"  multiple="multiple" name="keywords[]" >
                             <option   >__Chọn Từ khóa__</option>
                             @foreach($tags as $item)
                             <option value="{{$item->id}}"{{in_array($item->id,$tagsOld)?"selected":""}}>{{$item->t_name}}</option>
