@@ -86,9 +86,9 @@
                                 <td>{{$item->created_at}}</td>
                                 <td>
                                     <div class="dropdown ">
-                                        @if($item->a_active ==1)
+                                         @if($item->a_active==1)
                                         <a href="{{route('get_backend.article.active',$item->id)}}" class="btn btn-white btn-sm btn-rounded dropdown-toggle"  aria-expanded="false"><i class="fa fa-dot-circle-o text-success"></i> Bật </a>
-                                        @else
+                                          @else
                                         <a href="{{route('get_backend.article.active',$item->id)}}" class="btn btn-white btn-sm btn-rounded dropdown-toggle"  aria-expanded="false"><i class="fa fa-dot-circle-o text-unsuccess"></i> Tat </a>
                                         @endif
                                       

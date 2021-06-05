@@ -96,6 +96,7 @@ Route::group(['namespace' => 'Backend', 'prefix' => 'admin'], function () {
         Route::get('delete/{id}', 'BackendArticleController@delete')->name('get_backend.article.delete');
 
         Route::get('active/{id}', 'BackendArticleController@active')->name('get_backend.article.active');
+        Route::get('unactive/{id}', 'BackendArticleController@unactive')->name('get_backend.article.unactive');
     });
 
 

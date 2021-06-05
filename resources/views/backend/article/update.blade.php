@@ -178,14 +178,14 @@
                     <div class="col-md-6">
                         <div class="form-group">
                             <label class="col-form-label">Từ khóa<span class="text-danger">*</span></label>
-                            <select class="form-control js-tags"  multiple="multiple" name="keywords[]" >
+                            <select class="form-control js-tags"  multiple="multiple" name="tags[]" >
                             <option   >__Chọn Từ khóa__</option>
                             @foreach($tags as $item)
                             <option value="{{$item->id}}"{{in_array($item->id,$tagsOld)?"selected":""}}>{{$item->t_name}}</option>
                             @endforeach
                             </select>
-                            @if($errors->first('t_id'))
-                            <small class="form-text text-danger">{{$errors->first('t_id')}}</small>
+                            @if($errors->first('t_name'))
+                            <small class="form-text text-danger">{{$errors->first('t_name')}}</small>
                             @endif
                         </div>
                     </div>

@@ -37,8 +37,19 @@
             </div>
             <div class="col-md-6">
                 <div class="form-group">
+                    <label class="col-form-label">Hành động<span class="text-danger">*</span></label>
+                    <select class="form-control" name="a_active"  >
+                    <option   >__Chọn hành động__</option>
+                    <option value="1" >Hiện</option>
+                    <option value="0" >Ẩn</option>
+                    </select>
+                   
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
                     <label class="col-form-label">Từ khóa<span class="text-danger">*</span></label>
-                    <select class="form-control js-tags"  multiple="multiple" name="keywords[]" >
+                    <select class="form-control js-tags"  multiple="multiple" name="tags[]" >
                     <option   >__Chọn Từ khóa__</option>
                     @foreach($tags as $item)
                     <option value="{{$item->id}}"{{in_array($item->id,$tagsOld)?"selected":""}}>{{$item->t_name}}</option>

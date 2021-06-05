@@ -73,10 +73,12 @@ class BackendArticleController extends Controller
     }
     public function edit($id)
     {
+
+
         $tags = Tag::all();
         $menus = Menu::all();
         $article = Article::find($id);
-        $articles = Article::orderbyDesc('id')->with('a_active')->get();
+        $articles = Article::orderbyDesc('id')->get();
         $tagsOld = DB::table('articles_tags')->where('at_article_id', $id)->pluck('at_tag_id')->toArray();
 
         $viewData = [
@@ -93,6 +95,7 @@ class BackendArticleController extends Controller
     public function update(BackendArticleRequest $request, $idd)
 
     {
+
         $data = $request->except('_token', 'a_avatar');
         $data = Article::find($idd);
         $data->a_content = $request->a_content;
@@ -108,16 +111,28 @@ class BackendArticleController extends Controller
             $get_image->move('public/uploads/article', $new_image);
             $data['a_avatar'] = $new_image;
         }
+        if ($request->tags) {
+            $datas = [];
+            foreach ($request->tags as $tag) {
 
+                $datas[] = [
+                    'at_article_id' => $idd,
+                    'at_tag_id' => $tag,
+
+                ];
+            }
+            DB::table('articles_tags')->where('at_article_id', $idd)->delete();
+            DB::table('articles_tags')->insert($datas);
+        }
         $data->save();
 
         return redirect()->back();
     }
     public function active($id)
     {
-        $product = Article::find($id);
-        $product->a_active = !$product->a_active;
-        $product->save();
+        $articles = Article::find($id);
+        $articles->a_active = !$articles->a_active;
+        $articles->save();
         return redirect()->back();
     }
     public function delete($id)
