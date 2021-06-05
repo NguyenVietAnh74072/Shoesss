@@ -38,7 +38,7 @@
             <div class="col-md-6">
                 <div class="form-group">
                     <label class="col-form-label">Từ khóa<span class="text-danger">*</span></label>
-                    <select class="form-control js-tags"  multiple="multiple" name="tags[]" >
+                    <select class="form-control js-tags"  multiple="multiple" name="keywords[]" >
                     <option   >__Chọn Từ khóa__</option>
                     @foreach($tags as $item)
                     <option value="{{$item->id}}"{{in_array($item->id,$tagsOld)?"selected":""}}>{{$item->t_name}}</option>
