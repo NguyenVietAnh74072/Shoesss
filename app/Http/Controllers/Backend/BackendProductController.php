@@ -12,6 +12,7 @@ use Carbon\Carbon;
 use Illuminate\Support\Str;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Session;
+use App\Keyword;
 
 class BackendProductController extends Controller
 {
@@ -21,10 +22,14 @@ class BackendProductController extends Controller
         //$products = Product::orderbyDESC('id')->paginate(20);
         $products = Product::with('category:id,c_name')->orderbyDesc('id')->paginate(20);
         $categories = Category::all();
+        $keywords = Keyword::all();
 
         $viewData = [
             'products' => $products,
-            'categories' => $categories
+            'categories' => $categories,
+            'keywords' => $keywords,
+            'keywordOld' => []
+
 
         ];
         return view($this->folder . "index", $viewData);
@@ -34,6 +39,8 @@ class BackendProductController extends Controller
 
     public function store(BackendProductRequest $request)
     {
+
+
         $data = $request->except('_token', 'pro_avatar');
         $data['pro_slug'] = Str::slug($request->pro_name);
         $data['created_at'] = Carbon::now();
@@ -57,6 +64,7 @@ class BackendProductController extends Controller
 
                 ];
             }
+
             DB::table('products_keywords')->where('pk_product_id', $product->id)->delete();
             DB::table('products_keywords')->insert($datas);
         }
@@ -67,12 +75,17 @@ class BackendProductController extends Controller
         $categories = Category::all();
         $product = Product::find($id);
         $products = Product::orderbyDesc('id')->get();
+        $keywords = Keyword::all();
+        $keywordOld = DB::table('products_keywords')->where('pk_product_id', $id)->pluck('pk_keyword_id')->toArray();
 
 
         $viewData = [
             'categories' => $categories,
             'product' => $product,
             'products' => $products,
+            'keywords' => $keywords,
+            'keywordOld' => $keywordOld,
+
 
 
         ];
