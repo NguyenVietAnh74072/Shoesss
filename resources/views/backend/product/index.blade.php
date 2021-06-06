@@ -68,7 +68,9 @@
                                 <th>Giá</th>
                                 <th>Danh muc</th>
                                 <th>Thời gian</th>
+                                <th>HOT</th>
                                 <th>Hành động</th>
+                              
                             </tr>
                         </thead>
                         <tbody>
@@ -91,9 +93,19 @@
                                 <td>{{$item->created_at}}</td>
                                 <td>
                                     <div class="dropdown ">
-                                        @if($item->pro_active ==1)
+                                         @if($item->pro_hot==1)
+                                        <a href="{{route('get_backend.product.hot',$item->id)}}" class="btn btn-white btn-sm btn-rounded dropdown-toggle"  aria-expanded="false"><i class="fa fa-dot-circle-o text-success"></i> Bật </a>
+                                          @else
+                                        <a href="{{route('get_backend.product.hot',$item->id)}}" class="btn btn-white btn-sm btn-rounded dropdown-toggle"  aria-expanded="false"><i class="fa fa-dot-circle-o text-unsuccess"></i> Tat </a>
+                                        @endif
+                                      
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="dropdown ">
+                                         @if($item->pro_active==1)
                                         <a href="{{route('get_backend.product.active',$item->id)}}" class="btn btn-white btn-sm btn-rounded dropdown-toggle"  aria-expanded="false"><i class="fa fa-dot-circle-o text-success"></i> Bật </a>
-                                        @else
+                                          @else
                                         <a href="{{route('get_backend.product.active',$item->id)}}" class="btn btn-white btn-sm btn-rounded dropdown-toggle"  aria-expanded="false"><i class="fa fa-dot-circle-o text-unsuccess"></i> Tat </a>
                                         @endif
                                       

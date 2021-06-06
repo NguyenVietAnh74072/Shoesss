@@ -5,6 +5,11 @@ namespace App\Http\Controllers\Frontend;
 use App\Http\Controllers\Controller;
 use App\Product;
 use Illuminate\Http\Request;
+use Illuminate\Support\Str;
+use Illuminate\Support\Facades\DB;
+
+use App\Cart;
+use Session;
 
 class ProductController extends BlogBaseController
 {
@@ -21,5 +26,21 @@ class ProductController extends BlogBaseController
         ];
 
         return view('frontend.category.index', $viewData);
+    }
+
+    public function addCart(Request $request, $id)
+
+    {
+
+        $product = DB::table('products')->where('id', $id)->first();
+        if ($product != null) {
+
+
+            $oldcart = Session('Cart') ? Session('Cart') : null;
+            $newCart = new Cart($oldcart);
+        }
+        $viewData = [
+            'newCart' => $newCart
+        ];
     }
 }

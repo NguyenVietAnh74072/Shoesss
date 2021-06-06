@@ -25,7 +25,7 @@ Route::group(['namespace' => 'Frontend'], function () {
 
 
     //chi tiet san pham
-    Route::get('san-pham/{slug}', 'ProductDetailController@index')->name('get.product_detail');
+    Route::get('sanpham/{slug}', 'ProductDetailController@index')->name('get.product_detail');
 
     //chitietbaiviet
     Route::get('bai-viet/{slug}', 'ArticleDetailController@index')->name('get.article_detail');
@@ -35,6 +35,9 @@ Route::group(['namespace' => 'Frontend'], function () {
     Route::get('menu/{slug}', 'MenuController@index')->name('get.menu');
     Route::get('bai-viet', 'ArticleController@index')->name('get.blog');
     Route::get('tag/{slug}', 'TagController@index')->name('get.tag');
+
+    //cap nhat gio hang hoa 
+    Route::get('addCart/{id}', 'ProductController@addCart')->name('get.addCart');
 });
 
 //Backend

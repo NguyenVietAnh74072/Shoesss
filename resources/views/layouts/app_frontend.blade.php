@@ -459,22 +459,8 @@
             </div>
             <div class="body customScroll">
                 <ul class="minicart-product-list">
-                    <li>
-                        <a href="product-details.html" class="image"><img src="../frontend/images/product/cart-product-1.jpg" alt="Cart product Image"></a>
-                        <div class="content">
-                            <a href="product-details.html" class="title">Walnut Cutting Board</a>
-                            <span class="quantity-price">1 x <span class="amount">$100.00</span></span>
-                            <a href="#" class="remove">×</a>
-                        </div>
-                    </li>
-                    <li>
-                        <a href="product-details.html" class="image"><img src="../frontend/images/product/cart-product-2.jpg" alt="Cart product Image"></a>
-                        <div class="content">
-                            <a href="product-details.html" class="title">Lucky Wooden Elephant</a>
-                            <span class="quantity-price">1 x <span class="amount">$35.00</span></span>
-                            <a href="#" class="remove">×</a>
-                        </div>
-                    </li>
+               
+                 
                     <li>
                         <a href="product-details.html" class="image"><img src="../frontend/images/product/cart-product-3.jpg" alt="Cart product Image"></a>
                         <div class="content">
@@ -503,30 +489,10 @@
             </div>
             <div class="body customScroll">
                 <ul class="minicart-product-list">
-                    <li>
-                        <a href="product-details.html" class="image"><img src="../frontend/images/product/cart-product-1.jpg" alt="Cart product Image"></a>
-                        <div class="content">
-                            <a href="product-details.html" class="title">Walnut Cutting Board</a>
-                            <span class="quantity-price">1 x <span class="amount">$100.00</span></span>
-                            <a href="#" class="remove">×</a>
-                        </div>
-                    </li>
-                    <li>
-                        <a href="product-details.html" class="image"><img src="../frontend/images/product/cart-product-2.jpg" alt="Cart product Image"></a>
-                        <div class="content">
-                            <a href="product-details.html" class="title">Lucky Wooden Elephant</a>
-                            <span class="quantity-price">1 x <span class="amount">$35.00</span></span>
-                            <a href="#" class="remove">×</a>
-                        </div>
-                    </li>
-                    <li>
-                        <a href="product-details.html" class="image"><img src="../frontend/images/product/cart-product-3.jpg" alt="Cart product Image"></a>
-                        <div class="content">
-                            <a href="product-details.html" class="title">Fish Cut Out Set</a>
-                            <span class="quantity-price">1 x <span class="amount">$9.00</span></span>
-                            <a href="#" class="remove">×</a>
-                        </div>
-                    </li>
+            
+                   <H1>OK NHA<H1>
+                   
+                
                 </ul>
             </div>
             <div class="foot">
@@ -682,39 +648,9 @@
     <div class="home1-slider swiper-container">
         <div class="swiper-wrapper">
             <div class="home1-slide-item swiper-slide" data-swiper-autoplay="5000" data-bg-image="../frontend/images/slider/home1/anhbia.png">
-                <div class="home1-slide1-content">
-                    <span class="bg"></span>
-                    <span class="slide-border"></span>
-                    <span class="icon"><img src="../frontend/images/slider/home1/slide-1-1.png" alt="Slide Icon"></span>
-                    <h2 class="title">Handicraft Shop</h2>
-                    <h3 class="sub-title">Just for you</h3>
-                    <div class="link"><a href="shop.html">shop now</a></div>
-                </div>
+               
             </div>
-            <div class="home1-slide-item swiper-slide" data-swiper-autoplay="5000" data-bg-image="../frontend/images/slider/home1/anhbia.png">
-                <div class="home1-slide2-content">
-                    <span class="bg" data-bg-image="../frontend/images/slider/home1/slide-2-1.png"></span>
-                    <span class="slide-border"></span>
-                    <span class="icon">
-                        <img src="../frontend/images/slider/home1/slide-2-2.png" alt="Slide Icon">
-                        <img src="../frontend/images/slider/home1/slide-2-3.png" alt="Slide Icon">
-                    </span>
-                    <h2 class="title">Newly arrived</h2>
-                    <h3 class="sub-title">tao đang giảm giá <br>10%</h3>
-                    <div class="link"><a href="shop.html">shop now</a></div>
-                </div>
-            </div>
-            <div class="home1-slide-item swiper-slide" data-swiper-autoplay="5000" data-bg-image="../frontend/images/slider/home1/anhbia.png">
-                <div class="home1-slide3-content">
-                    <h2 class="title">Affectious gifts</h2>
-                    <h3 class="sub-title">
-                        <img class="left-icon " src="../frontend/images/slider/home1/slide-2-2.png" alt="Slide Icon">
-                        For friends & family
-                        <img class="right-icon " src="../frontend/images/slider/home1/slide-2-3.png" alt="Slide Icon">
-                    </h3>
-                    <div class="link"><a href="shop.html">shop now</a></div>
-                </div>
-            </div>
+           
         </div>
         <div class="home1-slider-prev swiper-button-prev"><i class="ti-angle-left"></i></div>
         <div class="home1-slider-next swiper-button-next"><i class="ti-angle-right"></i></div>

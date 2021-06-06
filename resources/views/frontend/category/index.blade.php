@@ -135,7 +135,7 @@
                   <div class="grid-item col new">
                      <div class="product">
                         <div class="product-thumb">
-                           <a href="product-details.html" class="image">
+                           <a href="{{route('get.product_detail',$item->pro_slug)}}" class="image">
                            <span class="product-badges">
                           
                            <span class="hot">hot</span>
@@ -164,7 +164,7 @@
                            </span>
                            <div class="product-buttons">
                               <a href="#quickViewModal" data-toggle="modal" class="product-button hintT-top" data-hint="Quick View"><i class="fal fa-search"></i></a>
-                              <a href="#" class="product-button hintT-top" data-hint="Add to Cart"><i class="fal fa-shopping-cart"></i></a>
+                              <a href="{{route('get.addCart',$item->id)}}" class="product-button hintT-top" data-hint="Add to Cart"><i class="fal fa-shopping-cart"></i></a>
                               <a href="#" class="product-button hintT-top" data-hint="Compare"><i class="fal fa-random"></i></a>
                            </div>
                         </div>
@@ -213,10 +213,10 @@
                <div class="single-widget learts-mb-40">
                   <h3 class="widget-title product-filter-widget-title">Sản phẩm</h3>
                   <ul class="widget-products">
-                     @foreach($getProductLatest as $item)
+                     @foreach($getProductLatest ??[] as $item)
                      <li class="product">
                         <div class="thumbnail">
-                           <a href="product-details.html"><img src="{{asset("public/uploads/product/$item->pro_avatar")}}" alt="List product"></a>
+                           <a href="{{route('get.product_detail',$item->pro_slug)}}"><img src="{{asset("public/uploads/product/$item->pro_avatar")}}" alt="List product"></a>
                         </div>
                         <div class="content">
                            <h6 class="title"><a href="product-details.html">{{$item->pro_name}}</a></h6>
@@ -235,13 +235,13 @@
                <!-- List Product Widget End -->
                <!-- Tags Start -->
                <div class="single-widget learts-mb-40">
-                  <h3 class="widget-title product-filter-widget-title">Product Tags</h3>
+                  <h3 class="widget-title product-filter-widget-title">Sản phẩm khóa</h3>
                   <div class="widget-tags">
-                     <a href="#">handmade</a>
-                     <a href="#">learts</a>
-                     <a href="#">mug</a>
-                     <a href="#">product</a>
-                     <a href="#">learts</a>
+                     @foreach($keywords ??[] as $item)
+                     <a href="{{route('get.keyword',$item->k_slug)}}">{{$item->k_name}}</a>
+                     
+                     @endforeach
+                   
                   </div>
                </div>
                <!-- Tags End -->

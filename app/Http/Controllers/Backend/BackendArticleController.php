@@ -98,6 +98,7 @@ class BackendArticleController extends Controller
 
         $data = $request->except('_token', 'a_avatar');
         $data = Article::find($idd);
+        $data->a_name = $request->a_name;
         $data->a_content = $request->a_content;
         $data->a_description = $request->a_description;
         $data->a_menu_id = $request->a_menu_id;

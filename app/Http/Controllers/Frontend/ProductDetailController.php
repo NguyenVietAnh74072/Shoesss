@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 
 use App\Product;
 
-class ProductDetailController extends Controller
+class ProductDetailController extends BlogBaseController
 {
     public function index(Request $request, $slug)
     {
@@ -22,6 +22,6 @@ class ProductDetailController extends Controller
             'getProductLatest' => $this->getProductLatest(),
 
         ];
-        return view('frontend.product_details.index');
+        return view('frontend.product_details.index', $viewData);
     }
 }

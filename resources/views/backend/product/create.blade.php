@@ -50,6 +50,28 @@
             </div>
             <div class="col-md-6">
                 <div class="form-group">
+                    <label class="col-form-label">Hành động<span class="text-danger">*</span></label>
+                    <select class="form-control" name="pro_active"  >
+                    <option   >__Chọn hành động__</option>
+                    <option value="1" >Hiện</option>
+                    <option value="0" >Ẩn</option>
+                    </select>
+                   
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label class="col-form-label">HOT<span class="text-danger">*</span></label>
+                    <select class="form-control" name="pro_hot"  >
+                    <option   >__Chọn hành động__</option>
+                    <option value="1" >Hiện</option>
+                    <option value="0" >Ẩn</option>
+                    </select>
+                   
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
                     <label class="col-form-label">Gía tiền<span class="text-danger">*</span></label>
                     <input class="form-control" type="text" name='pro_price' >
                     @if($errors->first('pro_price'))

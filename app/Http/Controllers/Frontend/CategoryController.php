@@ -24,7 +24,7 @@ class CategoryController extends BlogBaseController
             'categorys' => $categorys,
             'category' => $category,
             'keywords' => $this->getKeywords(),
-            'getProductsLatest' => $this->getProductLatest(),
+            'getProductLatest' => $this->getProductLatest(),
         ];
         return view('frontend.category.index', $viewData);
     }
